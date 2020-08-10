@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml4nlp> 
+  <doc attribute="高三;议论文;1000字;春天;冬天" essayType="argumentativeEssay" level="4" type="3"> 
+    <para id="1" type="title"> 
+      <sent cont="走出绝境" id="0" type="title"> 
+        <word cont="走" id="0" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="出" id="1" ne="O" parent="1" pos="v" relate="CMP"/>  
+        <word cont="绝境" id="2" ne="O" parent="2" pos="n" relate="VOB"/> 
+      </sent> 
+    </para>  
+    <para id="2" type="idea"> 
+      <sent cont="走出冬天" id="1" type="ideaSen"> 
+        <word cont="走" id="0" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="出" id="1" ne="O" parent="1" pos="v" relate="CMP"/>  
+        <word cont="冬天" id="2" ne="O" parent="1" pos="nt" relate="VOB"/> 
+      </sent> 
+    </para>  
+    <para id="3" type="ideasupport"> 
+      <sent cont="冬天，狂风呼啸，折断了树枝的小树在寒风中颤抖，它的生命力似乎已经停止了。" id="2" type="ideaSen"> 
+        <word cont="冬天" id="0" ne="O" parent="4" pos="nt" relate="ADV"/>  
+        <word cont="，" id="1" ne="O" parent="1" pos="wp" relate="WP"/>  
+        <word cont="狂风" id="2" ne="O" parent="4" pos="n" relate="SBV"/>  
+        <word cont="呼啸" id="3" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="，" id="4" ne="O" parent="4" pos="wp" relate="WP"/>  
+        <word cont="折断" id="5" ne="O" parent="11" pos="v" relate="ATT"/>  
+        <word cont="了" id="6" ne="O" parent="6" pos="u" relate="RAD"/>  
+        <word cont="树枝" id="7" ne="O" parent="6" pos="n" relate="VOB"/>  
+        <word cont="的" id="8" ne="O" parent="6" pos="u" relate="RAD"/>  
+        <word cont="小" id="9" ne="O" parent="11" pos="a" relate="ATT"/>  
+        <word cont="树" id="10" ne="O" parent="15" pos="n" relate="SBV"/>  
+        <word cont="在" id="11" ne="O" parent="15" pos="p" relate="ADV"/>  
+        <word cont="寒风" id="12" ne="O" parent="14" pos="n" relate="ATT"/>  
+        <word cont="中" id="13" ne="O" parent="12" pos="nd" relate="POB"/>  
+        <word cont="颤抖" id="14" ne="O" parent="4" pos="v" relate="COO"/>  
+        <word cont="，" id="15" ne="O" parent="15" pos="wp" relate="WP"/>  
+        <word cont="它" id="16" ne="O" parent="19" pos="r" relate="ATT"/>  
+        <word cont="的" id="17" ne="O" parent="17" pos="u" relate="RAD"/>  
+        <word cont="生命力" id="18" ne="O" parent="22" pos="n" relate="FOB"/>  
+        <word cont="似乎" id="19" ne="O" parent="22" pos="d" relate="ADV"/>  
+        <word cont="已经" id="20" ne="O" parent="22" pos="d" relate="ADV"/>  
+        <word cont="停止" id="21" ne="O" parent="4" pos="v" relate="COO"/>  
+        <word cont="了" id="22" ne="O" parent="22" pos="u" relate="RAD"/>  
+        <word cont="。" id="23" ne="O" parent="4" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="约翰和父亲商量要把那棵小树砍了，父亲看了看他，想说什么，但又没说。" id="3" type="exampleSen"> 
+        <word cont="约翰" id="0" ne="S-Nh" parent="4" pos="nh" relate="SBV"/>  
+        <word cont="和" id="1" ne="O" parent="3" pos="c" relate="LAD"/>  
+        <word cont="父亲" id="2" ne="O" parent="1" pos="n" relate="COO"/>  
+        <word cont="商量" id="3" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="要" id="4" ne="O" parent="10" pos="v" relate="ADV"/>  
+        <word cont="把" id="5" ne="O" parent="10" pos="p" relate="ADV"/>  
+        <word cont="那" id="6" ne="O" parent="8" pos="r" relate="ATT"/>  
+        <word cont="棵" id="7" ne="O" parent="9" pos="q" relate="ATT"/>  
+        <word cont="小树" id="8" ne="O" parent="6" pos="n" relate="POB"/>  
+        <word cont="砍" id="9" ne="O" parent="4" pos="v" relate="VOB"/>  
+        <word cont="了" id="10" ne="O" parent="10" pos="u" relate="RAD"/>  
+        <word cont="，" id="11" ne="O" parent="4" pos="wp" relate="WP"/>  
+        <word cont="父亲" id="12" ne="O" parent="14" pos="n" relate="SBV"/>  
+        <word cont="看" id="13" ne="O" parent="4" pos="v" relate="COO"/>  
+        <word cont="了" id="14" ne="O" parent="14" pos="u" relate="RAD"/>  
+        <word cont="看" id="15" ne="O" parent="14" pos="v" relate="COO"/>  
+        <word cont="他" id="16" ne="O" parent="16" pos="r" relate="VOB"/>  
+        <word cont="，" id="17" ne="O" parent="14" pos="wp" relate="WP"/>  
+        <word cont="想" id="18" ne="O" parent="14" pos="v" relate="COO"/>  
+        <word cont="说" id="19" ne="O" parent="19" pos="v" relate="VOB"/>  
+        <word cont="什么" id="20" ne="O" parent="20" pos="r" relate="VOB"/>  
+        <word cont="，" id="21" ne="O" parent="19" pos="wp" relate="WP"/>  
+        <word cont="但" id="22" ne="O" parent="26" pos="c" relate="ADV"/>  
+        <word cont="又" id="23" ne="O" parent="26" pos="d" relate="ADV"/>  
+        <word cont="没" id="24" ne="O" parent="26" pos="d" relate="ADV"/>  
+        <word cont="说" id="25" ne="O" parent="19" pos="v" relate="COO"/>  
+        <word cont="。" id="26" ne="O" parent="4" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="春回大地，那半截裸露在地面的小树桩上冒出了青青的嫩芽。" id="4" type="exampleSen"> 
+        <word cont="春" id="0" ne="O" parent="2" pos="nt" relate="ADV"/>  
+        <word cont="回" id="1" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="大地" id="2" ne="O" parent="2" pos="n" relate="VOB"/>  
+        <word cont="，" id="3" ne="O" parent="2" pos="wp" relate="WP"/>  
+        <word cont="那" id="4" ne="O" parent="6" pos="r" relate="ATT"/>  
+        <word cont="半截" id="5" ne="O" parent="7" pos="m" relate="SBV"/>  
+        <word cont="裸露" id="6" ne="O" parent="2" pos="v" relate="COO"/>  
+        <word cont="在" id="7" ne="O" parent="7" pos="p" relate="CMP"/>  
+        <word cont="地面" id="8" ne="O" parent="12" pos="n" relate="ATT"/>  
+        <word cont="的" id="9" ne="O" parent="9" pos="u" relate="RAD"/>  
+        <word cont="小" id="10" ne="O" parent="12" pos="a" relate="ATT"/>  
+        <word cont="树桩" id="11" ne="O" parent="13" pos="n" relate="ATT"/>  
+        <word cont="上" id="12" ne="O" parent="8" pos="nd" relate="POB"/>  
+        <word cont="冒" id="13" ne="O" parent="7" pos="v" relate="COO"/>  
+        <word cont="出" id="14" ne="O" parent="14" pos="v" relate="CMP"/>  
+        <word cont="了" id="15" ne="O" parent="14" pos="u" relate="RAD"/>  
+        <word cont="青青" id="16" ne="O" parent="19" pos="z" relate="ATT"/>  
+        <word cont="的" id="17" ne="O" parent="17" pos="u" relate="RAD"/>  
+        <word cont="嫩芽" id="18" ne="O" parent="14" pos="n" relate="VOB"/>  
+        <word cont="。" id="19" ne="O" parent="2" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="父亲意味深长地对约翰说：”孩子，不能在冬天砍倒一棵树。”" id="5" type="exampleSen"> 
+        <word cont="父亲" id="0" ne="O" parent="6" pos="n" relate="SBV"/>  
+        <word cont="意味深长" id="1" ne="O" parent="6" pos="i" relate="ADV"/>  
+        <word cont="地" id="2" ne="O" parent="2" pos="u" relate="RAD"/>  
+        <word cont="对" id="3" ne="O" parent="6" pos="p" relate="ADV"/>  
+        <word cont="约翰" id="4" ne="S-Nh" parent="4" pos="nh" relate="POB"/>  
+        <word cont="说" id="5" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="：" id="6" ne="O" parent="6" pos="wp" relate="WP"/>  
+        <word cont="”" id="7" ne="O" parent="6" pos="wp" relate="WP"/>  
+        <word cont="孩子" id="8" ne="O" parent="15" pos="n" relate="SBV"/>  
+        <word cont="，" id="9" ne="O" parent="9" pos="wp" relate="WP"/>  
+        <word cont="不" id="10" ne="O" parent="12" pos="d" relate="ADV"/>  
+        <word cont="能" id="11" ne="O" parent="15" pos="v" relate="ADV"/>  
+        <word cont="在" id="12" ne="O" parent="15" pos="p" relate="ADV"/>  
+        <word cont="冬天" id="13" ne="O" parent="13" pos="nt" relate="POB"/>  
+        <word cont="砍" id="14" ne="O" parent="6" pos="v" relate="VOB"/>  
+        <word cont="倒" id="15" ne="O" parent="15" pos="v" relate="CMP"/>  
+        <word cont="一" id="16" ne="O" parent="18" pos="m" relate="ATT"/>  
+        <word cont="棵" id="17" ne="O" parent="19" pos="q" relate="ATT"/>  
+        <word cont="树" id="18" ne="O" parent="15" pos="n" relate="VOB"/>  
+        <word cont="。" id="19" ne="O" parent="6" pos="wp" relate="WP"/>  
+        <word cont="”" id="20" ne="O" parent="6" pos="wp" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="4" type="ideasupport"> 
+      <sent cont="是呀，不能在冬天砍倒一棵树。" id="6" type="ideaSen"> 
+        <word cont="是" id="0" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="呀" id="1" ne="O" parent="1" pos="u" relate="RAD"/>  
+        <word cont="，" id="2" ne="O" parent="1" pos="wp" relate="WP"/>  
+        <word cont="不" id="3" ne="O" parent="5" pos="d" relate="ADV"/>  
+        <word cont="能" id="4" ne="O" parent="8" pos="v" relate="ADV"/>  
+        <word cont="在" id="5" ne="O" parent="8" pos="p" relate="ADV"/>  
+        <word cont="冬天" id="6" ne="O" parent="6" pos="nt" relate="POB"/>  
+        <word cont="砍" id="7" ne="O" parent="1" pos="v" relate="COO"/>  
+        <word cont="倒" id="8" ne="O" parent="8" pos="v" relate="CMP"/>  
+        <word cont="一" id="9" ne="O" parent="11" pos="m" relate="ATT"/>  
+        <word cont="棵" id="10" ne="O" parent="12" pos="q" relate="ATT"/>  
+        <word cont="树" id="11" ne="O" parent="8" pos="n" relate="VOB"/>  
+        <word cont="。" id="12" ne="O" parent="1" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="尽管它在寒风中显得那样孱弱，然而只要它的根还在，就一定会等到生机勃勃的春天。" id="7" type="evidenceSen"> 
+        <word cont="尽管" id="0" ne="O" parent="6" pos="c" relate="ADV"/>  
+        <word cont="它" id="1" ne="O" parent="6" pos="r" relate="SBV"/>  
+        <word cont="在" id="2" ne="O" parent="6" pos="p" relate="ADV"/>  
+        <word cont="寒风" id="3" ne="O" parent="5" pos="n" relate="ATT"/>  
+        <word cont="中" id="4" ne="O" parent="3" pos="nd" relate="POB"/>  
+        <word cont="显得" id="5" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="那样" id="6" ne="O" parent="8" pos="r" relate="ADV"/>  
+        <word cont="孱弱" id="7" ne="O" parent="6" pos="a" relate="VOB"/>  
+        <word cont="，" id="8" ne="O" parent="6" pos="wp" relate="WP"/>  
+        <word cont="然而" id="9" ne="O" parent="16" pos="c" relate="ADV"/>  
+        <word cont="只要" id="10" ne="O" parent="16" pos="c" relate="ADV"/>  
+        <word cont="它" id="11" ne="O" parent="14" pos="r" relate="ATT"/>  
+        <word cont="的" id="12" ne="O" parent="12" pos="u" relate="RAD"/>  
+        <word cont="根" id="13" ne="O" parent="16" pos="n" relate="SBV"/>  
+        <word cont="还" id="14" ne="O" parent="16" pos="d" relate="ADV"/>  
+        <word cont="在" id="15" ne="O" parent="6" pos="v" relate="COO"/>  
+        <word cont="，" id="16" ne="O" parent="16" pos="wp" relate="WP"/>  
+        <word cont="就" id="17" ne="O" parent="21" pos="d" relate="ADV"/>  
+        <word cont="一定" id="18" ne="O" parent="20" pos="d" relate="ADV"/>  
+        <word cont="会" id="19" ne="O" parent="21" pos="v" relate="ADV"/>  
+        <word cont="等" id="20" ne="O" parent="16" pos="v" relate="COO"/>  
+        <word cont="到" id="21" ne="O" parent="21" pos="v" relate="CMP"/>  
+        <word cont="生机勃勃" id="22" ne="O" parent="25" pos="i" relate="ATT"/>  
+        <word cont="的" id="23" ne="O" parent="23" pos="u" relate="RAD"/>  
+        <word cont="春天" id="24" ne="O" parent="21" pos="nt" relate="VOB"/>  
+        <word cont="。" id="25" ne="O" parent="6" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="任何事物都有起有落，正如小树，有枝繁叶茂的春天，也有寒风萧瑟的冬天，然而我们不该因为它的萧瑟而限制其发展，而应该看到它发展的前途，努力促使它走进春天，试想，如果小约翰并未将那棵小树砍倒，而是细心照料，加以扶持，那么谁又敢说这世上不是多添了一棵参天大树呢？" id="8" type="evidenceSen"> 
+        <word cont="任何" id="0" ne="O" parent="2" pos="r" relate="ATT"/>  
+        <word cont="事物" id="1" ne="O" parent="4" pos="n" relate="SBV"/>  
+        <word cont="都" id="2" ne="O" parent="4" pos="d" relate="ADV"/>  
+        <word cont="有" id="3" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="起" id="4" ne="O" parent="4" pos="v" relate="CMP"/>  
+        <word cont="有" id="5" ne="O" parent="4" pos="v" relate="VOB"/>  
+        <word cont="落" id="6" ne="O" parent="6" pos="v" relate="VOB"/>  
+        <word cont="，" id="7" ne="O" parent="6" pos="wp" relate="WP"/>  
+        <word cont="正" id="8" ne="O" parent="10" pos="d" relate="ADV"/>  
+        <word cont="如" id="9" ne="O" parent="6" pos="v" relate="COO"/>  
+        <word cont="小" id="10" ne="O" parent="12" pos="a" relate="ATT"/>  
+        <word cont="树" id="11" ne="O" parent="10" pos="n" relate="VOB"/>  
+        <word cont="，" id="12" ne="O" parent="10" pos="wp" relate="WP"/>  
+        <word cont="有" id="13" ne="O" parent="10" pos="v" relate="COO"/>  
+        <word cont="枝繁叶茂" id="14" ne="O" parent="17" pos="i" relate="ATT"/>  
+        <word cont="的" id="15" ne="O" parent="15" pos="u" relate="RAD"/>  
+        <word cont="春天" id="16" ne="O" parent="14" pos="nt" relate="VOB"/>  
+        <word cont="，" id="17" ne="O" parent="14" pos="wp" relate="WP"/>  
+        <word cont="也" id="18" ne="O" parent="20" pos="d" relate="ADV"/>  
+        <word cont="有" id="19" ne="O" parent="14" pos="v" relate="COO"/>  
+        <word cont="寒风" id="20" ne="O" parent="22" pos="n" relate="SBV"/>  
+        <word cont="萧瑟" id="21" ne="O" parent="24" pos="z" relate="ATT"/>  
+        <word cont="的" id="22" ne="O" parent="22" pos="u" relate="RAD"/>  
+        <word cont="冬天" id="23" ne="O" parent="20" pos="nt" relate="VOB"/>  
+        <word cont="，" id="24" ne="O" parent="20" pos="wp" relate="WP"/>  
+        <word cont="然而" id="25" ne="O" parent="35" pos="c" relate="ADV"/>  
+        <word cont="我们" id="26" ne="O" parent="35" pos="r" relate="SBV"/>  
+        <word cont="不" id="27" ne="O" parent="29" pos="d" relate="ADV"/>  
+        <word cont="该" id="28" ne="O" parent="35" pos="v" relate="ADV"/>  
+        <word cont="因为" id="29" ne="O" parent="35" pos="p" relate="ADV"/>  
+        <word cont="它" id="30" ne="O" parent="33" pos="r" relate="ATT"/>  
+        <word cont="的" id="31" ne="O" parent="31" pos="u" relate="RAD"/>  
+        <word cont="萧瑟" id="32" ne="O" parent="30" pos="z" relate="POB"/>  
+        <word cont="而" id="33" ne="O" parent="35" pos="c" relate="ADV"/>  
+        <word cont="限制" id="34" ne="O" parent="20" pos="v" relate="COO"/>  
+        <word cont="其" id="35" ne="O" parent="37" pos="r" relate="ATT"/>  
+        <word cont="发展" id="36" ne="O" parent="35" pos="v" relate="VOB"/>  
+        <word cont="，" id="37" ne="O" parent="35" pos="wp" relate="WP"/>  
+        <word cont="而" id="38" ne="O" parent="41" pos="c" relate="ADV"/>  
+        <word cont="应该" id="39" ne="O" parent="41" pos="v" relate="ADV"/>  
+        <word cont="看到" id="40" ne="O" parent="35" pos="v" relate="COO"/>  
+        <word cont="它" id="41" ne="O" parent="43" pos="r" relate="SBV"/>  
+        <word cont="发展" id="42" ne="O" parent="45" pos="v" relate="ATT"/>  
+        <word cont="的" id="43" ne="O" parent="43" pos="u" relate="RAD"/>  
+        <word cont="前途" id="44" ne="O" parent="41" pos="n" relate="VOB"/>  
+        <word cont="，" id="45" ne="O" parent="41" pos="wp" relate="WP"/>  
+        <word cont="努力" id="46" ne="O" parent="48" pos="a" relate="ADV"/>  
+        <word cont="促使" id="47" ne="O" parent="41" pos="v" relate="COO"/>  
+        <word cont="它" id="48" ne="O" parent="48" pos="r" relate="DBL"/>  
+        <word cont="走" id="49" ne="O" parent="48" pos="v" relate="VOB"/>  
+        <word cont="进" id="50" ne="O" parent="50" pos="v" relate="CMP"/>  
+        <word cont="春天" id="51" ne="O" parent="51" pos="nt" relate="VOB"/>  
+        <word cont="，" id="52" ne="O" parent="48" pos="wp" relate="WP"/>  
+        <word cont="试想" id="53" ne="O" parent="48" pos="v" relate="COO"/>  
+        <word cont="，" id="54" ne="O" parent="54" pos="wp" relate="WP"/>  
+        <word cont="如果" id="55" ne="O" parent="66" pos="c" relate="ADV"/>  
+        <word cont="小" id="56" ne="O" parent="58" pos="a" relate="ATT"/>  
+        <word cont="约翰" id="57" ne="S-Nh" parent="66" pos="nh" relate="SBV"/>  
+        <word cont="并" id="58" ne="O" parent="60" pos="d" relate="ADV"/>  
+        <word cont="未" id="59" ne="O" parent="66" pos="d" relate="ADV"/>  
+        <word cont="将" id="60" ne="O" parent="66" pos="p" relate="ADV"/>  
+        <word cont="那" id="61" ne="O" parent="63" pos="r" relate="ATT"/>  
+        <word cont="棵" id="62" ne="O" parent="65" pos="q" relate="ATT"/>  
+        <word cont="小" id="63" ne="O" parent="65" pos="a" relate="ATT"/>  
+        <word cont="树" id="64" ne="O" parent="61" pos="n" relate="POB"/>  
+        <word cont="砍" id="65" ne="O" parent="54" pos="v" relate="COO"/>  
+        <word cont="倒" id="66" ne="O" parent="66" pos="v" relate="CMP"/>  
+        <word cont="，" id="67" ne="O" parent="66" pos="wp" relate="WP"/>  
+        <word cont="而是" id="68" ne="O" parent="66" pos="c" relate="COO"/>  
+        <word cont="细心" id="69" ne="O" parent="71" pos="a" relate="ADV"/>  
+        <word cont="照料" id="70" ne="O" parent="69" pos="v" relate="VOB"/>  
+        <word cont="，" id="71" ne="O" parent="69" pos="wp" relate="WP"/>  
+        <word cont="加以" id="72" ne="O" parent="74" pos="v" relate="ADV"/>  
+        <word cont="扶持" id="73" ne="O" parent="69" pos="v" relate="COO"/>  
+        <word cont="，" id="74" ne="O" parent="74" pos="wp" relate="WP"/>  
+        <word cont="那么" id="75" ne="O" parent="80" pos="c" relate="ADV"/>  
+        <word cont="谁" id="76" ne="O" parent="80" pos="r" relate="SBV"/>  
+        <word cont="又" id="77" ne="O" parent="79" pos="d" relate="ADV"/>  
+        <word cont="敢" id="78" ne="O" parent="80" pos="v" relate="ADV"/>  
+        <word cont="说" id="79" ne="O" parent="74" pos="v" relate="COO"/>  
+        <word cont="这" id="80" ne="O" parent="82" pos="r" relate="ATT"/>  
+        <word cont="世上" id="81" ne="O" parent="84" pos="nl" relate="SBV"/>  
+        <word cont="不" id="82" ne="O" parent="84" pos="d" relate="ADV"/>  
+        <word cont="是" id="83" ne="O" parent="80" pos="v" relate="VOB"/>  
+        <word cont="多" id="84" ne="O" parent="86" pos="d" relate="ADV"/>  
+        <word cont="添" id="85" ne="O" parent="84" pos="v" relate="VOB"/>  
+        <word cont="了" id="86" ne="O" parent="86" pos="u" relate="RAD"/>  
+        <word cont="一" id="87" ne="O" parent="89" pos="m" relate="ATT"/>  
+        <word cont="棵" id="88" ne="O" parent="90" pos="q" relate="ATT"/>  
+        <word cont="参天大树" id="89" ne="O" parent="86" pos="n" relate="VOB"/>  
+        <word cont="呢" id="90" ne="O" parent="86" pos="u" relate="RAD"/>  
+        <word cont="？" id="91" ne="O" parent="4" pos="wp" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="5" type="ideasupport"> 
+      <sent cont="人生也是如此，总不可能一帆风顺，有高潮也有低谷。" id="9" type="ideaSen"> 
+        <word cont="人生" id="0" ne="O" parent="3" pos="n" relate="SBV"/>  
+        <word cont="也" id="1" ne="O" parent="3" pos="d" relate="ADV"/>  
+        <word cont="是" id="2" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="如此" id="3" ne="O" parent="3" pos="r" relate="VOB"/>  
+        <word cont="，" id="4" ne="O" parent="3" pos="wp" relate="WP"/>  
+        <word cont="总" id="5" ne="O" parent="9" pos="d" relate="ADV"/>  
+        <word cont="不" id="6" ne="O" parent="8" pos="d" relate="ADV"/>  
+        <word cont="可能" id="7" ne="O" parent="9" pos="v" relate="ADV"/>  
+        <word cont="一帆风顺" id="8" ne="O" parent="3" pos="i" relate="COO"/>  
+        <word cont="，" id="9" ne="O" parent="9" pos="wp" relate="WP"/>  
+        <word cont="有" id="10" ne="O" parent="9" pos="v" relate="COO"/>  
+        <word cont="高潮" id="11" ne="O" parent="11" pos="n" relate="VOB"/>  
+        <word cont="也" id="12" ne="O" parent="14" pos="d" relate="ADV"/>  
+        <word cont="有" id="13" ne="O" parent="11" pos="v" relate="COO"/>  
+        <word cont="低谷" id="14" ne="O" parent="14" pos="n" relate="VOB"/>  
+        <word cont="。" id="15" ne="O" parent="3" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="一位伟人说过：“一个人在困难的时候最需要别人的帮助。”" id="10" type="evidenceSen"> 
+        <word cont="一" id="0" ne="O" parent="2" pos="m" relate="ATT"/>  
+        <word cont="位" id="1" ne="O" parent="3" pos="q" relate="ATT"/>  
+        <word cont="伟人" id="2" ne="O" parent="4" pos="n" relate="SBV"/>  
+        <word cont="说" id="3" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="过" id="4" ne="O" parent="4" pos="u" relate="RAD"/>  
+        <word cont="：" id="5" ne="O" parent="4" pos="wp" relate="WP"/>  
+        <word cont="“" id="6" ne="O" parent="15" pos="wp" relate="WP"/>  
+        <word cont="一个" id="7" ne="O" parent="9" pos="m" relate="ATT"/>  
+        <word cont="人" id="8" ne="O" parent="15" pos="n" relate="SBV"/>  
+        <word cont="在" id="9" ne="O" parent="15" pos="p" relate="ADV"/>  
+        <word cont="困难" id="10" ne="O" parent="13" pos="a" relate="ATT"/>  
+        <word cont="的" id="11" ne="O" parent="11" pos="u" relate="RAD"/>  
+        <word cont="时候" id="12" ne="O" parent="10" pos="n" relate="POB"/>  
+        <word cont="最" id="13" ne="O" parent="15" pos="d" relate="ADV"/>  
+        <word cont="需要" id="14" ne="O" parent="4" pos="v" relate="VOB"/>  
+        <word cont="别人" id="15" ne="O" parent="18" pos="r" relate="ATT"/>  
+        <word cont="的" id="16" ne="O" parent="16" pos="u" relate="RAD"/>  
+        <word cont="帮助" id="17" ne="O" parent="15" pos="v" relate="VOB"/>  
+        <word cont="。" id="18" ne="O" parent="15" pos="wp" relate="WP"/>  
+        <word cont="”" id="19" ne="O" parent="15" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="确实如此，当人处于低谷时，最需要的就是他人的帮助，通过他人的帮助，逐渐走出低谷。" id="11" type="evidenceSen"> 
+        <word cont="确实" id="0" ne="O" parent="2" pos="a" relate="ADV"/>  
+        <word cont="如此" id="1" ne="O" parent="14" pos="r" relate="ADV"/>  
+        <word cont="，" id="2" ne="O" parent="2" pos="wp" relate="WP"/>  
+        <word cont="当" id="3" ne="O" parent="14" pos="p" relate="ADV"/>  
+        <word cont="人" id="4" ne="O" parent="6" pos="n" relate="SBV"/>  
+        <word cont="处于" id="5" ne="O" parent="8" pos="v" relate="ATT"/>  
+        <word cont="低谷" id="6" ne="O" parent="6" pos="n" relate="VOB"/>  
+        <word cont="时" id="7" ne="O" parent="4" pos="n" relate="POB"/>  
+        <word cont="，" id="8" ne="O" parent="4" pos="wp" relate="WP"/>  
+        <word cont="最" id="9" ne="O" parent="11" pos="d" relate="ADV"/>  
+        <word cont="需要" id="10" ne="O" parent="14" pos="v" relate="SBV"/>  
+        <word cont="的" id="11" ne="O" parent="11" pos="u" relate="RAD"/>  
+        <word cont="就" id="12" ne="O" parent="14" pos="d" relate="ADV"/>  
+        <word cont="是" id="13" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="他人" id="14" ne="O" parent="17" pos="r" relate="ATT"/>  
+        <word cont="的" id="15" ne="O" parent="15" pos="u" relate="RAD"/>  
+        <word cont="帮助" id="16" ne="O" parent="14" pos="v" relate="VOB"/>  
+        <word cont="，" id="17" ne="O" parent="14" pos="wp" relate="WP"/>  
+        <word cont="通过" id="18" ne="O" parent="25" pos="p" relate="ADV"/>  
+        <word cont="他人" id="19" ne="O" parent="19" pos="r" relate="POB"/>  
+        <word cont="的" id="20" ne="O" parent="20" pos="u" relate="RAD"/>  
+        <word cont="帮助" id="21" ne="O" parent="19" pos="v" relate="POB"/>  
+        <word cont="，" id="22" ne="O" parent="19" pos="wp" relate="WP"/>  
+        <word cont="逐渐" id="23" ne="O" parent="25" pos="d" relate="ADV"/>  
+        <word cont="走" id="24" ne="O" parent="14" pos="v" relate="COO"/>  
+        <word cont="出" id="25" ne="O" parent="25" pos="v" relate="CMP"/>  
+        <word cont="低谷" id="26" ne="O" parent="26" pos="n" relate="VOB"/>  
+        <word cont="。" id="27" ne="O" parent="14" pos="wp" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="6" type="supportExample"> 
+      <sent cont="伟大的革命导师马克思一生贫苦，在工作、家庭中无时无刻不受到恩格斯的帮助，两人结成了深厚又伟大的友谊。" id="12" type="exampleSen"> 
+        <word cont="伟大" id="0" ne="O" parent="4" pos="a" relate="ATT"/>  
+        <word cont="的" id="1" ne="O" parent="1" pos="u" relate="RAD"/>  
+        <word cont="革命" id="2" ne="O" parent="4" pos="v" relate="ATT"/>  
+        <word cont="导师" id="3" ne="O" parent="5" pos="n" relate="ATT"/>  
+        <word cont="马克思" id="4" ne="S-Nh" parent="7" pos="nh" relate="SBV"/>  
+        <word cont="一生" id="5" ne="O" parent="7" pos="n" relate="ADV"/>  
+        <word cont="贫苦" id="6" ne="O" parent="0" pos="a" relate="HED"/>  
+        <word cont="，" id="7" ne="O" parent="7" pos="wp" relate="WP"/>  
+        <word cont="在" id="8" ne="O" parent="16" pos="p" relate="ADV"/>  
+        <word cont="工作" id="9" ne="O" parent="13" pos="v" relate="ATT"/>  
+        <word cont="、" id="10" ne="O" parent="13" pos="wp" relate="WP"/>  
+        <word cont="家庭" id="11" ne="O" parent="13" pos="n" relate="ATT"/>  
+        <word cont="中" id="12" ne="O" parent="9" pos="nd" relate="POB"/>  
+        <word cont="无时无刻" id="13" ne="O" parent="16" pos="i" relate="ADV"/>  
+        <word cont="不" id="14" ne="O" parent="16" pos="d" relate="ADV"/>  
+        <word cont="受到" id="15" ne="O" parent="7" pos="v" relate="COO"/>  
+        <word cont="恩格斯" id="16" ne="S-Nh" parent="19" pos="nh" relate="ATT"/>  
+        <word cont="的" id="17" ne="O" parent="17" pos="u" relate="RAD"/>  
+        <word cont="帮助" id="18" ne="O" parent="16" pos="v" relate="VOB"/>  
+        <word cont="，" id="19" ne="O" parent="16" pos="wp" relate="WP"/>  
+        <word cont="两" id="20" ne="O" parent="22" pos="m" relate="ATT"/>  
+        <word cont="人" id="21" ne="O" parent="23" pos="n" relate="SBV"/>  
+        <word cont="结成" id="22" ne="O" parent="16" pos="v" relate="COO"/>  
+        <word cont="了" id="23" ne="O" parent="23" pos="u" relate="RAD"/>  
+        <word cont="深厚" id="24" ne="O" parent="29" pos="a" relate="ATT"/>  
+        <word cont="又" id="25" ne="O" parent="27" pos="d" relate="ADV"/>  
+        <word cont="伟大" id="26" ne="O" parent="25" pos="a" relate="COO"/>  
+        <word cont="的" id="27" ne="O" parent="25" pos="u" relate="RAD"/>  
+        <word cont="友谊" id="28" ne="O" parent="23" pos="n" relate="VOB"/>  
+        <word cont="。" id="29" ne="O" parent="7" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="就是在恩格斯精神、物质等多方面的帮助下，马克思最终完成了人类的巨著——《资本论》，试问，如果不是恩格斯的无私帮助，马克思能如此顺利地完成他的著作吗？" id="13" type="exampleSen"> 
+        <word cont="就是" id="0" ne="O" parent="16" pos="d" relate="ADV"/>  
+        <word cont="在" id="1" ne="O" parent="16" pos="p" relate="ADV"/>  
+        <word cont="恩格斯" id="2" ne="S-Nh" parent="4" pos="nh" relate="ATT"/>  
+        <word cont="精神" id="3" ne="O" parent="9" pos="n" relate="ATT"/>  
+        <word cont="、" id="4" ne="O" parent="6" pos="wp" relate="WP"/>  
+        <word cont="物质" id="5" ne="O" parent="4" pos="n" relate="COO"/>  
+        <word cont="等" id="6" ne="O" parent="4" pos="u" relate="RAD"/>  
+        <word cont="多" id="7" ne="O" parent="9" pos="a" relate="ATT"/>  
+        <word cont="方面" id="8" ne="O" parent="11" pos="n" relate="ATT"/>  
+        <word cont="的" id="9" ne="O" parent="9" pos="u" relate="RAD"/>  
+        <word cont="帮助" id="10" ne="O" parent="12" pos="v" relate="ATT"/>  
+        <word cont="下" id="11" ne="O" parent="2" pos="nd" relate="POB"/>  
+        <word cont="，" id="12" ne="O" parent="2" pos="wp" relate="WP"/>  
+        <word cont="马克思" id="13" ne="S-Nh" parent="16" pos="nh" relate="SBV"/>  
+        <word cont="最终" id="14" ne="O" parent="16" pos="d" relate="ADV"/>  
+        <word cont="完成" id="15" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="了" id="16" ne="O" parent="16" pos="u" relate="RAD"/>  
+        <word cont="人类" id="17" ne="O" parent="20" pos="n" relate="ATT"/>  
+        <word cont="的" id="18" ne="O" parent="18" pos="u" relate="RAD"/>  
+        <word cont="巨著" id="19" ne="O" parent="16" pos="n" relate="VOB"/>  
+        <word cont="——" id="20" ne="O" parent="23" pos="wp" relate="WP"/>  
+        <word cont="《" id="21" ne="O" parent="23" pos="wp" relate="WP"/>  
+        <word cont="资本论" id="22" ne="O" parent="20" pos="n" relate="COO"/>  
+        <word cont="》" id="23" ne="O" parent="23" pos="wp" relate="WP"/>  
+        <word cont="，" id="24" ne="O" parent="16" pos="wp" relate="WP"/>  
+        <word cont="试问" id="25" ne="O" parent="30" pos="v" relate="ADV"/>  
+        <word cont="，" id="26" ne="O" parent="26" pos="wp" relate="WP"/>  
+        <word cont="如果" id="27" ne="O" parent="30" pos="c" relate="ADV"/>  
+        <word cont="不" id="28" ne="O" parent="30" pos="d" relate="ADV"/>  
+        <word cont="是" id="29" ne="O" parent="16" pos="v" relate="COO"/>  
+        <word cont="恩格斯" id="30" ne="S-Nh" parent="34" pos="nh" relate="ATT"/>  
+        <word cont="的" id="31" ne="O" parent="31" pos="u" relate="RAD"/>  
+        <word cont="无私" id="32" ne="O" parent="34" pos="b" relate="ATT"/>  
+        <word cont="帮助" id="33" ne="O" parent="30" pos="v" relate="VOB"/>  
+        <word cont="，" id="34" ne="O" parent="30" pos="wp" relate="WP"/>  
+        <word cont="马克思" id="35" ne="S-Nh" parent="41" pos="nh" relate="SBV"/>  
+        <word cont="能" id="36" ne="O" parent="41" pos="v" relate="ADV"/>  
+        <word cont="如此" id="37" ne="O" parent="41" pos="r" relate="ADV"/>  
+        <word cont="顺利" id="38" ne="O" parent="41" pos="a" relate="ADV"/>  
+        <word cont="地" id="39" ne="O" parent="39" pos="u" relate="RAD"/>  
+        <word cont="完成" id="40" ne="O" parent="30" pos="v" relate="COO"/>  
+        <word cont="他" id="41" ne="O" parent="44" pos="r" relate="ATT"/>  
+        <word cont="的" id="42" ne="O" parent="42" pos="u" relate="RAD"/>  
+        <word cont="著作" id="43" ne="O" parent="41" pos="n" relate="VOB"/>  
+        <word cont="吗" id="44" ne="O" parent="41" pos="u" relate="RAD"/>  
+        <word cont="？" id="45" ne="O" parent="16" pos="wp" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="7" type="conclusion"> 
+      <sent cont="放眼当今社会，许多工人下岗，没有工作，日子怎么过？" id="14" type="ideaSen"> 
+        <word cont="放眼" id="0" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="当今" id="1" ne="O" parent="3" pos="nt" relate="ATT"/>  
+        <word cont="社会" id="2" ne="O" parent="1" pos="n" relate="VOB"/>  
+        <word cont="，" id="3" ne="O" parent="1" pos="wp" relate="WP"/>  
+        <word cont="许多" id="4" ne="O" parent="6" pos="m" relate="ATT"/>  
+        <word cont="工人" id="5" ne="O" parent="7" pos="n" relate="SBV"/>  
+        <word cont="下岗" id="6" ne="O" parent="1" pos="v" relate="COO"/>  
+        <word cont="，" id="7" ne="O" parent="7" pos="wp" relate="WP"/>  
+        <word cont="没有" id="8" ne="O" parent="7" pos="v" relate="COO"/>  
+        <word cont="工作" id="9" ne="O" parent="9" pos="n" relate="VOB"/>  
+        <word cont="，" id="10" ne="O" parent="7" pos="wp" relate="WP"/>  
+        <word cont="日子" id="11" ne="O" parent="14" pos="n" relate="SBV"/>  
+        <word cont="怎么" id="12" ne="O" parent="14" pos="r" relate="ADV"/>  
+        <word cont="过" id="13" ne="O" parent="7" pos="v" relate="COO"/>  
+        <word cont="？" id="14" ne="O" parent="1" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="当大多数工人痛苦惆怅的时候，我们的国家、我们的政府伸出了援助之手，各地纷纷成立了“下岗工人救业基金会”；" id="15" type="exampleSen"> 
+        <word cont="当" id="0" ne="O" parent="16" pos="p" relate="ADV"/>  
+        <word cont="大多数" id="1" ne="O" parent="3" pos="m" relate="ATT"/>  
+        <word cont="工人" id="2" ne="O" parent="4" pos="n" relate="SBV"/>  
+        <word cont="痛苦" id="3" ne="O" parent="7" pos="a" relate="ATT"/>  
+        <word cont="惆怅" id="4" ne="O" parent="4" pos="a" relate="COO"/>  
+        <word cont="的" id="5" ne="O" parent="4" pos="u" relate="RAD"/>  
+        <word cont="时候" id="6" ne="O" parent="1" pos="n" relate="POB"/>  
+        <word cont="，" id="7" ne="O" parent="1" pos="wp" relate="WP"/>  
+        <word cont="我们" id="8" ne="O" parent="11" pos="r" relate="ATT"/>  
+        <word cont="的" id="9" ne="O" parent="9" pos="u" relate="RAD"/>  
+        <word cont="国家" id="10" ne="O" parent="15" pos="n" relate="ATT"/>  
+        <word cont="、" id="11" ne="O" parent="13" pos="wp" relate="WP"/>  
+        <word cont="我们" id="12" ne="O" parent="11" pos="r" relate="COO"/>  
+        <word cont="的" id="13" ne="O" parent="11" pos="u" relate="RAD"/>  
+        <word cont="政府" id="14" ne="O" parent="16" pos="n" relate="SBV"/>  
+        <word cont="伸出" id="15" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="了" id="16" ne="O" parent="16" pos="u" relate="RAD"/>  
+        <word cont="援助" id="17" ne="O" parent="20" pos="v" relate="ATT"/>  
+        <word cont="之" id="18" ne="O" parent="18" pos="u" relate="RAD"/>  
+        <word cont="手" id="19" ne="O" parent="16" pos="n" relate="VOB"/>  
+        <word cont="，" id="20" ne="O" parent="16" pos="wp" relate="WP"/>  
+        <word cont="各地" id="21" ne="O" parent="24" pos="r" relate="SBV"/>  
+        <word cont="纷纷" id="22" ne="O" parent="24" pos="d" relate="ADV"/>  
+        <word cont="成立" id="23" ne="O" parent="16" pos="v" relate="COO"/>  
+        <word cont="了" id="24" ne="O" parent="24" pos="u" relate="RAD"/>  
+        <word cont="“" id="25" ne="O" parent="30" pos="wp" relate="WP"/>  
+        <word cont="下岗" id="26" ne="O" parent="28" pos="v" relate="ATT"/>  
+        <word cont="工人" id="27" ne="O" parent="30" pos="n" relate="ATT"/>  
+        <word cont="救业" id="28" ne="O" parent="30" pos="n" relate="ATT"/>  
+        <word cont="基金会" id="29" ne="O" parent="24" pos="n" relate="VOB"/>  
+        <word cont="”" id="30" ne="O" parent="30" pos="wp" relate="WP"/>  
+        <word cont="；" id="31" ne="O" parent="16" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="更有许多合资企业打出了只招收下岗工人的旗帜。" id="16" type="exampleSen"> 
+        <word cont="更" id="0" ne="O" parent="2" pos="d" relate="ADV"/>  
+        <word cont="有" id="1" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="许多" id="2" ne="O" parent="4" pos="m" relate="ATT"/>  
+        <word cont="合资企业" id="3" ne="O" parent="2" pos="n" relate="DBL"/>  
+        <word cont="打" id="4" ne="O" parent="2" pos="v" relate="VOB"/>  
+        <word cont="出" id="5" ne="O" parent="5" pos="v" relate="CMP"/>  
+        <word cont="了" id="6" ne="O" parent="5" pos="u" relate="RAD"/>  
+        <word cont="只" id="7" ne="O" parent="9" pos="d" relate="ADV"/>  
+        <word cont="招收" id="8" ne="O" parent="5" pos="v" relate="COO"/>  
+        <word cont="下岗" id="9" ne="O" parent="11" pos="v" relate="ATT"/>  
+        <word cont="工人" id="10" ne="O" parent="13" pos="n" relate="ATT"/>  
+        <word cont="的" id="11" ne="O" parent="11" pos="u" relate="RAD"/>  
+        <word cont="旗帜" id="12" ne="O" parent="9" pos="n" relate="VOB"/>  
+        <word cont="。" id="13" ne="O" parent="2" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="在社会各界人士的大力帮助下，广大的下岗工人的生活得到了妥善安排，绝大多数人获得了再就业机会，许多人还在新的岗位上成了劳动模范。" id="17" type="exampleSen"> 
+        <word cont="在" id="0" ne="O" parent="16" pos="p" relate="ADV"/>  
+        <word cont="社会" id="1" ne="O" parent="3" pos="n" relate="ATT"/>  
+        <word cont="各界" id="2" ne="O" parent="4" pos="r" relate="ATT"/>  
+        <word cont="人士" id="3" ne="O" parent="7" pos="n" relate="ATT"/>  
+        <word cont="的" id="4" ne="O" parent="4" pos="u" relate="RAD"/>  
+        <word cont="大力" id="5" ne="O" parent="7" pos="d" relate="ADV"/>  
+        <word cont="帮助" id="6" ne="O" parent="8" pos="v" relate="ATT"/>  
+        <word cont="下" id="7" ne="O" parent="1" pos="nd" relate="POB"/>  
+        <word cont="，" id="8" ne="O" parent="1" pos="wp" relate="WP"/>  
+        <word cont="广大" id="9" ne="O" parent="13" pos="b" relate="ATT"/>  
+        <word cont="的" id="10" ne="O" parent="10" pos="u" relate="RAD"/>  
+        <word cont="下岗" id="11" ne="O" parent="13" pos="v" relate="ATT"/>  
+        <word cont="工人" id="12" ne="O" parent="15" pos="n" relate="ATT"/>  
+        <word cont="的" id="13" ne="O" parent="13" pos="u" relate="RAD"/>  
+        <word cont="生活" id="14" ne="O" parent="16" pos="v" relate="SBV"/>  
+        <word cont="得到" id="15" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="了" id="16" ne="O" parent="16" pos="u" relate="RAD"/>  
+        <word cont="妥善" id="17" ne="O" parent="19" pos="a" relate="ADV"/>  
+        <word cont="安排" id="18" ne="O" parent="16" pos="v" relate="VOB"/>  
+        <word cont="，" id="19" ne="O" parent="16" pos="wp" relate="WP"/>  
+        <word cont="绝大多数" id="20" ne="O" parent="22" pos="i" relate="ATT"/>  
+        <word cont="人" id="21" ne="O" parent="23" pos="n" relate="SBV"/>  
+        <word cont="获得" id="22" ne="O" parent="16" pos="v" relate="COO"/>  
+        <word cont="了" id="23" ne="O" parent="23" pos="u" relate="RAD"/>  
+        <word cont="再" id="24" ne="O" parent="26" pos="d" relate="ADV"/>  
+        <word cont="就业" id="25" ne="O" parent="27" pos="v" relate="ATT"/>  
+        <word cont="机会" id="26" ne="O" parent="23" pos="n" relate="VOB"/>  
+        <word cont="，" id="27" ne="O" parent="23" pos="wp" relate="WP"/>  
+        <word cont="许多" id="28" ne="O" parent="30" pos="m" relate="ATT"/>  
+        <word cont="人" id="29" ne="O" parent="37" pos="n" relate="SBV"/>  
+        <word cont="还" id="30" ne="O" parent="37" pos="d" relate="ADV"/>  
+        <word cont="在" id="31" ne="O" parent="37" pos="p" relate="ADV"/>  
+        <word cont="新" id="32" ne="O" parent="35" pos="a" relate="ATT"/>  
+        <word cont="的" id="33" ne="O" parent="33" pos="u" relate="RAD"/>  
+        <word cont="岗位" id="34" ne="O" parent="36" pos="n" relate="ATT"/>  
+        <word cont="上" id="35" ne="O" parent="32" pos="nd" relate="POB"/>  
+        <word cont="成" id="36" ne="O" parent="16" pos="v" relate="COO"/>  
+        <word cont="了" id="37" ne="O" parent="37" pos="u" relate="RAD"/>  
+        <word cont="劳动模范" id="38" ne="O" parent="37" pos="n" relate="VOB"/>  
+        <word cont="。" id="39" ne="O" parent="16" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="下岗工人走出了低谷，不正是有了国家的帮助、社会的帮助吗？" id="18" type="exampleSen"> 
+        <word cont="下岗" id="0" ne="O" parent="2" pos="v" relate="ATT"/>  
+        <word cont="工人" id="1" ne="O" parent="3" pos="n" relate="SBV"/>  
+        <word cont="走" id="2" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="出" id="3" ne="O" parent="3" pos="v" relate="CMP"/>  
+        <word cont="了" id="4" ne="O" parent="4" pos="u" relate="RAD"/>  
+        <word cont="低谷" id="5" ne="O" parent="4" pos="n" relate="VOB"/>  
+        <word cont="，" id="6" ne="O" parent="3" pos="wp" relate="WP"/>  
+        <word cont="不" id="7" ne="O" parent="9" pos="d" relate="ADV"/>  
+        <word cont="正是" id="8" ne="O" parent="10" pos="v" relate="ADV"/>  
+        <word cont="有" id="9" ne="O" parent="3" pos="v" relate="COO"/>  
+        <word cont="了" id="10" ne="O" parent="10" pos="u" relate="RAD"/>  
+        <word cont="国家" id="11" ne="O" parent="14" pos="n" relate="ATT"/>  
+        <word cont="的" id="12" ne="O" parent="12" pos="u" relate="RAD"/>  
+        <word cont="帮助" id="13" ne="O" parent="10" pos="v" relate="VOB"/>  
+        <word cont="、" id="14" ne="O" parent="16" pos="wp" relate="WP"/>  
+        <word cont="社会" id="15" ne="O" parent="18" pos="n" relate="ATT"/>  
+        <word cont="的" id="16" ne="O" parent="16" pos="u" relate="RAD"/>  
+        <word cont="帮助" id="17" ne="O" parent="14" pos="v" relate="VOB"/>  
+        <word cont="吗" id="18" ne="O" parent="10" pos="u" relate="RAD"/>  
+        <word cont="？" id="19" ne="O" parent="3" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="一棵本不该砍下的小树如果被砍倒了，会给人留下深深的遗憾。" id="19" type="conclusionSen"> 
+        <word cont="一" id="0" ne="O" parent="2" pos="m" relate="ATT"/>  
+        <word cont="棵" id="1" ne="O" parent="10" pos="q" relate="ATT"/>  
+        <word cont="本" id="2" ne="O" parent="6" pos="d" relate="ADV"/>  
+        <word cont="不" id="3" ne="O" parent="5" pos="d" relate="ADV"/>  
+        <word cont="该" id="4" ne="O" parent="6" pos="v" relate="ADV"/>  
+        <word cont="砍" id="5" ne="O" parent="10" pos="v" relate="ATT"/>  
+        <word cont="下" id="6" ne="O" parent="6" pos="v" relate="CMP"/>  
+        <word cont="的" id="7" ne="O" parent="6" pos="u" relate="RAD"/>  
+        <word cont="小" id="8" ne="O" parent="10" pos="a" relate="ATT"/>  
+        <word cont="树" id="9" ne="O" parent="13" pos="n" relate="FOB"/>  
+        <word cont="如果" id="10" ne="O" parent="13" pos="c" relate="ADV"/>  
+        <word cont="被" id="11" ne="O" parent="13" pos="p" relate="ADV"/>  
+        <word cont="砍" id="12" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="倒" id="13" ne="O" parent="13" pos="v" relate="CMP"/>  
+        <word cont="了" id="14" ne="O" parent="13" pos="u" relate="RAD"/>  
+        <word cont="，" id="15" ne="O" parent="13" pos="wp" relate="WP"/>  
+        <word cont="会" id="16" ne="O" parent="20" pos="v" relate="ADV"/>  
+        <word cont="给" id="17" ne="O" parent="20" pos="p" relate="ADV"/>  
+        <word cont="人" id="18" ne="O" parent="18" pos="n" relate="POB"/>  
+        <word cont="留下" id="19" ne="O" parent="13" pos="v" relate="COO"/>  
+        <word cont="深深" id="20" ne="O" parent="23" pos="a" relate="ATT"/>  
+        <word cont="的" id="21" ne="O" parent="21" pos="u" relate="RAD"/>  
+        <word cont="遗憾" id="22" ne="O" parent="20" pos="a" relate="VOB"/>  
+        <word cont="。" id="23" ne="O" parent="13" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="本该灿烂的人生，不该因为暂时的逆境而委顿。" id="20" type="conclusionSen"> 
+        <word cont="本该" id="0" ne="O" parent="2" pos="d" relate="ADV"/>  
+        <word cont="灿烂" id="1" ne="O" parent="4" pos="a" relate="ATT"/>  
+        <word cont="的" id="2" ne="O" parent="2" pos="u" relate="RAD"/>  
+        <word cont="人生" id="3" ne="O" parent="13" pos="n" relate="SBV"/>  
+        <word cont="，" id="4" ne="O" parent="4" pos="wp" relate="WP"/>  
+        <word cont="不" id="5" ne="O" parent="7" pos="d" relate="ADV"/>  
+        <word cont="该" id="6" ne="O" parent="13" pos="v" relate="ADV"/>  
+        <word cont="因为" id="7" ne="O" parent="13" pos="c" relate="ADV"/>  
+        <word cont="暂时" id="8" ne="O" parent="11" pos="b" relate="ATT"/>  
+        <word cont="的" id="9" ne="O" parent="9" pos="u" relate="RAD"/>  
+        <word cont="逆境" id="10" ne="O" parent="8" pos="n" relate="POB"/>  
+        <word cont="而" id="11" ne="O" parent="13" pos="c" relate="ADV"/>  
+        <word cont="委顿" id="12" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="。" id="13" ne="O" parent="13" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="别让悲剧重演，正如别让小树倒下，在冬天里要给它以扶持，给它以呵护，相信来年的春天，那绿会特别的醉人！" id="21" type="conclusionSen"> 
+        <word cont="别" id="0" ne="O" parent="2" pos="d" relate="ADV"/>  
+        <word cont="让" id="1" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="悲剧" id="2" ne="O" parent="2" pos="n" relate="DBL"/>  
+        <word cont="重演" id="3" ne="O" parent="2" pos="v" relate="VOB"/>  
+        <word cont="，" id="4" ne="O" parent="2" pos="wp" relate="WP"/>  
+        <word cont="正如" id="5" ne="O" parent="8" pos="v" relate="ADV"/>  
+        <word cont="别" id="6" ne="O" parent="8" pos="d" relate="ADV"/>  
+        <word cont="让" id="7" ne="O" parent="2" pos="v" relate="COO"/>  
+        <word cont="小" id="8" ne="O" parent="10" pos="a" relate="ATT"/>  
+        <word cont="树" id="9" ne="O" parent="8" pos="n" relate="DBL"/>  
+        <word cont="倒下" id="10" ne="O" parent="8" pos="v" relate="VOB"/>  
+        <word cont="，" id="11" ne="O" parent="8" pos="wp" relate="WP"/>  
+        <word cont="在" id="12" ne="O" parent="20" pos="p" relate="ADV"/>  
+        <word cont="冬天" id="13" ne="O" parent="15" pos="nt" relate="ATT"/>  
+        <word cont="里" id="14" ne="O" parent="13" pos="nd" relate="POB"/>  
+        <word cont="要" id="15" ne="O" parent="20" pos="v" relate="ADV"/>  
+        <word cont="给" id="16" ne="O" parent="20" pos="p" relate="ADV"/>  
+        <word cont="它" id="17" ne="O" parent="17" pos="r" relate="POB"/>  
+        <word cont="以" id="18" ne="O" parent="20" pos="p" relate="ADV"/>  
+        <word cont="扶持" id="19" ne="O" parent="8" pos="v" relate="COO"/>  
+        <word cont="，" id="20" ne="O" parent="20" pos="wp" relate="WP"/>  
+        <word cont="给" id="21" ne="O" parent="25" pos="p" relate="ADV"/>  
+        <word cont="它" id="22" ne="O" parent="22" pos="r" relate="POB"/>  
+        <word cont="以" id="23" ne="O" parent="25" pos="p" relate="ADV"/>  
+        <word cont="呵护" id="24" ne="O" parent="20" pos="v" relate="COO"/>  
+        <word cont="，" id="25" ne="O" parent="20" pos="wp" relate="WP"/>  
+        <word cont="相信" id="26" ne="O" parent="20" pos="v" relate="COO"/>  
+        <word cont="来年" id="27" ne="O" parent="30" pos="nt" relate="ATT"/>  
+        <word cont="的" id="28" ne="O" parent="28" pos="u" relate="RAD"/>  
+        <word cont="春天" id="29" ne="O" parent="27" pos="nt" relate="VOB"/>  
+        <word cont="，" id="30" ne="O" parent="20" pos="wp" relate="WP"/>  
+        <word cont="那" id="31" ne="O" parent="34" pos="r" relate="SBV"/>  
+        <word cont="绿" id="32" ne="O" parent="34" pos="a" relate="ADV"/>  
+        <word cont="会" id="33" ne="O" parent="20" pos="v" relate="COO"/>  
+        <word cont="特别" id="34" ne="O" parent="37" pos="a" relate="ATT"/>  
+        <word cont="的" id="35" ne="O" parent="35" pos="u" relate="RAD"/>  
+        <word cont="醉人" id="36" ne="O" parent="34" pos="n" relate="VOB"/>  
+        <word cont="！" id="37" ne="O" parent="2" pos="wp" relate="WP"/> 
+      </sent> 
+    </para> 
+  </doc> 
+</xml4nlp>

@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml4nlp>
+	<doc attribute="高考;议论文;1000字;传统" essayType="argumentativeEssay" level="2" type="3">
+		<para id="1" type="title">
+			<sent cont="现代科技与传统文化的交融" id="0" type="pointTit">
+				<word cont="现代" id="0" ne="O" parent="2" pos="nt" relate="ATT"/>
+				<word cont="科技" id="1" ne="O" parent="7" pos="n" relate="ATT"/>
+				<word cont="与" id="2" ne="O" parent="5" pos="c" relate="LAD"/>
+				<word cont="传统" id="3" ne="O" parent="5" pos="n" relate="ATT"/>
+				<word cont="文化" id="4" ne="O" parent="2" pos="n" relate="COO"/>
+				<word cont="的" id="5" ne="O" parent="2" pos="u" relate="RAD"/>
+				<word cont="交融" id="6" ne="O" parent="0" pos="v" relate="HED"/>
+			</sent>
+		</para>
+		<para id="2" type="thesis">
+			<sent cont="烽火连三月，家书抵万金，一场围绕家书兴替的讨论就此展开。" id="1" type="introductionSen">
+				<word cont="烽火连" id="0" ne="O" parent="2" pos="n" relate="ATT"/>
+				<word cont="三月" id="1" ne="O" parent="5" pos="nt" relate="ADV"/>
+				<word cont="，" id="2" ne="O" parent="2" pos="wp" relate="WP"/>
+				<word cont="家书" id="3" ne="O" parent="5" pos="n" relate="SBV"/>
+				<word cont="抵" id="4" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="万金" id="5" ne="O" parent="5" pos="n" relate="VOB"/>
+				<word cont="，" id="6" ne="O" parent="5" pos="wp" relate="WP"/>
+				<word cont="一" id="7" ne="O" parent="9" pos="m" relate="ATT"/>
+				<word cont="场" id="8" ne="O" parent="17" pos="q" relate="ADV"/>
+				<word cont="围绕" id="9" ne="O" parent="17" pos="v" relate="ADV"/>
+				<word cont="家书" id="10" ne="O" parent="10" pos="n" relate="VOB"/>
+				<word cont="兴替" id="11" ne="O" parent="14" pos="v" relate="ATT"/>
+				<word cont="的" id="12" ne="O" parent="12" pos="u" relate="RAD"/>
+				<word cont="讨论" id="13" ne="O" parent="17" pos="v" relate="SBV"/>
+				<word cont="就" id="14" ne="O" parent="17" pos="p" relate="ADV"/>
+				<word cont="此" id="15" ne="O" parent="15" pos="r" relate="POB"/>
+				<word cont="展开" id="16" ne="O" parent="5" pos="v" relate="COO"/>
+				<word cont="。" id="17" ne="O" parent="5" pos="wp" relate="WP"/>
+			</sent>
+			<sent cont="学生甲认为家书这种交流方式是不可替代的，学生乙认为信息技术这么发达，打电话，发短信，写邮件更便捷，当然不用写信……" id="2" type="introductionSen">
+				<word cont="学生" id="0" ne="O" parent="2" pos="n" relate="ATT"/>
+				<word cont="甲" id="1" ne="S-Nh" parent="3" pos="nh" relate="SBV"/>
+				<word cont="认为" id="2" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="家书" id="3" ne="O" parent="7" pos="n" relate="ATT"/>
+				<word cont="这种" id="4" ne="O" parent="7" pos="r" relate="ATT"/>
+				<word cont="交流" id="5" ne="O" parent="7" pos="v" relate="ATT"/>
+				<word cont="方式" id="6" ne="O" parent="8" pos="n" relate="SBV"/>
+				<word cont="是" id="7" ne="O" parent="3" pos="v" relate="VOB"/>
+				<word cont="不可" id="8" ne="O" parent="10" pos="v" relate="ADV"/>
+				<word cont="替代" id="9" ne="O" parent="8" pos="v" relate="VOB"/>
+				<word cont="的" id="10" ne="O" parent="10" pos="u" relate="RAD"/>
+				<word cont="，" id="11" ne="O" parent="3" pos="wp" relate="WP"/>
+				<word cont="学生" id="12" ne="O" parent="14" pos="n" relate="ATT"/>
+				<word cont="乙" id="13" ne="O" parent="15" pos="m" relate="SBV"/>
+				<word cont="认为" id="14" ne="O" parent="3" pos="v" relate="COO"/>
+				<word cont="信息" id="15" ne="O" parent="17" pos="n" relate="ATT"/>
+				<word cont="技术" id="16" ne="O" parent="19" pos="n" relate="SBV"/>
+				<word cont="这么" id="17" ne="O" parent="19" pos="r" relate="ADV"/>
+				<word cont="发达" id="18" ne="O" parent="15" pos="a" relate="VOB"/>
+				<word cont="，" id="19" ne="O" parent="19" pos="wp" relate="WP"/>
+				<word cont="打电话" id="20" ne="O" parent="19" pos="v" relate="COO"/>
+				<word cont="，" id="21" ne="O" parent="21" pos="wp" relate="WP"/>
+				<word cont="发" id="22" ne="O" parent="21" pos="v" relate="COO"/>
+				<word cont="短信" id="23" ne="O" parent="23" pos="n" relate="VOB"/>
+				<word cont="，" id="24" ne="O" parent="23" pos="wp" relate="WP"/>
+				<word cont="写" id="25" ne="O" parent="21" pos="v" relate="COO"/>
+				<word cont="邮件" id="26" ne="O" parent="26" pos="n" relate="VOB"/>
+				<word cont="更" id="27" ne="O" parent="29" pos="d" relate="ADV"/>
+				<word cont="便捷" id="28" ne="O" parent="26" pos="a" relate="CMP"/>
+				<word cont="，" id="29" ne="O" parent="26" pos="wp" relate="WP"/>
+				<word cont="当然" id="30" ne="O" parent="33" pos="d" relate="ADV"/>
+				<word cont="不用" id="31" ne="O" parent="33" pos="d" relate="ADV"/>
+				<word cont="写信" id="32" ne="O" parent="19" pos="v" relate="COO"/>
+				<word cont="……" id="33" ne="O" parent="15" pos="wp" relate="WP"/>
+			</sent>
+			<sent cont="说到底，这是一场有关科技与传统争论的问题。" id="3" type="thesisSen">
+				<word cont="说到底" id="0" ne="O" parent="4" pos="i" relate="ADV"/>
+				<word cont="，" id="1" ne="O" parent="1" pos="wp" relate="WP"/>
+				<word cont="这" id="2" ne="O" parent="4" pos="r" relate="SBV"/>
+				<word cont="是" id="3" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="一" id="4" ne="O" parent="6" pos="m" relate="ATT"/>
+				<word cont="场" id="5" ne="O" parent="13" pos="q" relate="ATT"/>
+				<word cont="有关" id="6" ne="O" parent="13" pos="p" relate="ATT"/>
+				<word cont="科技" id="7" ne="O" parent="11" pos="n" relate="ATT"/>
+				<word cont="与" id="8" ne="O" parent="10" pos="c" relate="LAD"/>
+				<word cont="传统" id="9" ne="O" parent="8" pos="n" relate="COO"/>
+				<word cont="争论" id="10" ne="O" parent="7" pos="v" relate="POB"/>
+				<word cont="的" id="11" ne="O" parent="7" pos="u" relate="RAD"/>
+				<word cont="问题" id="12" ne="O" parent="4" pos="n" relate="VOB"/>
+				<word cont="。" id="13" ne="O" parent="4" pos="wp" relate="WP"/>
+			</sent>
+		</para>
+		<para id="3" type="idea">
+			<sent cont="其实，现代科技与传统文化是可以完美融合的。" id="4" type="ideaSen">
+				<word cont="其实" id="0" ne="O" parent="8" pos="d" relate="ADV"/>
+				<word cont="，" id="1" ne="O" parent="1" pos="wp" relate="WP"/>
+				<word cont="现代" id="2" ne="O" parent="4" pos="nt" relate="ATT"/>
+				<word cont="科技" id="3" ne="O" parent="8" pos="n" relate="SBV"/>
+				<word cont="与" id="4" ne="O" parent="7" pos="c" relate="LAD"/>
+				<word cont="传统" id="5" ne="O" parent="7" pos="n" relate="ATT"/>
+				<word cont="文化" id="6" ne="O" parent="4" pos="n" relate="COO"/>
+				<word cont="是" id="7" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="可以" id="8" ne="O" parent="11" pos="v" relate="ADV"/>
+				<word cont="完美" id="9" ne="O" parent="11" pos="a" relate="ADV"/>
+				<word cont="融合" id="10" ne="O" parent="8" pos="v" relate="VOB"/>
+				<word cont="的" id="11" ne="O" parent="11" pos="u" relate="RAD"/>
+				<word cont="。" id="12" ne="O" parent="8" pos="wp" relate="WP"/>
+			</sent>
+		</para>
+		<para id="4" type="ideasupport">
+			<sent cont="日本的京都就是一个极好的证明。" id="5" type="ideaSen">
+				<word cont="日本" id="0" ne="S-Ns" parent="3" pos="ns" relate="ATT"/>
+				<word cont="的" id="1" ne="O" parent="1" pos="u" relate="RAD"/>
+				<word cont="京都" id="2" ne="S-Ns" parent="5" pos="ns" relate="SBV"/>
+				<word cont="就" id="3" ne="O" parent="5" pos="d" relate="ADV"/>
+				<word cont="是" id="4" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="一个" id="5" ne="O" parent="10" pos="m" relate="ATT"/>
+				<word cont="极" id="6" ne="O" parent="8" pos="d" relate="ADV"/>
+				<word cont="好" id="7" ne="O" parent="10" pos="a" relate="ATT"/>
+				<word cont="的" id="8" ne="O" parent="8" pos="u" relate="RAD"/>
+				<word cont="证明" id="9" ne="O" parent="5" pos="n" relate="VOB"/>
+				<word cont="。" id="10" ne="O" parent="5" pos="wp" relate="WP"/>
+			</sent>
+			<sent cont="京都已有1200多年的历史，它最初的设计是模仿中国隋唐的长安和洛阳而建的。" id="6" type="exampleSen">
+				<word cont="京都" id="0" ne="S-Ns" parent="3" pos="ns" relate="SBV"/>
+				<word cont="已" id="1" ne="O" parent="3" pos="d" relate="ADV"/>
+				<word cont="有" id="2" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="1200" id="3" ne="O" parent="6" pos="m" relate="ATT"/>
+				<word cont="多" id="4" ne="O" parent="4" pos="m" relate="RAD"/>
+				<word cont="年" id="5" ne="O" parent="8" pos="q" relate="ATT"/>
+				<word cont="的" id="6" ne="O" parent="6" pos="u" relate="RAD"/>
+				<word cont="历史" id="7" ne="O" parent="3" pos="n" relate="VOB"/>
+				<word cont="，" id="8" ne="O" parent="3" pos="wp" relate="WP"/>
+				<word cont="它" id="9" ne="O" parent="13" pos="r" relate="ATT"/>
+				<word cont="最初" id="10" ne="O" parent="13" pos="b" relate="ATT"/>
+				<word cont="的" id="11" ne="O" parent="11" pos="u" relate="RAD"/>
+				<word cont="设计" id="12" ne="O" parent="14" pos="v" relate="SBV"/>
+				<word cont="是" id="13" ne="O" parent="3" pos="v" relate="COO"/>
+				<word cont="模仿" id="14" ne="O" parent="14" pos="v" relate="VOB"/>
+				<word cont="中国" id="15" ne="S-Ns" parent="19" pos="ns" relate="ATT"/>
+				<word cont="隋唐" id="16" ne="O" parent="19" pos="nt" relate="ATT"/>
+				<word cont="的" id="17" ne="O" parent="17" pos="u" relate="RAD"/>
+				<word cont="长安" id="18" ne="S-Ns" parent="15" pos="ns" relate="VOB"/>
+				<word cont="和" id="19" ne="O" parent="21" pos="c" relate="LAD"/>
+				<word cont="洛阳" id="20" ne="S-Ns" parent="19" pos="ns" relate="COO"/>
+				<word cont="而" id="21" ne="O" parent="23" pos="c" relate="ADV"/>
+				<word cont="建" id="22" ne="O" parent="15" pos="v" relate="COO"/>
+				<word cont="的" id="23" ne="O" parent="23" pos="u" relate="RAD"/>
+				<word cont="。" id="24" ne="O" parent="3" pos="wp" relate="WP"/>
+			</sent>
+			<sent cont="其中，洛中最显京都街道棋盘式的布局，这里是传统与现代的交织，既有千年古刹，也有西式建筑。" id="7" type="exampleSen">
+				<word cont="其中" id="0" ne="O" parent="5" pos="r" relate="ADV"/>
+				<word cont="，" id="1" ne="O" parent="1" pos="wp" relate="WP"/>
+				<word cont="洛中" id="2" ne="O" parent="5" pos="nl" relate="SBV"/>
+				<word cont="最" id="3" ne="O" parent="5" pos="d" relate="ADV"/>
+				<word cont="显" id="4" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="京都" id="5" ne="S-Ns" parent="7" pos="ns" relate="ATT"/>
+				<word cont="街道" id="6" ne="O" parent="8" pos="n" relate="ATT"/>
+				<word cont="棋盘式" id="7" ne="O" parent="10" pos="n" relate="ATT"/>
+				<word cont="的" id="8" ne="O" parent="8" pos="u" relate="RAD"/>
+				<word cont="布局" id="9" ne="O" parent="5" pos="n" relate="VOB"/>
+				<word cont="，" id="10" ne="O" parent="5" pos="wp" relate="WP"/>
+				<word cont="这里" id="11" ne="O" parent="13" pos="r" relate="SBV"/>
+				<word cont="是" id="12" ne="O" parent="5" pos="v" relate="COO"/>
+				<word cont="传统" id="13" ne="O" parent="18" pos="n" relate="ATT"/>
+				<word cont="与" id="14" ne="O" parent="16" pos="c" relate="LAD"/>
+				<word cont="现代" id="15" ne="O" parent="14" pos="nt" relate="COO"/>
+				<word cont="的" id="16" ne="O" parent="14" pos="u" relate="RAD"/>
+				<word cont="交织" id="17" ne="O" parent="13" pos="v" relate="VOB"/>
+				<word cont="，" id="18" ne="O" parent="13" pos="wp" relate="WP"/>
+				<word cont="既" id="19" ne="O" parent="21" pos="c" relate="ADV"/>
+				<word cont="有" id="20" ne="O" parent="13" pos="v" relate="COO"/>
+				<word cont="千" id="21" ne="O" parent="23" pos="m" relate="ATT"/>
+				<word cont="年" id="22" ne="O" parent="24" pos="q" relate="ATT"/>
+				<word cont="古刹" id="23" ne="O" parent="21" pos="n" relate="VOB"/>
+				<word cont="，" id="24" ne="O" parent="21" pos="wp" relate="WP"/>
+				<word cont="也" id="25" ne="O" parent="27" pos="d" relate="ADV"/>
+				<word cont="有" id="26" ne="O" parent="21" pos="v" relate="COO"/>
+				<word cont="西式" id="27" ne="O" parent="29" pos="b" relate="ATT"/>
+				<word cont="建筑" id="28" ne="O" parent="27" pos="n" relate="VOB"/>
+				<word cont="。" id="29" ne="O" parent="5" pos="wp" relate="WP"/>
+			</sent>
+			<sent cont="城中心大多店面和住宅，仍是低矮的两层楼木层，充满古香古色的古都风味。" id="8" type="exampleSen">
+				<word cont="城" id="0" ne="O" parent="2" pos="n" relate="ATT"/>
+				<word cont="中心" id="1" ne="O" parent="4" pos="n" relate="ATT"/>
+				<word cont="大多" id="2" ne="O" parent="4" pos="d" relate="ATT"/>
+				<word cont="店面" id="3" ne="O" parent="9" pos="n" relate="SBV"/>
+				<word cont="和" id="4" ne="O" parent="6" pos="c" relate="LAD"/>
+				<word cont="住宅" id="5" ne="O" parent="4" pos="n" relate="COO"/>
+				<word cont="，" id="6" ne="O" parent="4" pos="wp" relate="WP"/>
+				<word cont="仍" id="7" ne="O" parent="9" pos="d" relate="ADV"/>
+				<word cont="是" id="8" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="低矮" id="9" ne="O" parent="14" pos="a" relate="ATT"/>
+				<word cont="的" id="10" ne="O" parent="10" pos="u" relate="RAD"/>
+				<word cont="两" id="11" ne="O" parent="13" pos="m" relate="ATT"/>
+				<word cont="层" id="12" ne="O" parent="14" pos="q" relate="ATT"/>
+				<word cont="楼" id="13" ne="O" parent="15" pos="n" relate="ATT"/>
+				<word cont="木层" id="14" ne="O" parent="9" pos="n" relate="VOB"/>
+				<word cont="，" id="15" ne="O" parent="9" pos="wp" relate="WP"/>
+				<word cont="充满" id="16" ne="O" parent="22" pos="v" relate="ATT"/>
+				<word cont="古香" id="17" ne="O" parent="19" pos="n" relate="ATT"/>
+				<word cont="古色" id="18" ne="O" parent="17" pos="n" relate="VOB"/>
+				<word cont="的" id="19" ne="O" parent="17" pos="u" relate="RAD"/>
+				<word cont="古都" id="20" ne="O" parent="22" pos="n" relate="ATT"/>
+				<word cont="风味" id="21" ne="O" parent="9" pos="n" relate="COO"/>
+				<word cont="。" id="22" ne="O" parent="9" pos="wp" relate="WP"/>
+			</sent>
+			<sent cont="在京都市区，6公尺以上的建筑甚至都被为破坏景观，极易引起市民反对，所以没有高层建筑，也没有高架桥。" id="9" type="exampleSen">
+				<word cont="在" id="0" ne="O" parent="14" pos="p" relate="ADV"/>
+				<word cont="京都" id="1" ne="S-Ns" parent="3" pos="ns" relate="ATT"/>
+				<word cont="市区" id="2" ne="O" parent="1" pos="nl" relate="POB"/>
+				<word cont="，" id="3" ne="O" parent="1" pos="wp" relate="WP"/>
+				<word cont="6" id="4" ne="O" parent="7" pos="m" relate="ATT"/>
+				<word cont="公" id="5" ne="O" parent="7" pos="b" relate="ATT"/>
+				<word cont="尺" id="6" ne="O" parent="8" pos="q" relate="ATT"/>
+				<word cont="以上" id="7" ne="O" parent="10" pos="nd" relate="ATT"/>
+				<word cont="的" id="8" ne="O" parent="8" pos="u" relate="RAD"/>
+				<word cont="建筑" id="9" ne="O" parent="14" pos="n" relate="SBV"/>
+				<word cont="甚至" id="10" ne="O" parent="14" pos="d" relate="ADV"/>
+				<word cont="都" id="11" ne="O" parent="14" pos="d" relate="ADV"/>
+				<word cont="被" id="12" ne="O" parent="14" pos="p" relate="ADV"/>
+				<word cont="为" id="13" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="破坏" id="14" ne="O" parent="14" pos="v" relate="VOB"/>
+				<word cont="景观" id="15" ne="O" parent="15" pos="n" relate="VOB"/>
+				<word cont="，" id="16" ne="O" parent="14" pos="wp" relate="WP"/>
+				<word cont="极" id="17" ne="O" parent="19" pos="d" relate="ADV"/>
+				<word cont="易" id="18" ne="O" parent="20" pos="a" relate="ADV"/>
+				<word cont="引起" id="19" ne="O" parent="14" pos="v" relate="COO"/>
+				<word cont="市民" id="20" ne="O" parent="22" pos="n" relate="SBV"/>
+				<word cont="反对" id="21" ne="O" parent="20" pos="v" relate="VOB"/>
+				<word cont="，" id="22" ne="O" parent="20" pos="wp" relate="WP"/>
+				<word cont="所以" id="23" ne="O" parent="25" pos="c" relate="ADV"/>
+				<word cont="没有" id="24" ne="O" parent="20" pos="v" relate="COO"/>
+				<word cont="高层" id="25" ne="O" parent="27" pos="n" relate="ATT"/>
+				<word cont="建筑" id="26" ne="O" parent="25" pos="n" relate="VOB"/>
+				<word cont="，" id="27" ne="O" parent="25" pos="wp" relate="WP"/>
+				<word cont="也" id="28" ne="O" parent="30" pos="d" relate="ADV"/>
+				<word cont="没有" id="29" ne="O" parent="25" pos="v" relate="COO"/>
+				<word cont="高架桥" id="30" ne="O" parent="30" pos="n" relate="VOB"/>
+				<word cont="。" id="31" ne="O" parent="14" pos="wp" relate="WP"/>
+			</sent>
+			<sent cont="走在京都的街道，你还会真正领略到“吃在大阪，穿在京都”的古训。" id="10" type="exampleSen">
+				<word cont="走" id="0" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="在" id="1" ne="O" parent="5" pos="p" relate="ATT"/>
+				<word cont="京都" id="2" ne="S-Ns" parent="2" pos="ns" relate="POB"/>
+				<word cont="的" id="3" ne="O" parent="2" pos="u" relate="RAD"/>
+				<word cont="街道" id="4" ne="O" parent="1" pos="n" relate="VOB"/>
+				<word cont="，" id="5" ne="O" parent="1" pos="wp" relate="WP"/>
+				<word cont="你" id="6" ne="O" parent="11" pos="r" relate="SBV"/>
+				<word cont="还" id="7" ne="O" parent="9" pos="d" relate="ADV"/>
+				<word cont="会" id="8" ne="O" parent="11" pos="v" relate="ADV"/>
+				<word cont="真正" id="9" ne="O" parent="11" pos="d" relate="ADV"/>
+				<word cont="领略" id="10" ne="O" parent="1" pos="v" relate="COO"/>
+				<word cont="到" id="11" ne="O" parent="11" pos="v" relate="CMP"/>
+				<word cont="“" id="12" ne="O" parent="14" pos="wp" relate="WP"/>
+				<word cont="吃" id="13" ne="O" parent="23" pos="v" relate="ATT"/>
+				<word cont="在" id="14" ne="O" parent="14" pos="p" relate="CMP"/>
+				<word cont="大阪" id="15" ne="S-Ns" parent="15" pos="ns" relate="POB"/>
+				<word cont="，" id="16" ne="O" parent="14" pos="wp" relate="WP"/>
+				<word cont="穿" id="17" ne="O" parent="14" pos="v" relate="COO"/>
+				<word cont="在" id="18" ne="O" parent="18" pos="p" relate="CMP"/>
+				<word cont="京都" id="19" ne="S-Ns" parent="19" pos="ns" relate="POB"/>
+				<word cont="”" id="20" ne="O" parent="14" pos="wp" relate="WP"/>
+				<word cont="的" id="21" ne="O" parent="14" pos="u" relate="RAD"/>
+				<word cont="古训" id="22" ne="O" parent="11" pos="n" relate="VOB"/>
+				<word cont="。" id="23" ne="O" parent="1" pos="wp" relate="WP"/>
+			</sent>
+			<sent cont="你会看到很多的手工纺织的展示，正宗的日本茶道表演等充满传统味道表演。" id="11" type="exampleSen">
+				<word cont="你" id="0" ne="O" parent="3" pos="r" relate="SBV"/>
+				<word cont="会" id="1" ne="O" parent="3" pos="v" relate="ADV"/>
+				<word cont="看到" id="2" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="很多" id="3" ne="O" parent="7" pos="m" relate="ATT"/>
+				<word cont="的" id="4" ne="O" parent="4" pos="u" relate="RAD"/>
+				<word cont="手工" id="5" ne="O" parent="7" pos="n" relate="ATT"/>
+				<word cont="纺织" id="6" ne="O" parent="9" pos="v" relate="ATT"/>
+				<word cont="的" id="7" ne="O" parent="7" pos="u" relate="RAD"/>
+				<word cont="展示" id="8" ne="O" parent="3" pos="v" relate="VOB"/>
+				<word cont="，" id="9" ne="O" parent="3" pos="wp" relate="WP"/>
+				<word cont="正宗" id="10" ne="O" parent="15" pos="b" relate="ATT"/>
+				<word cont="的" id="11" ne="O" parent="11" pos="u" relate="RAD"/>
+				<word cont="日本" id="12" ne="S-Ns" parent="14" pos="ns" relate="ATT"/>
+				<word cont="茶道" id="13" ne="O" parent="15" pos="n" relate="ATT"/>
+				<word cont="表演" id="14" ne="O" parent="17" pos="v" relate="SBV"/>
+				<word cont="等" id="15" ne="O" parent="15" pos="u" relate="RAD"/>
+				<word cont="充满" id="16" ne="O" parent="3" pos="v" relate="COO"/>
+				<word cont="传统" id="17" ne="O" parent="19" pos="n" relate="ATT"/>
+				<word cont="味道" id="18" ne="O" parent="20" pos="n" relate="ATT"/>
+				<word cont="表演" id="19" ne="O" parent="17" pos="v" relate="VOB"/>
+				<word cont="。" id="20" ne="O" parent="3" pos="wp" relate="WP"/>
+			</sent>
+		</para>
+		<para id="5" type="ideasupport">
+			<sent cont="同样，你也能在这里领略到现代气息。" id="12" type="ideaSen">
+				<word cont="同样" id="0" ne="O" parent="8" pos="d" relate="ADV"/>
+				<word cont="，" id="1" ne="O" parent="1" pos="wp" relate="WP"/>
+				<word cont="你" id="2" ne="O" parent="8" pos="r" relate="SBV"/>
+				<word cont="也" id="3" ne="O" parent="5" pos="d" relate="ADV"/>
+				<word cont="能" id="4" ne="O" parent="8" pos="v" relate="ADV"/>
+				<word cont="在" id="5" ne="O" parent="8" pos="p" relate="ADV"/>
+				<word cont="这里" id="6" ne="O" parent="6" pos="r" relate="POB"/>
+				<word cont="领略" id="7" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="到" id="8" ne="O" parent="8" pos="v" relate="CMP"/>
+				<word cont="现代" id="9" ne="O" parent="11" pos="nt" relate="ATT"/>
+				<word cont="气息" id="10" ne="O" parent="8" pos="n" relate="VOB"/>
+				<word cont="。" id="11" ne="O" parent="8" pos="wp" relate="WP"/>
+			</sent>
+			<sent cont="京都最新的车站，你能感受到21世纪的“高速”，它结合了五大特点：交通，停车场，文化，饭店，百货公司等全球数一数二的各类设施，尤其是车站内高11层的手扶梯，可直通百货公司商场及科技游乐中心，更有空中走廊和咖啡座，是一座多元化的建筑。" id="13" type="exampleSen">
+				<word cont="京都" id="0" ne="S-Ns" parent="4" pos="ns" relate="ATT"/>
+				<word cont="最新" id="1" ne="O" parent="4" pos="a" relate="ATT"/>
+				<word cont="的" id="2" ne="O" parent="2" pos="u" relate="RAD"/>
+				<word cont="车站" id="3" ne="O" parent="8" pos="n" relate="SBV"/>
+				<word cont="，" id="4" ne="O" parent="4" pos="wp" relate="WP"/>
+				<word cont="你" id="5" ne="O" parent="8" pos="r" relate="SBV"/>
+				<word cont="能" id="6" ne="O" parent="8" pos="v" relate="ADV"/>
+				<word cont="感受" id="7" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="到" id="8" ne="O" parent="8" pos="v" relate="CMP"/>
+				<word cont="21" id="9" ne="O" parent="11" pos="m" relate="ATT"/>
+				<word cont="世纪" id="10" ne="O" parent="14" pos="n" relate="ATT"/>
+				<word cont="的" id="11" ne="O" parent="11" pos="u" relate="RAD"/>
+				<word cont="“" id="12" ne="O" parent="14" pos="wp" relate="WP"/>
+				<word cont="高速" id="13" ne="O" parent="8" pos="b" relate="VOB"/>
+				<word cont="”" id="14" ne="O" parent="14" pos="wp" relate="WP"/>
+				<word cont="，" id="15" ne="O" parent="8" pos="wp" relate="WP"/>
+				<word cont="它" id="16" ne="O" parent="18" pos="r" relate="SBV"/>
+				<word cont="结合" id="17" ne="O" parent="8" pos="v" relate="COO"/>
+				<word cont="了" id="18" ne="O" parent="18" pos="u" relate="RAD"/>
+				<word cont="五" id="19" ne="O" parent="21" pos="m" relate="ATT"/>
+				<word cont="大" id="20" ne="O" parent="22" pos="a" relate="ATT"/>
+				<word cont="特点" id="21" ne="O" parent="41" pos="n" relate="SBV"/>
+				<word cont="：" id="22" ne="O" parent="22" pos="wp" relate="WP"/>
+				<word cont="交通" id="23" ne="O" parent="41" pos="n" relate="SBV"/>
+				<word cont="，" id="24" ne="O" parent="24" pos="wp" relate="WP"/>
+				<word cont="停车场" id="25" ne="O" parent="24" pos="n" relate="COO"/>
+				<word cont="，" id="26" ne="O" parent="26" pos="wp" relate="WP"/>
+				<word cont="文化" id="27" ne="O" parent="24" pos="n" relate="COO"/>
+				<word cont="，" id="28" ne="O" parent="24" pos="wp" relate="WP"/>
+				<word cont="饭店" id="29" ne="O" parent="24" pos="n" relate="COO"/>
+				<word cont="，" id="30" ne="O" parent="30" pos="wp" relate="WP"/>
+				<word cont="百货公司" id="31" ne="O" parent="38" pos="n" relate="ATT"/>
+				<word cont="等" id="32" ne="O" parent="32" pos="u" relate="RAD"/>
+				<word cont="全球" id="33" ne="O" parent="35" pos="n" relate="ATT"/>
+				<word cont="数一数二" id="34" ne="O" parent="38" pos="i" relate="ATT"/>
+				<word cont="的" id="35" ne="O" parent="35" pos="u" relate="RAD"/>
+				<word cont="各类" id="36" ne="O" parent="38" pos="r" relate="ATT"/>
+				<word cont="设施" id="37" ne="O" parent="30" pos="n" relate="COO"/>
+				<word cont="，" id="38" ne="O" parent="38" pos="wp" relate="WP"/>
+				<word cont="尤其" id="39" ne="O" parent="41" pos="d" relate="ADV"/>
+				<word cont="是" id="40" ne="O" parent="18" pos="v" relate="COO"/>
+				<word cont="车站" id="41" ne="O" parent="43" pos="n" relate="ATT"/>
+				<word cont="内" id="42" ne="O" parent="46" pos="nd" relate="ATT"/>
+				<word cont="高" id="43" ne="O" parent="46" pos="a" relate="ATT"/>
+				<word cont="11" id="44" ne="O" parent="46" pos="m" relate="ATT"/>
+				<word cont="层" id="45" ne="O" parent="48" pos="q" relate="ATT"/>
+				<word cont="的" id="46" ne="O" parent="46" pos="u" relate="RAD"/>
+				<word cont="手扶梯" id="47" ne="O" parent="41" pos="n" relate="VOB"/>
+				<word cont="，" id="48" ne="O" parent="41" pos="wp" relate="WP"/>
+				<word cont="可" id="49" ne="O" parent="51" pos="v" relate="ADV"/>
+				<word cont="直通" id="50" ne="O" parent="41" pos="v" relate="COO"/>
+				<word cont="百货" id="51" ne="O" parent="53" pos="n" relate="ATT"/>
+				<word cont="公司" id="52" ne="O" parent="54" pos="n" relate="ATT"/>
+				<word cont="商场" id="53" ne="O" parent="51" pos="n" relate="VOB"/>
+				<word cont="及" id="54" ne="O" parent="58" pos="c" relate="LAD"/>
+				<word cont="科技" id="55" ne="O" parent="57" pos="n" relate="ATT"/>
+				<word cont="游乐" id="56" ne="O" parent="58" pos="v" relate="ATT"/>
+				<word cont="中心" id="57" ne="O" parent="54" pos="n" relate="COO"/>
+				<word cont="，" id="58" ne="O" parent="51" pos="wp" relate="WP"/>
+				<word cont="更" id="59" ne="O" parent="61" pos="d" relate="ADV"/>
+				<word cont="有" id="60" ne="O" parent="51" pos="v" relate="COO"/>
+				<word cont="空中" id="61" ne="O" parent="63" pos="nl" relate="ATT"/>
+				<word cont="走廊" id="62" ne="O" parent="61" pos="n" relate="VOB"/>
+				<word cont="和" id="63" ne="O" parent="66" pos="c" relate="LAD"/>
+				<word cont="咖啡" id="64" ne="O" parent="66" pos="n" relate="ATT"/>
+				<word cont="座" id="65" ne="O" parent="63" pos="n" relate="COO"/>
+				<word cont="，" id="66" ne="O" parent="61" pos="wp" relate="WP"/>
+				<word cont="是" id="67" ne="O" parent="61" pos="v" relate="COO"/>
+				<word cont="一" id="68" ne="O" parent="70" pos="m" relate="ATT"/>
+				<word cont="座" id="69" ne="O" parent="73" pos="q" relate="ATT"/>
+				<word cont="多元化" id="70" ne="O" parent="73" pos="v" relate="ATT"/>
+				<word cont="的" id="71" ne="O" parent="71" pos="u" relate="RAD"/>
+				<word cont="建筑" id="72" ne="O" parent="68" pos="n" relate="VOB"/>
+				<word cont="。" id="73" ne="O" parent="8" pos="wp" relate="WP"/>
+			</sent>
+			<sent cont="站在这个多元化车站的顶楼眺望，看到高台寺周边的庭院，低矮的两层楼木屋，你才会真正惊诧于京都的魅力，绝不是精彩绝伦的现代建筑，更多的是千年传统与现代科技的融合。" id="14" type="exampleSen">
+				<word cont="站" id="0" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="在" id="1" ne="O" parent="1" pos="p" relate="CMP"/>
+				<word cont="这个" id="2" ne="O" parent="5" pos="r" relate="ATT"/>
+				<word cont="多元化" id="3" ne="O" parent="5" pos="v" relate="ATT"/>
+				<word cont="车站" id="4" ne="O" parent="7" pos="n" relate="ATT"/>
+				<word cont="的" id="5" ne="O" parent="5" pos="u" relate="RAD"/>
+				<word cont="顶楼" id="6" ne="O" parent="2" pos="n" relate="POB"/>
+				<word cont="眺望" id="7" ne="O" parent="1" pos="v" relate="COO"/>
+				<word cont="，" id="8" ne="O" parent="8" pos="wp" relate="WP"/>
+				<word cont="看到" id="9" ne="O" parent="8" pos="v" relate="COO"/>
+				<word cont="高台寺" id="10" ne="S-Ns" parent="12" pos="ns" relate="ATT"/>
+				<word cont="周边" id="11" ne="O" parent="14" pos="n" relate="ATT"/>
+				<word cont="的" id="12" ne="O" parent="12" pos="u" relate="RAD"/>
+				<word cont="庭院" id="13" ne="O" parent="10" pos="n" relate="VOB"/>
+				<word cont="，" id="14" ne="O" parent="10" pos="wp" relate="WP"/>
+				<word cont="低矮" id="15" ne="O" parent="21" pos="a" relate="ATT"/>
+				<word cont="的" id="16" ne="O" parent="16" pos="u" relate="RAD"/>
+				<word cont="两" id="17" ne="O" parent="19" pos="m" relate="ATT"/>
+				<word cont="层" id="18" ne="O" parent="20" pos="q" relate="ATT"/>
+				<word cont="楼" id="19" ne="O" parent="21" pos="n" relate="ATT"/>
+				<word cont="木屋" id="20" ne="O" parent="25" pos="n" relate="SBV"/>
+				<word cont="，" id="21" ne="O" parent="21" pos="wp" relate="WP"/>
+				<word cont="你" id="22" ne="O" parent="25" pos="r" relate="SBV"/>
+				<word cont="才" id="23" ne="O" parent="25" pos="d" relate="ADV"/>
+				<word cont="会" id="24" ne="O" parent="10" pos="v" relate="COO"/>
+				<word cont="真正" id="25" ne="O" parent="27" pos="d" relate="ADV"/>
+				<word cont="惊诧" id="26" ne="O" parent="31" pos="a" relate="ATT"/>
+				<word cont="于" id="27" ne="O" parent="27" pos="p" relate="CMP"/>
+				<word cont="京都" id="28" ne="S-Ns" parent="28" pos="ns" relate="POB"/>
+				<word cont="的" id="29" ne="O" parent="27" pos="u" relate="RAD"/>
+				<word cont="魅力" id="30" ne="O" parent="25" pos="n" relate="VOB"/>
+				<word cont="，" id="31" ne="O" parent="25" pos="wp" relate="WP"/>
+				<word cont="绝不" id="32" ne="O" parent="34" pos="d" relate="ADV"/>
+				<word cont="是" id="33" ne="O" parent="25" pos="v" relate="COO"/>
+				<word cont="精彩绝伦" id="34" ne="O" parent="38" pos="i" relate="ATT"/>
+				<word cont="的" id="35" ne="O" parent="35" pos="u" relate="RAD"/>
+				<word cont="现代" id="36" ne="O" parent="38" pos="nt" relate="ATT"/>
+				<word cont="建筑" id="37" ne="O" parent="34" pos="n" relate="VOB"/>
+				<word cont="，" id="38" ne="O" parent="34" pos="wp" relate="WP"/>
+				<word cont="更" id="39" ne="O" parent="41" pos="d" relate="ADV"/>
+				<word cont="多" id="40" ne="O" parent="43" pos="a" relate="SBV"/>
+				<word cont="的" id="41" ne="O" parent="41" pos="u" relate="RAD"/>
+				<word cont="是" id="42" ne="O" parent="34" pos="v" relate="COO"/>
+				<word cont="千" id="43" ne="O" parent="45" pos="m" relate="ATT"/>
+				<word cont="年" id="44" ne="O" parent="51" pos="q" relate="ATT"/>
+				<word cont="传统" id="45" ne="O" parent="51" pos="n" relate="ATT"/>
+				<word cont="与" id="46" ne="O" parent="49" pos="c" relate="LAD"/>
+				<word cont="现代" id="47" ne="O" parent="49" pos="nt" relate="ATT"/>
+				<word cont="科技" id="48" ne="O" parent="46" pos="n" relate="COO"/>
+				<word cont="的" id="49" ne="O" parent="46" pos="u" relate="RAD"/>
+				<word cont="融合" id="50" ne="O" parent="43" pos="v" relate="VOB"/>
+				<word cont="。" id="51" ne="O" parent="1" pos="wp" relate="WP"/>
+			</sent>
+		</para>
+		<para id="6" type="ideasupport">
+			<sent cont="上海世博会的成功举办又是另外一个很好的例子。" id="15" type="ideaSen">
+				<word cont="上海" id="0" ne="B-Ni" parent="2" pos="ns" relate="ATT"/>
+				<word cont="世博会" id="1" ne="E-Ni" parent="7" pos="j" relate="SBV"/>
+				<word cont="的" id="2" ne="O" parent="2" pos="u" relate="RAD"/>
+				<word cont="成功" id="3" ne="O" parent="7" pos="a" relate="SBV"/>
+				<word cont="举办" id="4" ne="O" parent="7" pos="v" relate="SBV"/>
+				<word cont="又" id="5" ne="O" parent="7" pos="d" relate="ADV"/>
+				<word cont="是" id="6" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="另外" id="7" ne="O" parent="9" pos="r" relate="ATT"/>
+				<word cont="一个" id="8" ne="O" parent="13" pos="m" relate="ATT"/>
+				<word cont="很" id="9" ne="O" parent="11" pos="d" relate="ADV"/>
+				<word cont="好" id="10" ne="O" parent="13" pos="a" relate="ATT"/>
+				<word cont="的" id="11" ne="O" parent="11" pos="u" relate="RAD"/>
+				<word cont="例子" id="12" ne="O" parent="7" pos="n" relate="VOB"/>
+				<word cont="。" id="13" ne="O" parent="7" pos="wp" relate="WP"/>
+			</sent>
+			<sent cont="比如，中国馆内用高科技投影技术制作的《清明河上图》;" id="16" type="exampleSen">
+				<word cont="比如" id="0" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="，" id="1" ne="O" parent="1" pos="wp" relate="WP"/>
+				<word cont="中国馆" id="2" ne="O" parent="4" pos="n" relate="ATT"/>
+				<word cont="内" id="3" ne="O" parent="10" pos="nd" relate="ADV"/>
+				<word cont="用" id="4" ne="O" parent="10" pos="p" relate="ADV"/>
+				<word cont="高" id="5" ne="O" parent="7" pos="a" relate="ATT"/>
+				<word cont="科技" id="6" ne="O" parent="8" pos="n" relate="ATT"/>
+				<word cont="投影" id="7" ne="O" parent="9" pos="n" relate="ATT"/>
+				<word cont="技术" id="8" ne="O" parent="5" pos="n" relate="POB"/>
+				<word cont="制作" id="9" ne="O" parent="15" pos="v" relate="ATT"/>
+				<word cont="的" id="10" ne="O" parent="10" pos="u" relate="RAD"/>
+				<word cont="《" id="11" ne="O" parent="15" pos="wp" relate="WP"/>
+				<word cont="清明河" id="12" ne="S-Ns" parent="14" pos="ns" relate="ATT"/>
+				<word cont="上" id="13" ne="O" parent="15" pos="nd" relate="ATT"/>
+				<word cont="图" id="14" ne="O" parent="1" pos="n" relate="VOB"/>
+				<word cont="》" id="15" ne="O" parent="15" pos="wp" relate="WP"/>
+				<word cont=";" id="16" ne="O" parent="1" pos="wp" relate="WP"/>
+			</sent>
+			<sent cont="上海馆中由声光电影演绎的多媒体影片《永远的新天地》;" id="17" type="exampleSen">
+				<word cont="上海" id="0" ne="S-Ns" parent="2" pos="ns" relate="ATT"/>
+				<word cont="馆中" id="1" ne="O" parent="9" pos="nl" relate="ATT"/>
+				<word cont="由" id="2" ne="O" parent="6" pos="p" relate="ADV"/>
+				<word cont="声光" id="3" ne="O" parent="5" pos="n" relate="ATT"/>
+				<word cont="电影" id="4" ne="O" parent="3" pos="n" relate="POB"/>
+				<word cont="演绎" id="5" ne="O" parent="9" pos="v" relate="ATT"/>
+				<word cont="的" id="6" ne="O" parent="6" pos="u" relate="RAD"/>
+				<word cont="多媒体" id="7" ne="O" parent="9" pos="n" relate="ATT"/>
+				<word cont="影片" id="8" ne="O" parent="14" pos="n" relate="ATT"/>
+				<word cont="《" id="9" ne="O" parent="14" pos="wp" relate="WP"/>
+				<word cont="永远" id="10" ne="O" parent="14" pos="b" relate="ATT"/>
+				<word cont="的" id="11" ne="O" parent="11" pos="u" relate="RAD"/>
+				<word cont="新" id="12" ne="O" parent="14" pos="a" relate="ATT"/>
+				<word cont="天地" id="13" ne="O" parent="0" pos="n" relate="HED"/>
+				<word cont="》" id="14" ne="O" parent="14" pos="wp" relate="WP"/>
+				<word cont=";" id="15" ne="O" parent="14" pos="wp" relate="WP"/>
+			</sent>
+			<sent cont="日本馆内会用小提琴拉《茉莉花》的智能机器人，等等，都是传统文化与现代高科技完美结合的展点。" id="18" type="exampleSen">
+				<word cont="日本" id="0" ne="S-Ns" parent="2" pos="ns" relate="ATT"/>
+				<word cont="馆内" id="1" ne="O" parent="6" pos="nl" relate="SBV"/>
+				<word cont="会" id="2" ne="O" parent="6" pos="v" relate="ADV"/>
+				<word cont="用" id="3" ne="O" parent="6" pos="p" relate="ADV"/>
+				<word cont="小提琴" id="4" ne="O" parent="4" pos="n" relate="POB"/>
+				<word cont="拉" id="5" ne="O" parent="12" pos="v" relate="ATT"/>
+				<word cont="《" id="6" ne="O" parent="8" pos="wp" relate="WP"/>
+				<word cont="茉莉花" id="7" ne="O" parent="6" pos="n" relate="VOB"/>
+				<word cont="》" id="8" ne="O" parent="8" pos="wp" relate="WP"/>
+				<word cont="的" id="9" ne="O" parent="6" pos="u" relate="RAD"/>
+				<word cont="智能" id="10" ne="O" parent="12" pos="n" relate="ATT"/>
+				<word cont="机器人" id="11" ne="O" parent="17" pos="n" relate="SBV"/>
+				<word cont="，" id="12" ne="O" parent="12" pos="wp" relate="WP"/>
+				<word cont="等等" id="13" ne="O" parent="12" pos="u" relate="RAD"/>
+				<word cont="，" id="14" ne="O" parent="14" pos="wp" relate="WP"/>
+				<word cont="都" id="15" ne="O" parent="17" pos="d" relate="ADV"/>
+				<word cont="是" id="16" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="传统" id="17" ne="O" parent="19" pos="a" relate="ATT"/>
+				<word cont="文化" id="18" ne="O" parent="25" pos="n" relate="SBV"/>
+				<word cont="与" id="19" ne="O" parent="23" pos="p" relate="LAD"/>
+				<word cont="现代" id="20" ne="O" parent="23" pos="nt" relate="ATT"/>
+				<word cont="高" id="21" ne="O" parent="23" pos="a" relate="ATT"/>
+				<word cont="科技" id="22" ne="O" parent="19" pos="n" relate="COO"/>
+				<word cont="完美" id="23" ne="O" parent="25" pos="a" relate="ADV"/>
+				<word cont="结合" id="24" ne="O" parent="27" pos="v" relate="ATT"/>
+				<word cont="的" id="25" ne="O" parent="25" pos="u" relate="RAD"/>
+				<word cont="展点" id="26" ne="O" parent="17" pos="n" relate="VOB"/>
+				<word cont="。" id="27" ne="O" parent="17" pos="wp" relate="WP"/>
+			</sent>
+		</para>
+		<para id="7" type="conclusion">
+			<sent cont="京都的灿烂和世博的成功证明：传统文化与现代科技并不矛盾，我们既不能以传统文化消亡的代价来推进现代科技的发展，也不能无视现代科技的发展来保护传统文化。" id="19" type="conclusionSen">
+				<word cont="京都" id="0" ne="S-Ns" parent="3" pos="ns" relate="ATT"/>
+				<word cont="的" id="1" ne="O" parent="1" pos="u" relate="RAD"/>
+				<word cont="灿烂" id="2" ne="O" parent="7" pos="a" relate="ATT"/>
+				<word cont="和" id="3" ne="O" parent="5" pos="c" relate="LAD"/>
+				<word cont="世博" id="4" ne="O" parent="3" pos="j" relate="COO"/>
+				<word cont="的" id="5" ne="O" parent="3" pos="u" relate="RAD"/>
+				<word cont="成功" id="6" ne="O" parent="8" pos="a" relate="ADV"/>
+				<word cont="证明" id="7" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="：" id="8" ne="O" parent="8" pos="wp" relate="WP"/>
+				<word cont="传统" id="9" ne="O" parent="11" pos="n" relate="ATT"/>
+				<word cont="文化" id="10" ne="O" parent="17" pos="n" relate="SBV"/>
+				<word cont="与" id="11" ne="O" parent="14" pos="p" relate="LAD"/>
+				<word cont="现代" id="12" ne="O" parent="14" pos="nt" relate="ATT"/>
+				<word cont="科技" id="13" ne="O" parent="11" pos="n" relate="COO"/>
+				<word cont="并" id="14" ne="O" parent="17" pos="d" relate="ADV"/>
+				<word cont="不" id="15" ne="O" parent="17" pos="d" relate="ADV"/>
+				<word cont="矛盾" id="16" ne="O" parent="8" pos="a" relate="VOB"/>
+				<word cont="，" id="17" ne="O" parent="17" pos="wp" relate="WP"/>
+				<word cont="我们" id="18" ne="O" parent="26" pos="r" relate="SBV"/>
+				<word cont="既" id="19" ne="O" parent="26" pos="c" relate="ADV"/>
+				<word cont="不" id="20" ne="O" parent="22" pos="d" relate="ADV"/>
+				<word cont="能" id="21" ne="O" parent="26" pos="v" relate="ADV"/>
+				<word cont="以" id="22" ne="O" parent="26" pos="p" relate="ADV"/>
+				<word cont="传统" id="23" ne="O" parent="25" pos="n" relate="ATT"/>
+				<word cont="文化" id="24" ne="O" parent="23" pos="n" relate="POB"/>
+				<word cont="消亡" id="25" ne="O" parent="28" pos="v" relate="ATT"/>
+				<word cont="的" id="26" ne="O" parent="26" pos="u" relate="RAD"/>
+				<word cont="代价" id="27" ne="O" parent="30" pos="n" relate="SBV"/>
+				<word cont="来" id="28" ne="O" parent="30" pos="v" relate="ADV"/>
+				<word cont="推进" id="29" ne="O" parent="17" pos="v" relate="COO"/>
+				<word cont="现代" id="30" ne="O" parent="32" pos="nt" relate="ATT"/>
+				<word cont="科技" id="31" ne="O" parent="34" pos="n" relate="ATT"/>
+				<word cont="的" id="32" ne="O" parent="32" pos="u" relate="RAD"/>
+				<word cont="发展" id="33" ne="O" parent="30" pos="v" relate="VOB"/>
+				<word cont="，" id="34" ne="O" parent="30" pos="wp" relate="WP"/>
+				<word cont="也" id="35" ne="O" parent="38" pos="d" relate="ADV"/>
+				<word cont="不" id="36" ne="O" parent="38" pos="d" relate="ADV"/>
+				<word cont="能" id="37" ne="O" parent="39" pos="v" relate="ADV"/>
+				<word cont="无视" id="38" ne="O" parent="30" pos="v" relate="COO"/>
+				<word cont="现代" id="39" ne="O" parent="41" pos="nt" relate="ATT"/>
+				<word cont="科技" id="40" ne="O" parent="43" pos="n" relate="ATT"/>
+				<word cont="的" id="41" ne="O" parent="41" pos="u" relate="RAD"/>
+				<word cont="发展" id="42" ne="O" parent="39" pos="v" relate="VOB"/>
+				<word cont="来" id="43" ne="O" parent="45" pos="v" relate="ADV"/>
+				<word cont="保护" id="44" ne="O" parent="39" pos="v" relate="COO"/>
+				<word cont="传统" id="45" ne="O" parent="47" pos="n" relate="ATT"/>
+				<word cont="文化" id="46" ne="O" parent="45" pos="n" relate="VOB"/>
+				<word cont="。" id="47" ne="O" parent="8" pos="wp" relate="WP"/>
+			</sent>
+			<sent cont="我们唯有坚持现代科技与传统文化两翼齐飞，整个人类的发展才能有更加灿烂的未来。" id="20" type="conclusionSen">
+				<word cont="我们" id="0" ne="O" parent="2" pos="r" relate="SBV"/>
+				<word cont="唯有" id="1" ne="O" parent="0" pos="v" relate="HED"/>
+				<word cont="坚持" id="2" ne="O" parent="2" pos="v" relate="VOB"/>
+				<word cont="现代" id="3" ne="O" parent="5" pos="nt" relate="ATT"/>
+				<word cont="科技" id="4" ne="O" parent="9" pos="n" relate="ATT"/>
+				<word cont="与" id="5" ne="O" parent="8" pos="c" relate="LAD"/>
+				<word cont="传统" id="6" ne="O" parent="8" pos="n" relate="ATT"/>
+				<word cont="文化" id="7" ne="O" parent="5" pos="n" relate="COO"/>
+				<word cont="两翼" id="8" ne="O" parent="11" pos="n" relate="SBV"/>
+				<word cont="齐" id="9" ne="O" parent="11" pos="d" relate="ADV"/>
+				<word cont="飞" id="10" ne="O" parent="3" pos="v" relate="VOB"/>
+				<word cont="，" id="11" ne="O" parent="3" pos="wp" relate="WP"/>
+				<word cont="整个" id="12" ne="O" parent="14" pos="b" relate="ATT"/>
+				<word cont="人类" id="13" ne="O" parent="16" pos="n" relate="ATT"/>
+				<word cont="的" id="14" ne="O" parent="14" pos="u" relate="RAD"/>
+				<word cont="发展" id="15" ne="O" parent="19" pos="v" relate="SBV"/>
+				<word cont="才" id="16" ne="O" parent="18" pos="d" relate="ADV"/>
+				<word cont="能" id="17" ne="O" parent="19" pos="v" relate="ADV"/>
+				<word cont="有" id="18" ne="O" parent="3" pos="v" relate="COO"/>
+				<word cont="更加" id="19" ne="O" parent="21" pos="d" relate="ADV"/>
+				<word cont="灿烂" id="20" ne="O" parent="23" pos="a" relate="ATT"/>
+				<word cont="的" id="21" ne="O" parent="21" pos="u" relate="RAD"/>
+				<word cont="未来" id="22" ne="O" parent="19" pos="nt" relate="VOB"/>
+				<word cont="。" id="23" ne="O" parent="2" pos="wp" relate="WP"/>
+			</sent>
+		</para>
+	</doc>
+</xml4nlp>

@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml4nlp> 
+  <doc attribute="高二;议论文;1000字;生活" essayType="argumentativeEssay" level="2" type="3"> 
+    <para id="1" type="title"> 
+      <sent cont="中国式民主下的异国崇拜" id="0" type="title"> 
+        <word cont="中国式" id="0" ne="O" parent="2" pos="b" relate="ATT"/>  
+        <word cont="民主" id="1" ne="O" parent="3" pos="a" relate="ATT"/>  
+        <word cont="下" id="2" ne="O" parent="5" pos="nd" relate="ATT"/>  
+        <word cont="的" id="3" ne="O" parent="3" pos="u" relate="RAD"/>  
+        <word cont="异国" id="4" ne="O" parent="6" pos="n" relate="SBV"/>  
+        <word cont="崇拜" id="5" ne="O" parent="0" pos="v" relate="HED"/> 
+      </sent> 
+    </para>  
+    <para id="2" type="introduction"> 
+      <sent cont="最近一段时间，只要打开各路媒体，关于美国第四十四任总统奥巴马的消息就扑面而来。" id="1" type="introductionSen"> 
+        <word cont="最近" id="0" ne="O" parent="4" pos="nt" relate="ATT"/>  
+        <word cont="一" id="1" ne="O" parent="3" pos="m" relate="ATT"/>  
+        <word cont="段" id="2" ne="O" parent="4" pos="q" relate="ATT"/>  
+        <word cont="时间" id="3" ne="O" parent="7" pos="n" relate="ADV"/>  
+        <word cont="，" id="4" ne="O" parent="4" pos="wp" relate="WP"/>  
+        <word cont="只要" id="5" ne="O" parent="7" pos="c" relate="ADV"/>  
+        <word cont="打开" id="6" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="各路" id="7" ne="O" parent="9" pos="r" relate="ATT"/>  
+        <word cont="媒体" id="8" ne="O" parent="7" pos="n" relate="VOB"/>  
+        <word cont="，" id="9" ne="O" parent="7" pos="wp" relate="WP"/>  
+        <word cont="关于" id="10" ne="O" parent="18" pos="p" relate="ATT"/>  
+        <word cont="美国" id="11" ne="S-Ns" parent="15" pos="ns" relate="ATT"/>  
+        <word cont="第四十四" id="12" ne="O" parent="14" pos="m" relate="ATT"/>  
+        <word cont="任" id="13" ne="O" parent="15" pos="q" relate="ATT"/>  
+        <word cont="总统" id="14" ne="O" parent="16" pos="n" relate="ATT"/>  
+        <word cont="奥巴马" id="15" ne="S-Nh" parent="11" pos="nh" relate="POB"/>  
+        <word cont="的" id="16" ne="O" parent="11" pos="u" relate="RAD"/>  
+        <word cont="消息" id="17" ne="O" parent="20" pos="n" relate="SBV"/>  
+        <word cont="就" id="18" ne="O" parent="20" pos="d" relate="ADV"/>  
+        <word cont="扑面而来" id="19" ne="O" parent="7" pos="i" relate="COO"/>  
+        <word cont="。" id="20" ne="O" parent="7" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="特别是就任仪式，中国媒体更是“八卦”地报道了每一个细节。" id="2" type="introductionSen"> 
+        <word cont="特别" id="0" ne="O" parent="2" pos="d" relate="ADV"/>  
+        <word cont="是" id="1" ne="O" parent="4" pos="v" relate="ATT"/>  
+        <word cont="就任" id="2" ne="O" parent="4" pos="v" relate="ATT"/>  
+        <word cont="仪式" id="3" ne="O" parent="9" pos="n" relate="SBV"/>  
+        <word cont="，" id="4" ne="O" parent="4" pos="wp" relate="WP"/>  
+        <word cont="中国" id="5" ne="S-Ns" parent="7" pos="ns" relate="ATT"/>  
+        <word cont="媒体" id="6" ne="O" parent="9" pos="n" relate="SBV"/>  
+        <word cont="更" id="7" ne="O" parent="9" pos="d" relate="ADV"/>  
+        <word cont="是" id="8" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="“" id="9" ne="O" parent="11" pos="wp" relate="WP"/>  
+        <word cont="八卦" id="10" ne="O" parent="14" pos="n" relate="SBV"/>  
+        <word cont="”" id="11" ne="O" parent="11" pos="wp" relate="WP"/>  
+        <word cont="地" id="12" ne="O" parent="11" pos="u" relate="RAD"/>  
+        <word cont="报道" id="13" ne="O" parent="9" pos="v" relate="VOB"/>  
+        <word cont="了" id="14" ne="O" parent="14" pos="u" relate="RAD"/>  
+        <word cont="每" id="15" ne="O" parent="17" pos="r" relate="ATT"/>  
+        <word cont="一个" id="16" ne="O" parent="18" pos="m" relate="ATT"/>  
+        <word cont="细节" id="17" ne="O" parent="14" pos="n" relate="VOB"/>  
+        <word cont="。" id="18" ne="O" parent="9" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="为什么这一位总统如此让我们关注？" id="3" type="introductionSen"> 
+        <word cont="为什么" id="0" ne="O" parent="7" pos="r" relate="ADV"/>  
+        <word cont="这" id="1" ne="O" parent="4" pos="r" relate="ATT"/>  
+        <word cont="一" id="2" ne="O" parent="4" pos="m" relate="ATT"/>  
+        <word cont="位" id="3" ne="O" parent="5" pos="q" relate="ATT"/>  
+        <word cont="总统" id="4" ne="O" parent="7" pos="n" relate="SBV"/>  
+        <word cont="如此" id="5" ne="O" parent="7" pos="r" relate="ADV"/>  
+        <word cont="让" id="6" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="我们" id="7" ne="O" parent="7" pos="r" relate="DBL"/>  
+        <word cont="关注" id="8" ne="O" parent="7" pos="v" relate="VOB"/>  
+        <word cont="？" id="9" ne="O" parent="7" pos="wp" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="3" type="ideasupport"> 
+      <sent cont="首先，不可否认，美国本身就是世界上最强大的国家，她的总统没有理由不受人关注。" id="4" type="ideaSen"> 
+        <word cont="首先" id="0" ne="O" parent="4" pos="c" relate="ADV"/>  
+        <word cont="，" id="1" ne="O" parent="1" pos="wp" relate="WP"/>  
+        <word cont="不可" id="2" ne="O" parent="4" pos="v" relate="ADV"/>  
+        <word cont="否认" id="3" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="，" id="4" ne="O" parent="4" pos="wp" relate="WP"/>  
+        <word cont="美国" id="5" ne="S-Ns" parent="7" pos="ns" relate="ATT"/>  
+        <word cont="本身" id="6" ne="O" parent="9" pos="r" relate="SBV"/>  
+        <word cont="就" id="7" ne="O" parent="9" pos="d" relate="ADV"/>  
+        <word cont="是" id="8" ne="O" parent="4" pos="v" relate="VOB"/>  
+        <word cont="世界" id="9" ne="O" parent="11" pos="n" relate="ATT"/>  
+        <word cont="上" id="10" ne="O" parent="13" pos="nd" relate="ADV"/>  
+        <word cont="最" id="11" ne="O" parent="13" pos="d" relate="ADV"/>  
+        <word cont="强大" id="12" ne="O" parent="15" pos="a" relate="ATT"/>  
+        <word cont="的" id="13" ne="O" parent="13" pos="u" relate="RAD"/>  
+        <word cont="国家" id="14" ne="O" parent="9" pos="n" relate="VOB"/>  
+        <word cont="，" id="15" ne="O" parent="9" pos="wp" relate="WP"/>  
+        <word cont="她" id="16" ne="O" parent="19" pos="r" relate="ATT"/>  
+        <word cont="的" id="17" ne="O" parent="17" pos="u" relate="RAD"/>  
+        <word cont="总统" id="18" ne="O" parent="20" pos="n" relate="SBV"/>  
+        <word cont="没有" id="19" ne="O" parent="9" pos="v" relate="COO"/>  
+        <word cont="理由" id="20" ne="O" parent="20" pos="n" relate="VOB"/>  
+        <word cont="不" id="21" ne="O" parent="23" pos="d" relate="ADV"/>  
+        <word cont="受" id="22" ne="O" parent="20" pos="v" relate="COO"/>  
+        <word cont="人" id="23" ne="O" parent="23" pos="n" relate="DBL"/>  
+        <word cont="关注" id="24" ne="O" parent="23" pos="v" relate="VOB"/>  
+        <word cont="。" id="25" ne="O" parent="4" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="作为超级大国的“一把手”，全世界人民都想看看他究竟有什么能耐，他是否会使美国“华丽转身”；" id="5" type="exampleSen"> 
+        <word cont="作为" id="0" ne="O" parent="11" pos="p" relate="ADV"/>  
+        <word cont="超级大国" id="1" ne="O" parent="5" pos="n" relate="ATT"/>  
+        <word cont="的" id="2" ne="O" parent="2" pos="u" relate="RAD"/>  
+        <word cont="“" id="3" ne="O" parent="5" pos="wp" relate="WP"/>  
+        <word cont="一把手" id="4" ne="O" parent="1" pos="n" relate="POB"/>  
+        <word cont="”" id="5" ne="O" parent="5" pos="wp" relate="WP"/>  
+        <word cont="，" id="6" ne="O" parent="1" pos="wp" relate="WP"/>  
+        <word cont="全世界" id="7" ne="O" parent="9" pos="n" relate="ATT"/>  
+        <word cont="人民" id="8" ne="O" parent="11" pos="n" relate="SBV"/>  
+        <word cont="都" id="9" ne="O" parent="11" pos="d" relate="ADV"/>  
+        <word cont="想" id="10" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="看看" id="11" ne="O" parent="11" pos="v" relate="VOB"/>  
+        <word cont="他" id="12" ne="O" parent="15" pos="r" relate="SBV"/>  
+        <word cont="究竟" id="13" ne="O" parent="15" pos="d" relate="ADV"/>  
+        <word cont="有" id="14" ne="O" parent="12" pos="v" relate="VOB"/>  
+        <word cont="什么" id="15" ne="O" parent="17" pos="r" relate="ATT"/>  
+        <word cont="能耐" id="16" ne="O" parent="15" pos="n" relate="VOB"/>  
+        <word cont="，" id="17" ne="O" parent="15" pos="wp" relate="WP"/>  
+        <word cont="他" id="18" ne="O" parent="22" pos="r" relate="SBV"/>  
+        <word cont="是否" id="19" ne="O" parent="22" pos="v" relate="ADV"/>  
+        <word cont="会" id="20" ne="O" parent="22" pos="v" relate="ADV"/>  
+        <word cont="使" id="21" ne="O" parent="15" pos="v" relate="COO"/>  
+        <word cont="美国" id="22" ne="S-Ns" parent="26" pos="ns" relate="SBV"/>  
+        <word cont="“" id="23" ne="O" parent="26" pos="wp" relate="WP"/>  
+        <word cont="华丽" id="24" ne="O" parent="26" pos="a" relate="ADV"/>  
+        <word cont="转身" id="25" ne="O" parent="22" pos="v" relate="VOB"/>  
+        <word cont="”" id="26" ne="O" parent="26" pos="wp" relate="WP"/>  
+        <word cont="；" id="27" ne="O" parent="11" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="同时，从本质上说，这也是对于自身未来生活质量的关注。" id="6" type="exampleSen"> 
+        <word cont="同时" id="0" ne="O" parent="6" pos="c" relate="ADV"/>  
+        <word cont="，" id="1" ne="O" parent="1" pos="wp" relate="WP"/>  
+        <word cont="从" id="2" ne="O" parent="6" pos="p" relate="ADV"/>  
+        <word cont="本质" id="3" ne="O" parent="5" pos="n" relate="ATT"/>  
+        <word cont="上" id="4" ne="O" parent="3" pos="nd" relate="POB"/>  
+        <word cont="说" id="5" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="，" id="6" ne="O" parent="6" pos="wp" relate="WP"/>  
+        <word cont="这" id="7" ne="O" parent="10" pos="r" relate="SBV"/>  
+        <word cont="也" id="8" ne="O" parent="10" pos="d" relate="ADV"/>  
+        <word cont="是" id="9" ne="O" parent="6" pos="v" relate="VOB"/>  
+        <word cont="对于" id="10" ne="O" parent="17" pos="p" relate="ADV"/>  
+        <word cont="自身" id="11" ne="O" parent="15" pos="r" relate="ATT"/>  
+        <word cont="未来" id="12" ne="O" parent="15" pos="nt" relate="ATT"/>  
+        <word cont="生活" id="13" ne="O" parent="15" pos="v" relate="ATT"/>  
+        <word cont="质量" id="14" ne="O" parent="17" pos="n" relate="ATT"/>  
+        <word cont="的" id="15" ne="O" parent="15" pos="u" relate="RAD"/>  
+        <word cont="关注" id="16" ne="O" parent="10" pos="v" relate="VOB"/>  
+        <word cont="。" id="17" ne="O" parent="6" pos="wp" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="4" type="ideasupport"> 
+      <sent cont="其次不能不提的就是全球金融危机。" id="7" type="ideaSen"> 
+        <word cont="其次" id="0" ne="O" parent="3" pos="c" relate="ADV"/>  
+        <word cont="不能不" id="1" ne="O" parent="3" pos="d" relate="ADV"/>  
+        <word cont="提" id="2" ne="O" parent="6" pos="v" relate="SBV"/>  
+        <word cont="的" id="3" ne="O" parent="3" pos="u" relate="RAD"/>  
+        <word cont="就" id="4" ne="O" parent="6" pos="d" relate="ADV"/>  
+        <word cont="是" id="5" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="全球" id="6" ne="O" parent="9" pos="n" relate="ATT"/>  
+        <word cont="金融" id="7" ne="O" parent="9" pos="n" relate="ATT"/>  
+        <word cont="危机" id="8" ne="O" parent="6" pos="n" relate="VOB"/>  
+        <word cont="。" id="9" ne="O" parent="6" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="这个自从去年后几个月就遭到媒体狂轰滥炸的词语，为奥巴马赢得了足够多的眼球。" id="8" type="exampleSen"> 
+        <word cont="这个" id="0" ne="O" parent="9" pos="r" relate="SBV"/>  
+        <word cont="自从" id="1" ne="O" parent="9" pos="p" relate="ADV"/>  
+        <word cont="去年" id="2" ne="O" parent="4" pos="nt" relate="ATT"/>  
+        <word cont="后" id="3" ne="O" parent="7" pos="nd" relate="ATT"/>  
+        <word cont="几" id="4" ne="O" parent="6" pos="m" relate="ATT"/>  
+        <word cont="个" id="5" ne="O" parent="7" pos="q" relate="ATT"/>  
+        <word cont="月" id="6" ne="O" parent="2" pos="n" relate="POB"/>  
+        <word cont="就" id="7" ne="O" parent="9" pos="d" relate="ADV"/>  
+        <word cont="遭到" id="8" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="媒体" id="9" ne="O" parent="11" pos="n" relate="SBV"/>  
+        <word cont="狂轰滥炸" id="10" ne="O" parent="13" pos="i" relate="ATT"/>  
+        <word cont="的" id="11" ne="O" parent="11" pos="u" relate="RAD"/>  
+        <word cont="词语" id="12" ne="O" parent="9" pos="n" relate="VOB"/>  
+        <word cont="，" id="13" ne="O" parent="9" pos="wp" relate="WP"/>  
+        <word cont="为" id="14" ne="O" parent="17" pos="p" relate="ADV"/>  
+        <word cont="奥巴马" id="15" ne="S-Nh" parent="15" pos="nh" relate="POB"/>  
+        <word cont="赢得" id="16" ne="O" parent="9" pos="v" relate="COO"/>  
+        <word cont="了" id="17" ne="O" parent="17" pos="u" relate="RAD"/>  
+        <word cont="足够" id="18" ne="O" parent="20" pos="v" relate="ADV"/>  
+        <word cont="多" id="19" ne="O" parent="22" pos="a" relate="ATT"/>  
+        <word cont="的" id="20" ne="O" parent="20" pos="u" relate="RAD"/>  
+        <word cont="眼球" id="21" ne="O" parent="17" pos="n" relate="VOB"/>  
+        <word cont="。" id="22" ne="O" parent="9" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="奥巴马不仅被美国人民一厢情愿地当成了救世主，甚至被世界各地的老百姓寄予厚望。" id="9" type="exampleSen"> 
+        <word cont="奥巴马" id="0" ne="S-Nh" parent="8" pos="nh" relate="SBV"/>  
+        <word cont="不仅" id="1" ne="O" parent="8" pos="c" relate="ADV"/>  
+        <word cont="被" id="2" ne="O" parent="6" pos="p" relate="ADV"/>  
+        <word cont="美国" id="3" ne="S-Ns" parent="5" pos="ns" relate="ATT"/>  
+        <word cont="人民" id="4" ne="O" parent="3" pos="n" relate="POB"/>  
+        <word cont="一厢情愿" id="5" ne="O" parent="8" pos="i" relate="ADV"/>  
+        <word cont="地" id="6" ne="O" parent="6" pos="u" relate="RAD"/>  
+        <word cont="当成" id="7" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="了" id="8" ne="O" parent="8" pos="u" relate="RAD"/>  
+        <word cont="救世主" id="9" ne="O" parent="8" pos="n" relate="VOB"/>  
+        <word cont="，" id="10" ne="O" parent="8" pos="wp" relate="WP"/>  
+        <word cont="甚至" id="11" ne="O" parent="18" pos="d" relate="ADV"/>  
+        <word cont="被" id="12" ne="O" parent="18" pos="p" relate="ADV"/>  
+        <word cont="世界" id="13" ne="O" parent="15" pos="n" relate="ATT"/>  
+        <word cont="各地" id="14" ne="O" parent="17" pos="r" relate="ATT"/>  
+        <word cont="的" id="15" ne="O" parent="15" pos="u" relate="RAD"/>  
+        <word cont="老百姓" id="16" ne="O" parent="13" pos="n" relate="POB"/>  
+        <word cont="寄予" id="17" ne="O" parent="8" pos="v" relate="COO"/>  
+        <word cont="厚望" id="18" ne="O" parent="18" pos="n" relate="VOB"/>  
+        <word cont="。" id="19" ne="O" parent="8" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="奥巴马是否会成为罗斯福第二姑且不论，但就这一点就已让他的双肩承上了更大的压力。" id="10" type="exampleSen"> 
+        <word cont="奥巴马" id="0" ne="S-Nh" parent="4" pos="nh" relate="SBV"/>  
+        <word cont="是否" id="1" ne="O" parent="4" pos="v" relate="ADV"/>  
+        <word cont="会" id="2" ne="O" parent="4" pos="v" relate="ADV"/>  
+        <word cont="成为" id="3" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="罗斯福" id="4" ne="S-Nh" parent="8" pos="nh" relate="SBV"/>  
+        <word cont="第二" id="5" ne="O" parent="7" pos="m" relate="ATT"/>  
+        <word cont="姑且" id="6" ne="O" parent="8" pos="q" relate="ADV"/>  
+        <word cont="不论" id="7" ne="O" parent="4" pos="c" relate="VOB"/>  
+        <word cont="，" id="8" ne="O" parent="4" pos="wp" relate="WP"/>  
+        <word cont="但" id="9" ne="O" parent="17" pos="c" relate="ADV"/>  
+        <word cont="就" id="10" ne="O" parent="17" pos="p" relate="ADV"/>  
+        <word cont="这" id="11" ne="O" parent="14" pos="r" relate="ATT"/>  
+        <word cont="一" id="12" ne="O" parent="14" pos="m" relate="ATT"/>  
+        <word cont="点" id="13" ne="O" parent="11" pos="q" relate="POB"/>  
+        <word cont="就" id="14" ne="O" parent="17" pos="d" relate="ADV"/>  
+        <word cont="已" id="15" ne="O" parent="17" pos="d" relate="ADV"/>  
+        <word cont="让" id="16" ne="O" parent="4" pos="v" relate="COO"/>  
+        <word cont="他" id="17" ne="O" parent="20" pos="r" relate="ATT"/>  
+        <word cont="的" id="18" ne="O" parent="18" pos="u" relate="RAD"/>  
+        <word cont="双肩承" id="19" ne="O" parent="17" pos="n" relate="DBL"/>  
+        <word cont="上" id="20" ne="O" parent="17" pos="v" relate="VOB"/>  
+        <word cont="了" id="21" ne="O" parent="21" pos="u" relate="RAD"/>  
+        <word cont="更" id="22" ne="O" parent="24" pos="d" relate="ADV"/>  
+        <word cont="大" id="23" ne="O" parent="26" pos="a" relate="ATT"/>  
+        <word cont="的" id="24" ne="O" parent="24" pos="u" relate="RAD"/>  
+        <word cont="压力" id="25" ne="O" parent="21" pos="n" relate="VOB"/>  
+        <word cont="。" id="26" ne="O" parent="4" pos="wp" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="5" type="supportEvidence"> 
+      <sent cont="以上两点对于全球民众都是通行的。" id="11" type="evidenceSen"> 
+        <word cont="以上" id="0" ne="O" parent="3" pos="nd" relate="ATT"/>  
+        <word cont="两" id="1" ne="O" parent="3" pos="m" relate="ATT"/>  
+        <word cont="点" id="2" ne="O" parent="8" pos="q" relate="SBV"/>  
+        <word cont="对于" id="3" ne="O" parent="8" pos="p" relate="ADV"/>  
+        <word cont="全球" id="4" ne="O" parent="6" pos="n" relate="ATT"/>  
+        <word cont="民众" id="5" ne="O" parent="4" pos="n" relate="POB"/>  
+        <word cont="都" id="6" ne="O" parent="8" pos="d" relate="ADV"/>  
+        <word cont="是" id="7" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="通行" id="8" ne="O" parent="8" pos="v" relate="VOB"/>  
+        <word cont="的" id="9" ne="O" parent="9" pos="u" relate="RAD"/>  
+        <word cont="。" id="10" ne="O" parent="8" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="有没有中国人关注奥巴马的自己的理由呢？" id="12" type="evidenceSen"> 
+        <word cont="有" id="0" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="没" id="1" ne="O" parent="3" pos="d" relate="ADV"/>  
+        <word cont="有" id="2" ne="O" parent="1" pos="v" relate="COO"/>  
+        <word cont="中国" id="3" ne="S-Ns" parent="5" pos="ns" relate="ATT"/>  
+        <word cont="人" id="4" ne="O" parent="3" pos="n" relate="DBL"/>  
+        <word cont="关注" id="5" ne="O" parent="3" pos="v" relate="VOB"/>  
+        <word cont="奥巴马" id="6" ne="S-Nh" parent="9" pos="nh" relate="ATT"/>  
+        <word cont="的" id="7" ne="O" parent="7" pos="u" relate="RAD"/>  
+        <word cont="自己" id="8" ne="O" parent="11" pos="r" relate="ATT"/>  
+        <word cont="的" id="9" ne="O" parent="9" pos="u" relate="RAD"/>  
+        <word cont="理由" id="10" ne="O" parent="6" pos="n" relate="VOB"/>  
+        <word cont="呢" id="11" ne="O" parent="3" pos="u" relate="RAD"/>  
+        <word cont="？" id="12" ne="O" parent="1" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="当然有。" id="13" type="evidenceSen"> 
+        <word cont="当然" id="0" ne="O" parent="2" pos="d" relate="ADV"/>  
+        <word cont="有" id="1" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="。" id="2" ne="O" parent="2" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="随着本国综合国力的提高，中国人民的眼界已经越来越宽，他们在关注国计民生的同时，也会同样的关注国际大事。" id="14" type="exampleSen"> 
+        <word cont="随着" id="0" ne="O" parent="13" pos="p" relate="ADV"/>  
+        <word cont="本国" id="1" ne="O" parent="3" pos="r" relate="ATT"/>  
+        <word cont="综合国力" id="2" ne="O" parent="5" pos="n" relate="ATT"/>  
+        <word cont="的" id="3" ne="O" parent="3" pos="u" relate="RAD"/>  
+        <word cont="提高" id="4" ne="O" parent="1" pos="v" relate="POB"/>  
+        <word cont="，" id="5" ne="O" parent="1" pos="wp" relate="WP"/>  
+        <word cont="中国" id="6" ne="S-Ns" parent="8" pos="ns" relate="ATT"/>  
+        <word cont="人民" id="7" ne="O" parent="10" pos="n" relate="ATT"/>  
+        <word cont="的" id="8" ne="O" parent="8" pos="u" relate="RAD"/>  
+        <word cont="眼界" id="9" ne="O" parent="13" pos="n" relate="SBV"/>  
+        <word cont="已经" id="10" ne="O" parent="13" pos="d" relate="ADV"/>  
+        <word cont="越来越" id="11" ne="O" parent="13" pos="d" relate="ADV"/>  
+        <word cont="宽" id="12" ne="O" parent="0" pos="a" relate="HED"/>  
+        <word cont="，" id="13" ne="O" parent="13" pos="wp" relate="WP"/>  
+        <word cont="他们" id="14" ne="O" parent="26" pos="r" relate="SBV"/>  
+        <word cont="在" id="15" ne="O" parent="26" pos="p" relate="ADV"/>  
+        <word cont="关注" id="16" ne="O" parent="20" pos="v" relate="ATT"/>  
+        <word cont="国计民生" id="17" ne="O" parent="17" pos="i" relate="VOB"/>  
+        <word cont="的" id="18" ne="O" parent="17" pos="u" relate="RAD"/>  
+        <word cont="同时" id="19" ne="O" parent="16" pos="n" relate="POB"/>  
+        <word cont="，" id="20" ne="O" parent="16" pos="wp" relate="WP"/>  
+        <word cont="也" id="21" ne="O" parent="23" pos="d" relate="ADV"/>  
+        <word cont="会" id="22" ne="O" parent="26" pos="v" relate="ADV"/>  
+        <word cont="同样" id="23" ne="O" parent="26" pos="b" relate="ATT"/>  
+        <word cont="的" id="24" ne="O" parent="24" pos="u" relate="RAD"/>  
+        <word cont="关注" id="25" ne="O" parent="13" pos="v" relate="COO"/>  
+        <word cont="国际" id="26" ne="O" parent="28" pos="n" relate="ATT"/>  
+        <word cont="大事" id="27" ne="O" parent="26" pos="n" relate="VOB"/>  
+        <word cont="。" id="28" ne="O" parent="13" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="除了这个原因，我不禁联想起中国的民主制度。" id="15" type="evidenceSen"> 
+        <word cont="除了" id="0" ne="O" parent="7" pos="p" relate="ADV"/>  
+        <word cont="这个" id="1" ne="O" parent="3" pos="r" relate="ATT"/>  
+        <word cont="原因" id="2" ne="O" parent="1" pos="n" relate="POB"/>  
+        <word cont="，" id="3" ne="O" parent="1" pos="wp" relate="WP"/>  
+        <word cont="我" id="4" ne="O" parent="7" pos="r" relate="SBV"/>  
+        <word cont="不禁" id="5" ne="O" parent="7" pos="d" relate="ADV"/>  
+        <word cont="联想" id="6" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="起" id="7" ne="O" parent="7" pos="v" relate="CMP"/>  
+        <word cont="中国" id="8" ne="S-Ns" parent="12" pos="ns" relate="ATT"/>  
+        <word cont="的" id="9" ne="O" parent="9" pos="u" relate="RAD"/>  
+        <word cont="民主" id="10" ne="O" parent="12" pos="a" relate="ATT"/>  
+        <word cont="制度" id="11" ne="O" parent="7" pos="n" relate="VOB"/>  
+        <word cont="。" id="12" ne="O" parent="7" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="当然，中国是人民民主专政国家，人民享有民主权利。" id="16" type="evidenceSen"> 
+        <word cont="当然" id="0" ne="O" parent="4" pos="d" relate="ADV"/>  
+        <word cont="，" id="1" ne="O" parent="1" pos="wp" relate="WP"/>  
+        <word cont="中国" id="2" ne="S-Ns" parent="4" pos="ns" relate="SBV"/>  
+        <word cont="是" id="3" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="人民" id="4" ne="O" parent="8" pos="n" relate="ATT"/>  
+        <word cont="民主" id="5" ne="O" parent="7" pos="a" relate="ATT"/>  
+        <word cont="专政" id="6" ne="O" parent="8" pos="n" relate="ATT"/>  
+        <word cont="国家" id="7" ne="O" parent="4" pos="n" relate="VOB"/>  
+        <word cont="，" id="8" ne="O" parent="4" pos="wp" relate="WP"/>  
+        <word cont="人民" id="9" ne="O" parent="11" pos="n" relate="SBV"/>  
+        <word cont="享有" id="10" ne="O" parent="4" pos="v" relate="COO"/>  
+        <word cont="民主" id="11" ne="O" parent="13" pos="a" relate="ATT"/>  
+        <word cont="权利" id="12" ne="O" parent="11" pos="n" relate="VOB"/>  
+        <word cont="。" id="13" ne="O" parent="4" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="但由于中国人口众多等特殊原因，我们不可能实行泛民主，只好创立了人民代表大会制度。" id="17" type="exampleSen"> 
+        <word cont="但" id="0" ne="O" parent="13" pos="c" relate="ADV"/>  
+        <word cont="由于" id="1" ne="O" parent="13" pos="p" relate="ADV"/>  
+        <word cont="中国" id="2" ne="S-Ns" parent="4" pos="ns" relate="ATT"/>  
+        <word cont="人口" id="3" ne="O" parent="5" pos="n" relate="SBV"/>  
+        <word cont="众多" id="4" ne="O" parent="8" pos="m" relate="ATT"/>  
+        <word cont="等" id="5" ne="O" parent="5" pos="u" relate="RAD"/>  
+        <word cont="特殊" id="6" ne="O" parent="8" pos="a" relate="ATT"/>  
+        <word cont="原因" id="7" ne="O" parent="2" pos="n" relate="POB"/>  
+        <word cont="，" id="8" ne="O" parent="2" pos="wp" relate="WP"/>  
+        <word cont="我们" id="9" ne="O" parent="13" pos="r" relate="SBV"/>  
+        <word cont="不" id="10" ne="O" parent="12" pos="d" relate="ADV"/>  
+        <word cont="可能" id="11" ne="O" parent="13" pos="v" relate="ADV"/>  
+        <word cont="实行" id="12" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="泛" id="13" ne="O" parent="13" pos="v" relate="VOB"/>  
+        <word cont="民主" id="14" ne="O" parent="14" pos="a" relate="VOB"/>  
+        <word cont="，" id="15" ne="O" parent="13" pos="wp" relate="WP"/>  
+        <word cont="只好" id="16" ne="O" parent="18" pos="d" relate="ADV"/>  
+        <word cont="创立" id="17" ne="O" parent="13" pos="v" relate="COO"/>  
+        <word cont="了" id="18" ne="O" parent="18" pos="u" relate="RAD"/>  
+        <word cont="人民" id="19" ne="O" parent="21" pos="n" relate="ATT"/>  
+        <word cont="代表大会" id="20" ne="O" parent="22" pos="n" relate="ATT"/>  
+        <word cont="制度" id="21" ne="O" parent="18" pos="n" relate="VOB"/>  
+        <word cont="。" id="22" ne="O" parent="13" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="近几年，老百姓关注两会的热情空前高涨，说明大家都很关注自身的民主权利是否得到实现，而这也反映出人民对于实现自己民主权利的渠道并不十分了解，换句话说，中国人民还没有完全融入到国家的民主进程中去。" id="18" type="exampleSen"> 
+        <word cont="近" id="0" ne="O" parent="2" pos="a" relate="ATT"/>  
+        <word cont="几" id="1" ne="O" parent="3" pos="m" relate="ATT"/>  
+        <word cont="年" id="2" ne="O" parent="6" pos="q" relate="ADV"/>  
+        <word cont="，" id="3" ne="O" parent="3" pos="wp" relate="WP"/>  
+        <word cont="老百姓" id="4" ne="O" parent="6" pos="n" relate="SBV"/>  
+        <word cont="关注" id="5" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="两会" id="6" ne="O" parent="6" pos="j" relate="VOB"/>  
+        <word cont="的" id="7" ne="O" parent="6" pos="u" relate="RAD"/>  
+        <word cont="热情" id="8" ne="O" parent="11" pos="a" relate="SBV"/>  
+        <word cont="空前" id="9" ne="O" parent="11" pos="a" relate="ADV"/>  
+        <word cont="高涨" id="10" ne="O" parent="6" pos="a" relate="VOB"/>  
+        <word cont="，" id="11" ne="O" parent="6" pos="wp" relate="WP"/>  
+        <word cont="说明" id="12" ne="O" parent="6" pos="v" relate="COO"/>  
+        <word cont="大家" id="13" ne="O" parent="17" pos="r" relate="SBV"/>  
+        <word cont="都" id="14" ne="O" parent="17" pos="d" relate="ADV"/>  
+        <word cont="很" id="15" ne="O" parent="17" pos="d" relate="ADV"/>  
+        <word cont="关注" id="16" ne="O" parent="13" pos="v" relate="VOB"/>  
+        <word cont="自身" id="17" ne="O" parent="21" pos="r" relate="ATT"/>  
+        <word cont="的" id="18" ne="O" parent="18" pos="u" relate="RAD"/>  
+        <word cont="民主" id="19" ne="O" parent="21" pos="a" relate="ATT"/>  
+        <word cont="权利" id="20" ne="O" parent="23" pos="n" relate="SBV"/>  
+        <word cont="是否" id="21" ne="O" parent="23" pos="v" relate="ADV"/>  
+        <word cont="得到" id="22" ne="O" parent="17" pos="v" relate="VOB"/>  
+        <word cont="实现" id="23" ne="O" parent="23" pos="v" relate="VOB"/>  
+        <word cont="，" id="24" ne="O" parent="17" pos="wp" relate="WP"/>  
+        <word cont="而" id="25" ne="O" parent="29" pos="c" relate="ADV"/>  
+        <word cont="这" id="26" ne="O" parent="29" pos="r" relate="SBV"/>  
+        <word cont="也" id="27" ne="O" parent="29" pos="d" relate="ADV"/>  
+        <word cont="反映" id="28" ne="O" parent="13" pos="v" relate="COO"/>  
+        <word cont="出" id="29" ne="O" parent="29" pos="v" relate="CMP"/>  
+        <word cont="人民" id="30" ne="O" parent="42" pos="n" relate="SBV"/>  
+        <word cont="对于" id="31" ne="O" parent="42" pos="p" relate="ADV"/>  
+        <word cont="实现" id="32" ne="O" parent="38" pos="v" relate="ATT"/>  
+        <word cont="自己" id="33" ne="O" parent="36" pos="r" relate="ATT"/>  
+        <word cont="民主" id="34" ne="O" parent="36" pos="a" relate="ATT"/>  
+        <word cont="权利" id="35" ne="O" parent="33" pos="n" relate="VOB"/>  
+        <word cont="的" id="36" ne="O" parent="33" pos="u" relate="RAD"/>  
+        <word cont="渠道" id="37" ne="O" parent="32" pos="n" relate="POB"/>  
+        <word cont="并" id="38" ne="O" parent="42" pos="d" relate="ADV"/>  
+        <word cont="不" id="39" ne="O" parent="42" pos="d" relate="ADV"/>  
+        <word cont="十分" id="40" ne="O" parent="42" pos="m" relate="ADV"/>  
+        <word cont="了解" id="41" ne="O" parent="29" pos="v" relate="VOB"/>  
+        <word cont="，" id="42" ne="O" parent="29" pos="wp" relate="WP"/>  
+        <word cont="换句话说" id="43" ne="O" parent="51" pos="c" relate="ADV"/>  
+        <word cont="，" id="44" ne="O" parent="44" pos="wp" relate="WP"/>  
+        <word cont="中国" id="45" ne="S-Ns" parent="47" pos="ns" relate="ATT"/>  
+        <word cont="人民" id="46" ne="O" parent="51" pos="n" relate="SBV"/>  
+        <word cont="还" id="47" ne="O" parent="49" pos="d" relate="ADV"/>  
+        <word cont="没有" id="48" ne="O" parent="51" pos="d" relate="ADV"/>  
+        <word cont="完全" id="49" ne="O" parent="51" pos="a" relate="ADV"/>  
+        <word cont="融入" id="50" ne="O" parent="29" pos="v" relate="COO"/>  
+        <word cont="到" id="51" ne="O" parent="51" pos="v" relate="CMP"/>  
+        <word cont="国家" id="52" ne="O" parent="56" pos="n" relate="ATT"/>  
+        <word cont="的" id="53" ne="O" parent="53" pos="u" relate="RAD"/>  
+        <word cont="民主" id="54" ne="O" parent="56" pos="a" relate="ATT"/>  
+        <word cont="进程" id="55" ne="O" parent="57" pos="n" relate="ATT"/>  
+        <word cont="中" id="56" ne="O" parent="52" pos="nd" relate="POB"/>  
+        <word cont="去" id="57" ne="O" parent="51" pos="v" relate="RAD"/>  
+        <word cont="。" id="58" ne="O" parent="6" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="这不能说是制度的缺憾，而是制度的执行还有问题。" id="19" type="exampleSen"> 
+        <word cont="这" id="0" ne="O" parent="4" pos="r" relate="SBV"/>  
+        <word cont="不" id="1" ne="O" parent="3" pos="d" relate="ADV"/>  
+        <word cont="能" id="2" ne="O" parent="4" pos="v" relate="ADV"/>  
+        <word cont="说" id="3" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="是" id="4" ne="O" parent="4" pos="v" relate="VOB"/>  
+        <word cont="制度" id="5" ne="O" parent="8" pos="n" relate="ATT"/>  
+        <word cont="的" id="6" ne="O" parent="6" pos="u" relate="RAD"/>  
+        <word cont="缺憾" id="7" ne="O" parent="5" pos="n" relate="VOB"/>  
+        <word cont="，" id="8" ne="O" parent="4" pos="wp" relate="WP"/>  
+        <word cont="而是" id="9" ne="O" parent="14" pos="c" relate="ADV"/>  
+        <word cont="制度" id="10" ne="O" parent="13" pos="n" relate="ATT"/>  
+        <word cont="的" id="11" ne="O" parent="11" pos="u" relate="RAD"/>  
+        <word cont="执行" id="12" ne="O" parent="14" pos="v" relate="SBV"/>  
+        <word cont="还有" id="13" ne="O" parent="4" pos="v" relate="COO"/>  
+        <word cont="问题" id="14" ne="O" parent="14" pos="n" relate="VOB"/>  
+        <word cont="。" id="15" ne="O" parent="4" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="我们的领导人并不是我们亲手选出来的，而是由通过层层选举产生的另外一些人帮我们选出来的。" id="20" type="exampleSen"> 
+        <word cont="我们" id="0" ne="O" parent="3" pos="r" relate="ATT"/>  
+        <word cont="的" id="1" ne="O" parent="1" pos="u" relate="RAD"/>  
+        <word cont="领导人" id="2" ne="O" parent="6" pos="n" relate="SBV"/>  
+        <word cont="并" id="3" ne="O" parent="6" pos="d" relate="ADV"/>  
+        <word cont="不" id="4" ne="O" parent="6" pos="d" relate="ADV"/>  
+        <word cont="是" id="5" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="我们" id="6" ne="O" parent="9" pos="r" relate="SBV"/>  
+        <word cont="亲手" id="7" ne="O" parent="9" pos="d" relate="ADV"/>  
+        <word cont="选" id="8" ne="O" parent="6" pos="v" relate="VOB"/>  
+        <word cont="出来" id="9" ne="O" parent="9" pos="v" relate="CMP"/>  
+        <word cont="的" id="10" ne="O" parent="9" pos="u" relate="RAD"/>  
+        <word cont="，" id="11" ne="O" parent="6" pos="wp" relate="WP"/>  
+        <word cont="而是" id="12" ne="O" parent="6" pos="c" relate="COO"/>  
+        <word cont="由" id="13" ne="O" parent="23" pos="p" relate="ADV"/>  
+        <word cont="通过" id="14" ne="O" parent="23" pos="p" relate="ADV"/>  
+        <word cont="层层" id="15" ne="O" parent="17" pos="q" relate="ADV"/>  
+        <word cont="选举" id="16" ne="O" parent="15" pos="v" relate="POB"/>  
+        <word cont="产生" id="17" ne="O" parent="17" pos="v" relate="COO"/>  
+        <word cont="的" id="18" ne="O" parent="17" pos="u" relate="RAD"/>  
+        <word cont="另外" id="19" ne="O" parent="22" pos="r" relate="ATT"/>  
+        <word cont="一些" id="20" ne="O" parent="22" pos="m" relate="ATT"/>  
+        <word cont="人" id="21" ne="O" parent="15" pos="n" relate="POB"/>  
+        <word cont="帮" id="22" ne="O" parent="13" pos="v" relate="VOB"/>  
+        <word cont="我们" id="23" ne="O" parent="23" pos="r" relate="DBL"/>  
+        <word cont="选" id="24" ne="O" parent="23" pos="v" relate="VOB"/>  
+        <word cont="出来" id="25" ne="O" parent="25" pos="v" relate="CMP"/>  
+        <word cont="的" id="26" ne="O" parent="25" pos="u" relate="RAD"/>  
+        <word cont="。" id="27" ne="O" parent="6" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="中国老百姓对于国家大事更多的关注，还缺乏更多的参与。" id="21" type="exampleSen"> 
+        <word cont="中国" id="0" ne="S-Ns" parent="2" pos="ns" relate="ATT"/>  
+        <word cont="老百姓" id="1" ne="O" parent="9" pos="n" relate="SBV"/>  
+        <word cont="对于" id="2" ne="O" parent="9" pos="p" relate="ADV"/>  
+        <word cont="国家" id="3" ne="O" parent="5" pos="n" relate="ATT"/>  
+        <word cont="大事" id="4" ne="O" parent="3" pos="n" relate="POB"/>  
+        <word cont="更" id="5" ne="O" parent="7" pos="d" relate="ADV"/>  
+        <word cont="多" id="6" ne="O" parent="9" pos="a" relate="ATT"/>  
+        <word cont="的" id="7" ne="O" parent="7" pos="u" relate="RAD"/>  
+        <word cont="关注" id="8" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="，" id="9" ne="O" parent="9" pos="wp" relate="WP"/>  
+        <word cont="还" id="10" ne="O" parent="12" pos="d" relate="ADV"/>  
+        <word cont="缺乏" id="11" ne="O" parent="9" pos="v" relate="COO"/>  
+        <word cont="更" id="12" ne="O" parent="14" pos="d" relate="ADV"/>  
+        <word cont="多" id="13" ne="O" parent="16" pos="a" relate="ATT"/>  
+        <word cont="的" id="14" ne="O" parent="14" pos="u" relate="RAD"/>  
+        <word cont="参与" id="15" ne="O" parent="12" pos="v" relate="VOB"/>  
+        <word cont="。" id="16" ne="O" parent="9" pos="wp" relate="WP"/> 
+      </sent>  
+      <sent cont="我想这从一个方面也解释了为什么我们对于奥巴马有如此高的关注度，我们看美国老百姓对其总统的狂热，甚至还掺杂了一丝艳羡的眼光。" id="22" type="evidenceSen"> 
+        <word cont="我" id="0" ne="O" parent="2" pos="r" relate="SBV"/>  
+        <word cont="想" id="1" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="这" id="2" ne="O" parent="8" pos="r" relate="SBV"/>  
+        <word cont="从" id="3" ne="O" parent="8" pos="p" relate="ADV"/>  
+        <word cont="一个" id="4" ne="O" parent="6" pos="m" relate="ATT"/>  
+        <word cont="方面" id="5" ne="O" parent="4" pos="n" relate="POB"/>  
+        <word cont="也" id="6" ne="O" parent="8" pos="d" relate="ADV"/>  
+        <word cont="解释" id="7" ne="O" parent="2" pos="v" relate="VOB"/>  
+        <word cont="了" id="8" ne="O" parent="8" pos="u" relate="RAD"/>  
+        <word cont="为什么" id="9" ne="O" parent="14" pos="r" relate="ADV"/>  
+        <word cont="我们" id="10" ne="O" parent="14" pos="r" relate="SBV"/>  
+        <word cont="对于" id="11" ne="O" parent="14" pos="p" relate="ADV"/>  
+        <word cont="奥巴马" id="12" ne="S-Nh" parent="14" pos="nh" relate="SBV"/>  
+        <word cont="有" id="13" ne="O" parent="8" pos="v" relate="VOB"/>  
+        <word cont="如此" id="14" ne="O" parent="16" pos="r" relate="ADV"/>  
+        <word cont="高" id="15" ne="O" parent="19" pos="a" relate="ATT"/>  
+        <word cont="的" id="16" ne="O" parent="16" pos="u" relate="RAD"/>  
+        <word cont="关注" id="17" ne="O" parent="19" pos="v" relate="ATT"/>  
+        <word cont="度" id="18" ne="O" parent="14" pos="n" relate="VOB"/>  
+        <word cont="，" id="19" ne="O" parent="14" pos="wp" relate="WP"/>  
+        <word cont="我们" id="20" ne="O" parent="22" pos="r" relate="SBV"/>  
+        <word cont="看" id="21" ne="O" parent="14" pos="v" relate="COO"/>  
+        <word cont="美国" id="22" ne="S-Ns" parent="24" pos="ns" relate="ATT"/>  
+        <word cont="老百姓" id="23" ne="O" parent="29" pos="n" relate="ATT"/>  
+        <word cont="对" id="24" ne="O" parent="29" pos="p" relate="ATT"/>  
+        <word cont="其" id="25" ne="O" parent="27" pos="r" relate="ATT"/>  
+        <word cont="总统" id="26" ne="O" parent="25" pos="n" relate="POB"/>  
+        <word cont="的" id="27" ne="O" parent="25" pos="u" relate="RAD"/>  
+        <word cont="狂热" id="28" ne="O" parent="22" pos="a" relate="VOB"/>  
+        <word cont="，" id="29" ne="O" parent="22" pos="wp" relate="WP"/>  
+        <word cont="甚至" id="30" ne="O" parent="33" pos="c" relate="ADV"/>  
+        <word cont="还" id="31" ne="O" parent="33" pos="d" relate="ADV"/>  
+        <word cont="掺杂" id="32" ne="O" parent="22" pos="v" relate="COO"/>  
+        <word cont="了" id="33" ne="O" parent="33" pos="u" relate="RAD"/>  
+        <word cont="一" id="34" ne="O" parent="36" pos="m" relate="ATT"/>  
+        <word cont="丝" id="35" ne="O" parent="39" pos="q" relate="ATT"/>  
+        <word cont="艳羡" id="36" ne="O" parent="39" pos="n" relate="ATT"/>  
+        <word cont="的" id="37" ne="O" parent="37" pos="u" relate="RAD"/>  
+        <word cont="眼光" id="38" ne="O" parent="33" pos="n" relate="VOB"/>  
+        <word cont="。" id="39" ne="O" parent="2" pos="wp" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="6" type="conclusion"> 
+      <sent cont="希望国家政府在抓经济的同时，也不要忘了推动我国的民主建设，不要让中国的老百姓向大洋彼岸的年轻国家的民众投去如此多羡慕的眼光。" id="23" type="conclusionSen"> 
+        <word cont="希望" id="0" ne="O" parent="0" pos="v" relate="HED"/>  
+        <word cont="国家" id="1" ne="O" parent="3" pos="n" relate="ATT"/>  
+        <word cont="政府" id="2" ne="O" parent="12" pos="n" relate="SBV"/>  
+        <word cont="在" id="3" ne="O" parent="12" pos="p" relate="ADV"/>  
+        <word cont="抓" id="4" ne="O" parent="8" pos="v" relate="ATT"/>  
+        <word cont="经济" id="5" ne="O" parent="5" pos="n" relate="VOB"/>  
+        <word cont="的" id="6" ne="O" parent="5" pos="u" relate="RAD"/>  
+        <word cont="同时" id="7" ne="O" parent="4" pos="n" relate="POB"/>  
+        <word cont="，" id="8" ne="O" parent="4" pos="wp" relate="WP"/>  
+        <word cont="也" id="9" ne="O" parent="12" pos="d" relate="ADV"/>  
+        <word cont="不要" id="10" ne="O" parent="12" pos="d" relate="ADV"/>  
+        <word cont="忘" id="11" ne="O" parent="1" pos="v" relate="VOB"/>  
+        <word cont="了" id="12" ne="O" parent="12" pos="u" relate="RAD"/>  
+        <word cont="推动" id="13" ne="O" parent="12" pos="v" relate="VOB"/>  
+        <word cont="我国" id="14" ne="O" parent="18" pos="n" relate="ATT"/>  
+        <word cont="的" id="15" ne="O" parent="15" pos="u" relate="RAD"/>  
+        <word cont="民主" id="16" ne="O" parent="18" pos="a" relate="ATT"/>  
+        <word cont="建设" id="17" ne="O" parent="14" pos="v" relate="VOB"/>  
+        <word cont="，" id="18" ne="O" parent="12" pos="wp" relate="WP"/>  
+        <word cont="不要" id="19" ne="O" parent="21" pos="d" relate="ADV"/>  
+        <word cont="让" id="20" ne="O" parent="12" pos="v" relate="COO"/>  
+        <word cont="中国" id="21" ne="S-Ns" parent="24" pos="ns" relate="ATT"/>  
+        <word cont="的" id="22" ne="O" parent="22" pos="u" relate="RAD"/>  
+        <word cont="老百姓" id="23" ne="O" parent="21" pos="n" relate="DBL"/>  
+        <word cont="向" id="24" ne="O" parent="33" pos="p" relate="ADV"/>  
+        <word cont="大洋" id="25" ne="O" parent="27" pos="n" relate="ATT"/>  
+        <word cont="彼岸" id="26" ne="O" parent="30" pos="n" relate="ATT"/>  
+        <word cont="的" id="27" ne="O" parent="27" pos="u" relate="RAD"/>  
+        <word cont="年轻" id="28" ne="O" parent="30" pos="a" relate="ATT"/>  
+        <word cont="国家" id="29" ne="O" parent="32" pos="n" relate="ATT"/>  
+        <word cont="的" id="30" ne="O" parent="30" pos="u" relate="RAD"/>  
+        <word cont="民众" id="31" ne="O" parent="25" pos="n" relate="POB"/>  
+        <word cont="投" id="32" ne="O" parent="21" pos="v" relate="VOB"/>  
+        <word cont="去" id="33" ne="O" parent="33" pos="v" relate="CMP"/>  
+        <word cont="如此" id="34" ne="O" parent="37" pos="r" relate="ADV"/>  
+        <word cont="多" id="35" ne="O" parent="37" pos="d" relate="ADV"/>  
+        <word cont="羡慕" id="36" ne="O" parent="39" pos="v" relate="ATT"/>  
+        <word cont="的" id="37" ne="O" parent="37" pos="u" relate="RAD"/>  
+        <word cont="眼光" id="38" ne="O" parent="33" pos="n" relate="VOB"/>  
+        <word cont="。" id="39" ne="O" parent="1" pos="wp" relate="WP"/> 
+      </sent> 
+    </para> 
+  </doc> 
+</xml4nlp>

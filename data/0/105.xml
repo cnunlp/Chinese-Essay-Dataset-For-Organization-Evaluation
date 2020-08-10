@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document>
+
+<xml4nlp> 
+  <doc score="" score1="" score2="" score3="" essayType="argumentativeEssay" type="4"> 
+    <para id="0" type="title"> 
+      <sent id="0" type=" " cont="世俗何以难成神圣？"> 
+        <word id="0" cont="世俗" pos="n" ne="O" parent="4" relate="SBV"/>  
+        <word id="1" cont="何以" pos="d" ne="O" parent="3" relate="ADV"/>  
+        <word id="2" cont="难" pos="a" ne="O" parent="4" relate="ADV"/>  
+        <word id="3" cont="成" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="4" cont="神圣" pos="a" ne="O" parent="4" relate="VOB"/>  
+        <word id="5" cont="？" pos="wp" ne="O" parent="4" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="1" type="thesis"> 
+      <sent id="0" type="introductionSen" cont="在《西游记》中，悟空在如来面前与玉皇大帝争高下，悟空听得如来讲诉玉皇大帝自幼修行，历千难万劫方成正果之事，之后仍欲与其争高下，结果被如来一巴掌拍在五指山下。"> 
+        <word id="0" cont="在" pos="p" ne="O" parent="15" relate="ADV"/>  
+        <word id="1" cont="《" pos="wp" ne="O" parent="3" relate="WP"/>  
+        <word id="2" cont="西游记" pos="nz" ne="O" parent="5" relate="ATT"/>  
+        <word id="3" cont="》" pos="wp" ne="O" parent="3" relate="WP"/>  
+        <word id="4" cont="中" pos="nd" ne="O" parent="1" relate="POB"/>  
+        <word id="5" cont="，" pos="wp" ne="O" parent="1" relate="WP"/>  
+        <word id="6" cont="悟空" pos="v" ne="O" parent="15" relate="ADV"/>  
+        <word id="7" cont="在" pos="p" ne="O" parent="15" relate="ADV"/>  
+        <word id="8" cont="如" pos="v" ne="O" parent="11" relate="ATT"/>  
+        <word id="9" cont="来" pos="v" ne="O" parent="9" relate="POB"/>  
+        <word id="10" cont="面前" pos="nd" ne="O" parent="8" relate="POB"/>  
+        <word id="11" cont="与" pos="p" ne="O" parent="15" relate="ADV"/>  
+        <word id="12" cont="玉皇" pos="ns" ne="S-Ns" parent="14" relate="ATT"/>  
+        <word id="13" cont="大帝" pos="n" ne="O" parent="12" relate="POB"/>  
+        <word id="14" cont="争" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="15" cont="高下" pos="n" ne="O" parent="15" relate="VOB"/>  
+        <word id="16" cont="，" pos="wp" ne="O" parent="15" relate="WP"/>  
+        <word id="17" cont="悟空" pos="d" ne="O" parent="19" relate="ADV"/>  
+        <word id="18" cont="听" pos="v" ne="O" parent="15" relate="COO"/>  
+        <word id="19" cont="得" pos="u" ne="O" parent="19" relate="RAD"/>  
+        <word id="20" cont="如" pos="v" ne="O" parent="19" relate="CMP"/>  
+        <word id="21" cont="来讲" pos="u" ne="O" parent="21" relate="POB"/>  
+        <word id="22" cont="诉玉" pos="v" ne="O" parent="24" relate="ATT"/>  
+        <word id="23" cont="皇大帝" pos="n" ne="O" parent="26" relate="SBV"/>  
+        <word id="24" cont="自幼" pos="d" ne="O" parent="26" relate="ADV"/>  
+        <word id="25" cont="修行" pos="v" ne="O" parent="19" relate="COO"/>  
+        <word id="26" cont="，" pos="wp" ne="O" parent="15" relate="WP"/>  
+        <word id="27" cont="历" pos="v" ne="O" parent="15" relate="COO"/>  
+        <word id="28" cont="千难万劫方" pos="i" ne="O" parent="33" relate="ATT"/>  
+        <word id="29" cont="成" pos="v" ne="O" parent="33" relate="ATT"/>  
+        <word id="30" cont="正果" pos="n" ne="O" parent="30" relate="VOB"/>  
+        <word id="31" cont="之" pos="u" ne="O" parent="30" relate="RAD"/>  
+        <word id="32" cont="事" pos="n" ne="O" parent="28" relate="VOB"/>  
+        <word id="33" cont="，" pos="wp" ne="O" parent="15" relate="WP"/>  
+        <word id="34" cont="之后" pos="nd" ne="O" parent="37" relate="ADV"/>  
+        <word id="35" cont="仍" pos="d" ne="O" parent="37" relate="ADV"/>  
+        <word id="36" cont="欲" pos="d" ne="O" parent="15" relate="COO"/>  
+        <word id="37" cont="与" pos="p" ne="O" parent="40" relate="ADV"/>  
+        <word id="38" cont="其" pos="r" ne="O" parent="38" relate="POB"/>  
+        <word id="39" cont="争" pos="v" ne="O" parent="37" relate="VOB"/>  
+        <word id="40" cont="高下" pos="n" ne="O" parent="40" relate="VOB"/>  
+        <word id="41" cont="，" pos="wp" ne="O" parent="15" relate="WP"/>  
+        <word id="42" cont="结果" pos="n" ne="O" parent="45" relate="FOB"/>  
+        <word id="43" cont="被" pos="p" ne="O" parent="45" relate="ADV"/>  
+        <word id="44" cont="如" pos="v" ne="O" parent="49" relate="ADV"/>  
+        <word id="45" cont="来" pos="v" ne="O" parent="45" relate="POB"/>  
+        <word id="46" cont="一" pos="m" ne="O" parent="48" relate="ATT"/>  
+        <word id="47" cont="巴掌" pos="n" ne="O" parent="45" relate="VOB"/>  
+        <word id="48" cont="拍" pos="v" ne="O" parent="15" relate="COO"/>  
+        <word id="49" cont="在" pos="p" ne="O" parent="49" relate="CMP"/>  
+        <word id="50" cont="五指山下" pos="nl" ne="O" parent="50" relate="POB"/>  
+        <word id="51" cont="。" pos="wp" ne="O" parent="15" relate="WP"/> 
+      </sent>  
+      <sent id="1" type="introductionSen" cont="如来何意？"> 
+        <word id="0" cont="如" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="1" cont="来" pos="v" ne="O" parent="1" relate="POB"/>  
+        <word id="2" cont="何意" pos="u" ne="O" parent="1" relate="RAD"/>  
+        <word id="3" cont="？" pos="wp" ne="O" parent="1" relate="WP"/> 
+      </sent>  
+      <sent id="2" type="introductionSen" cont="仅是希望悟空知难而返吗？"> 
+        <word id="0" cont="仅" pos="d" ne="O" parent="2" relate="ADV"/>  
+        <word id="1" cont="是" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="2" cont="希望" pos="v" ne="O" parent="2" relate="VOB"/>  
+        <word id="3" cont="悟空" pos="v" ne="O" parent="3" relate="VOB"/>  
+        <word id="4" cont="知难而返" pos="i" ne="O" parent="4" relate="VOB"/>  
+        <word id="5" cont="吗" pos="u" ne="O" parent="2" relate="RAD"/>  
+        <word id="6" cont="？" pos="wp" ne="O" parent="2" relate="WP"/> 
+      </sent>  
+      <sent id="3" type="introductionSen" cont="恐怕不是。"> 
+        <word id="0" cont="恐怕" pos="d" ne="O" parent="3" relate="ADV"/>  
+        <word id="1" cont="不" pos="d" ne="O" parent="3" relate="ADV"/>  
+        <word id="2" cont="是" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="3" cont="。" pos="wp" ne="O" parent="3" relate="WP"/> 
+      </sent>  
+      <sent id="4" type="thesisSen" cont="我想如来是给悟空“世俗何以难成神圣”一个答案。"> 
+        <word id="0" cont="我" pos="r" ne="O" parent="2" relate="SBV"/>  
+        <word id="1" cont="想" pos="v" ne="O" parent="5" relate="SBV"/>  
+        <word id="2" cont="如" pos="v" ne="O" parent="2" relate="VOB"/>  
+        <word id="3" cont="来" pos="v" ne="O" parent="2" relate="RAD"/>  
+        <word id="4" cont="是" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="5" cont="给" pos="p" ne="O" parent="5" relate="VOB"/>  
+        <word id="6" cont="悟空" pos="v" ne="O" parent="6" relate="POB"/>  
+        <word id="7" cont="“" pos="wp" ne="O" parent="12" relate="WP"/>  
+        <word id="8" cont="世俗" pos="n" ne="O" parent="12" relate="SBV"/>  
+        <word id="9" cont="何以" pos="d" ne="O" parent="11" relate="ADV"/>  
+        <word id="10" cont="难" pos="a" ne="O" parent="12" relate="ADV"/>  
+        <word id="11" cont="成" pos="v" ne="O" parent="6" relate="COO"/>  
+        <word id="12" cont="神圣" pos="a" ne="O" parent="16" relate="ATT"/>  
+        <word id="13" cont="”" pos="wp" ne="O" parent="13" relate="WP"/>  
+        <word id="14" cont="一个" pos="m" ne="O" parent="16" relate="ATT"/>  
+        <word id="15" cont="答案" pos="n" ne="O" parent="12" relate="POB"/>  
+        <word id="16" cont="。" pos="wp" ne="O" parent="5" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="2" type="idea"> 
+      <sent id="0" type="ideaSen" cont="世俗与神圣之间的区别，不仅是两者人多人少这样表面的问题，而是藏在我们内心深处的“成本核算”问题。"> 
+        <word id="0" cont="世俗" pos="n" ne="O" parent="4" relate="ATT"/>  
+        <word id="1" cont="与" pos="p" ne="O" parent="3" relate="LAD"/>  
+        <word id="2" cont="神圣" pos="a" ne="O" parent="1" relate="COO"/>  
+        <word id="3" cont="之间" pos="nd" ne="O" parent="6" relate="ATT"/>  
+        <word id="4" cont="的" pos="u" ne="O" parent="4" relate="RAD"/>  
+        <word id="5" cont="区别" pos="n" ne="O" parent="9" relate="SBV"/>  
+        <word id="6" cont="，" pos="wp" ne="O" parent="6" relate="WP"/>  
+        <word id="7" cont="不仅" pos="c" ne="O" parent="9" relate="ADV"/>  
+        <word id="8" cont="是" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="9" cont="两者" pos="r" ne="O" parent="11" relate="ATT"/>  
+        <word id="10" cont="人" pos="n" ne="O" parent="12" relate="SBV"/>  
+        <word id="11" cont="多" pos="a" ne="O" parent="16" relate="ATT"/>  
+        <word id="12" cont="人" pos="n" ne="O" parent="14" relate="SBV"/>  
+        <word id="13" cont="少" pos="a" ne="O" parent="12" relate="COO"/>  
+        <word id="14" cont="这样" pos="r" ne="O" parent="16" relate="ATT"/>  
+        <word id="15" cont="表面" pos="n" ne="O" parent="18" relate="ATT"/>  
+        <word id="16" cont="的" pos="u" ne="O" parent="16" relate="RAD"/>  
+        <word id="17" cont="问题" pos="n" ne="O" parent="9" relate="VOB"/>  
+        <word id="18" cont="，" pos="wp" ne="O" parent="9" relate="WP"/>  
+        <word id="19" cont="而是" pos="c" ne="O" parent="9" relate="COO"/>  
+        <word id="20" cont="藏" pos="v" ne="O" parent="31" relate="ATT"/>  
+        <word id="21" cont="在" pos="p" ne="O" parent="21" relate="CMP"/>  
+        <word id="22" cont="我们" pos="r" ne="O" parent="24" relate="ATT"/>  
+        <word id="23" cont="内心" pos="n" ne="O" parent="25" relate="ATT"/>  
+        <word id="24" cont="深处" pos="nl" ne="O" parent="22" relate="POB"/>  
+        <word id="25" cont="的" pos="u" ne="O" parent="21" relate="RAD"/>  
+        <word id="26" cont="“" pos="wp" ne="O" parent="29" relate="WP"/>  
+        <word id="27" cont="成本" pos="n" ne="O" parent="29" relate="SBV"/>  
+        <word id="28" cont="核算" pos="v" ne="O" parent="31" relate="ATT"/>  
+        <word id="29" cont="”" pos="wp" ne="O" parent="29" relate="WP"/>  
+        <word id="30" cont="问题" pos="n" ne="O" parent="20" relate="VOB"/>  
+        <word id="31" cont="。" pos="wp" ne="O" parent="9" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="3" type="ideasupport"> 
+      <sent id="0" type="ideaSen" cont="“成本核算”是我们每一个人心中的一把尺，我们做事之前，总是会用它去衡量。"> 
+        <word id="0" cont="“" pos="wp" ne="O" parent="3" relate="WP"/>  
+        <word id="1" cont="成本" pos="n" ne="O" parent="3" relate="SBV"/>  
+        <word id="2" cont="核算" pos="v" ne="O" parent="5" relate="SBV"/>  
+        <word id="3" cont="”" pos="wp" ne="O" parent="3" relate="WP"/>  
+        <word id="4" cont="是" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="5" cont="我们" pos="r" ne="O" parent="9" relate="ATT"/>  
+        <word id="6" cont="每" pos="r" ne="O" parent="8" relate="ATT"/>  
+        <word id="7" cont="一个" pos="m" ne="O" parent="9" relate="ATT"/>  
+        <word id="8" cont="人" pos="n" ne="O" parent="10" relate="ATT"/>  
+        <word id="9" cont="心中" pos="nl" ne="O" parent="14" relate="ATT"/>  
+        <word id="10" cont="的" pos="u" ne="O" parent="10" relate="RAD"/>  
+        <word id="11" cont="一" pos="m" ne="O" parent="13" relate="ATT"/>  
+        <word id="12" cont="把" pos="q" ne="O" parent="14" relate="ATT"/>  
+        <word id="13" cont="尺" pos="n" ne="O" parent="5" relate="VOB"/>  
+        <word id="14" cont="，" pos="wp" ne="O" parent="5" relate="WP"/>  
+        <word id="15" cont="我们" pos="r" ne="O" parent="17" relate="SBV"/>  
+        <word id="16" cont="做事" pos="v" ne="O" parent="18" relate="ATT"/>  
+        <word id="17" cont="之前" pos="nd" ne="O" parent="25" relate="ADV"/>  
+        <word id="18" cont="，" pos="wp" ne="O" parent="18" relate="WP"/>  
+        <word id="19" cont="总是" pos="d" ne="O" parent="21" relate="ADV"/>  
+        <word id="20" cont="会" pos="v" ne="O" parent="25" relate="ADV"/>  
+        <word id="21" cont="用" pos="p" ne="O" parent="25" relate="ADV"/>  
+        <word id="22" cont="它" pos="r" ne="O" parent="22" relate="POB"/>  
+        <word id="23" cont="去" pos="v" ne="O" parent="25" relate="LAD"/>  
+        <word id="24" cont="衡量" pos="v" ne="O" parent="5" relate="COO"/>  
+        <word id="25" cont="。" pos="wp" ne="O" parent="5" relate="WP"/> 
+      </sent>  
+      <sent id="1" type="evidenceSen" cont="在很多方面，世俗的尺与神圣的尺大有不同，拿当下最流行的称号“学霸”来说再好不过了，我们称呼那些极强的“学霸”叫“大神”，“大神”平时干什么呢？"> 
+        <word id="0" cont="在" pos="p" ne="O" parent="12" relate="ADV"/>  
+        <word id="1" cont="很多" pos="m" ne="O" parent="3" relate="ATT"/>  
+        <word id="2" cont="方面" pos="n" ne="O" parent="1" relate="POB"/>  
+        <word id="3" cont="，" pos="wp" ne="O" parent="1" relate="WP"/>  
+        <word id="4" cont="世俗" pos="n" ne="O" parent="7" relate="ATT"/>  
+        <word id="5" cont="的" pos="u" ne="O" parent="5" relate="RAD"/>  
+        <word id="6" cont="尺" pos="n" ne="O" parent="12" relate="SBV"/>  
+        <word id="7" cont="与" pos="c" ne="O" parent="11" relate="LAD"/>  
+        <word id="8" cont="神圣" pos="a" ne="O" parent="11" relate="ATT"/>  
+        <word id="9" cont="的" pos="u" ne="O" parent="9" relate="RAD"/>  
+        <word id="10" cont="尺大" pos="j" ne="O" parent="7" relate="COO"/>  
+        <word id="11" cont="有" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="12" cont="不同" pos="a" ne="O" parent="12" relate="VOB"/>  
+        <word id="13" cont="，" pos="wp" ne="O" parent="12" relate="WP"/>  
+        <word id="14" cont="拿" pos="v" ne="O" parent="12" relate="COO"/>  
+        <word id="15" cont="当下" pos="d" ne="O" parent="18" relate="ADV"/>  
+        <word id="16" cont="最" pos="d" ne="O" parent="18" relate="ADV"/>  
+        <word id="17" cont="流行" pos="v" ne="O" parent="20" relate="ATT"/>  
+        <word id="18" cont="的" pos="u" ne="O" parent="18" relate="RAD"/>  
+        <word id="19" cont="称号" pos="n" ne="O" parent="15" relate="VOB"/>  
+        <word id="20" cont="“" pos="wp" ne="O" parent="22" relate="WP"/>  
+        <word id="21" cont="学霸" pos="n" ne="O" parent="20" relate="COO"/>  
+        <word id="22" cont="”" pos="wp" ne="O" parent="22" relate="WP"/>  
+        <word id="23" cont="来说" pos="u" ne="O" parent="15" relate="RAD"/>  
+        <word id="24" cont="再" pos="d" ne="O" parent="26" relate="ADV"/>  
+        <word id="25" cont="好" pos="a" ne="O" parent="28" relate="ADV"/>  
+        <word id="26" cont="不" pos="d" ne="O" parent="28" relate="ADV"/>  
+        <word id="27" cont="过" pos="v" ne="O" parent="15" relate="COO"/>  
+        <word id="28" cont="了" pos="u" ne="O" parent="28" relate="RAD"/>  
+        <word id="29" cont="，" pos="wp" ne="O" parent="15" relate="WP"/>  
+        <word id="30" cont="我们" pos="r" ne="O" parent="32" relate="SBV"/>  
+        <word id="31" cont="称呼" pos="v" ne="O" parent="38" relate="ATT"/>  
+        <word id="32" cont="那些" pos="r" ne="O" parent="38" relate="ATT"/>  
+        <word id="33" cont="极" pos="d" ne="O" parent="35" relate="ADV"/>  
+        <word id="34" cont="强" pos="a" ne="O" parent="38" relate="ATT"/>  
+        <word id="35" cont="的" pos="u" ne="O" parent="35" relate="RAD"/>  
+        <word id="36" cont="“" pos="wp" ne="O" parent="38" relate="WP"/>  
+        <word id="37" cont="学霸" pos="n" ne="O" parent="40" relate="SBV"/>  
+        <word id="38" cont="”" pos="wp" ne="O" parent="38" relate="WP"/>  
+        <word id="39" cont="叫" pos="v" ne="O" parent="15" relate="COO"/>  
+        <word id="40" cont="“" pos="wp" ne="O" parent="42" relate="WP"/>  
+        <word id="41" cont="大神" pos="n" ne="O" parent="40" relate="VOB"/>  
+        <word id="42" cont="”" pos="wp" ne="O" parent="42" relate="WP"/>  
+        <word id="43" cont="，" pos="wp" ne="O" parent="12" relate="WP"/>  
+        <word id="44" cont="“" pos="wp" ne="O" parent="46" relate="WP"/>  
+        <word id="45" cont="大神" pos="n" ne="O" parent="49" relate="SBV"/>  
+        <word id="46" cont="”" pos="wp" ne="O" parent="46" relate="WP"/>  
+        <word id="47" cont="平时" pos="nt" ne="O" parent="49" relate="ADV"/>  
+        <word id="48" cont="干什么" pos="v" ne="O" parent="12" relate="COO"/>  
+        <word id="49" cont="呢" pos="u" ne="O" parent="49" relate="RAD"/>  
+        <word id="50" cont="？" pos="wp" ne="O" parent="12" relate="WP"/> 
+      </sent>  
+      <sent id="2" type="exampleSen" cont="读课本，写教辅。"> 
+        <word id="0" cont="读" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="1" cont="课本" pos="n" ne="O" parent="1" relate="VOB"/>  
+        <word id="2" cont="，" pos="wp" ne="O" parent="1" relate="WP"/>  
+        <word id="3" cont="写" pos="v" ne="O" parent="1" relate="COO"/>  
+        <word id="4" cont="教辅" pos="n" ne="O" parent="4" relate="VOB"/>  
+        <word id="5" cont="。" pos="wp" ne="O" parent="1" relate="WP"/> 
+      </sent>  
+      <sent id="3" type="exampleSen" cont="“世俗”的“学民”“学渣”干什么？"> 
+        <word id="0" cont="“" pos="wp" ne="O" parent="2" relate="WP"/>  
+        <word id="1" cont="世俗" pos="n" ne="O" parent="6" relate="SBV"/>  
+        <word id="2" cont="”" pos="wp" ne="O" parent="2" relate="WP"/>  
+        <word id="3" cont="的" pos="u" ne="O" parent="2" relate="RAD"/>  
+        <word id="4" cont="“" pos="wp" ne="O" parent="6" relate="WP"/>  
+        <word id="5" cont="学" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="6" cont="民" pos="n" ne="O" parent="6" relate="VOB"/>  
+        <word id="7" cont="”" pos="wp" ne="O" parent="6" relate="WP"/>  
+        <word id="8" cont="“" pos="wp" ne="O" parent="10" relate="WP"/>  
+        <word id="9" cont="学渣" pos="n" ne="O" parent="12" relate="SBV"/>  
+        <word id="10" cont="”" pos="wp" ne="O" parent="10" relate="WP"/>  
+        <word id="11" cont="干什么" pos="v" ne="O" parent="6" relate="COO"/>  
+        <word id="12" cont="？" pos="wp" ne="O" parent="6" relate="WP"/> 
+      </sent>  
+      <sent id="4" type="exampleSen" cont="读课本，写教辅，等假期，看帅哥，看美女……"> 
+        <word id="0" cont="读" pos="v" ne="O" parent="7" relate="SBV"/>  
+        <word id="1" cont="课本" pos="n" ne="O" parent="1" relate="VOB"/>  
+        <word id="2" cont="，" pos="wp" ne="O" parent="1" relate="WP"/>  
+        <word id="3" cont="写" pos="v" ne="O" parent="1" relate="COO"/>  
+        <word id="4" cont="教辅" pos="n" ne="O" parent="4" relate="VOB"/>  
+        <word id="5" cont="，" pos="wp" ne="O" parent="1" relate="WP"/>  
+        <word id="6" cont="等" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="7" cont="假期" pos="nt" ne="O" parent="7" relate="VOB"/>  
+        <word id="8" cont="，" pos="wp" ne="O" parent="7" relate="WP"/>  
+        <word id="9" cont="看" pos="v" ne="O" parent="7" relate="COO"/>  
+        <word id="10" cont="帅哥" pos="n" ne="O" parent="10" relate="VOB"/>  
+        <word id="11" cont="，" pos="wp" ne="O" parent="7" relate="WP"/>  
+        <word id="12" cont="看" pos="v" ne="O" parent="7" relate="COO"/>  
+        <word id="13" cont="美女" pos="n" ne="O" parent="13" relate="VOB"/>  
+        <word id="14" cont="……" pos="wp" ne="O" parent="7" relate="WP"/> 
+      </sent>  
+      <sent id="5" type="evidenceSen" cont="我们可能会认为把青春消耗在青灯白卷之下太亏了，但大神们认为好的成绩才是日后美好前程的王道。"> 
+        <word id="0" cont="我们" pos="r" ne="O" parent="4" relate="SBV"/>  
+        <word id="1" cont="可能" pos="v" ne="O" parent="3" relate="ADV"/>  
+        <word id="2" cont="会" pos="v" ne="O" parent="4" relate="ADV"/>  
+        <word id="3" cont="认为" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="4" cont="把" pos="p" ne="O" parent="7" relate="ADV"/>  
+        <word id="5" cont="青春" pos="n" ne="O" parent="5" relate="POB"/>  
+        <word id="6" cont="消耗" pos="v" ne="O" parent="4" relate="VOB"/>  
+        <word id="7" cont="在" pos="p" ne="O" parent="7" relate="CMP"/>  
+        <word id="8" cont="青灯" pos="n" ne="O" parent="10" relate="ATT"/>  
+        <word id="9" cont="白卷" pos="n" ne="O" parent="11" relate="ATT"/>  
+        <word id="10" cont="之下" pos="nd" ne="O" parent="8" relate="POB"/>  
+        <word id="11" cont="太" pos="d" ne="O" parent="13" relate="ADV"/>  
+        <word id="12" cont="亏" pos="v" ne="O" parent="7" relate="COO"/>  
+        <word id="13" cont="了" pos="u" ne="O" parent="13" relate="RAD"/>  
+        <word id="14" cont="，" pos="wp" ne="O" parent="7" relate="WP"/>  
+        <word id="15" cont="但" pos="c" ne="O" parent="19" relate="ADV"/>  
+        <word id="16" cont="大神" pos="n" ne="O" parent="19" relate="SBV"/>  
+        <word id="17" cont="们" pos="k" ne="O" parent="17" relate="RAD"/>  
+        <word id="18" cont="认为" pos="v" ne="O" parent="7" relate="COO"/>  
+        <word id="19" cont="好" pos="a" ne="O" parent="22" relate="ATT"/>  
+        <word id="20" cont="的" pos="u" ne="O" parent="20" relate="RAD"/>  
+        <word id="21" cont="成绩" pos="n" ne="O" parent="24" relate="SBV"/>  
+        <word id="22" cont="才" pos="d" ne="O" parent="24" relate="ADV"/>  
+        <word id="23" cont="是" pos="v" ne="O" parent="19" relate="VOB"/>  
+        <word id="24" cont="日后" pos="nt" ne="O" parent="27" relate="ATT"/>  
+        <word id="25" cont="美好" pos="a" ne="O" parent="27" relate="ATT"/>  
+        <word id="26" cont="前程" pos="n" ne="O" parent="29" relate="ATT"/>  
+        <word id="27" cont="的" pos="u" ne="O" parent="27" relate="RAD"/>  
+        <word id="28" cont="王道" pos="nh" ne="S-Nh" parent="24" relate="VOB"/>  
+        <word id="29" cont="。" pos="wp" ne="O" parent="7" relate="WP"/> 
+      </sent>  
+      <sent id="6" type="evidenceSen" cont="不消问为何国家领导人，商海精英皆出身名牌大学，单看今日之“成本核算”，人人心中尺的大小就已使日后的我们有了“世俗”与“神圣”之分。"> 
+        <word id="0" cont="不" pos="d" ne="O" parent="2" relate="ADV"/>  
+        <word id="1" cont="消问" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="2" cont="为何" pos="r" ne="O" parent="5" relate="ATT"/>  
+        <word id="3" cont="国家" pos="n" ne="O" parent="5" relate="ATT"/>  
+        <word id="4" cont="领导人" pos="n" ne="O" parent="2" relate="VOB"/>  
+        <word id="5" cont="，" pos="wp" ne="O" parent="2" relate="WP"/>  
+        <word id="6" cont="商海" pos="n" ne="O" parent="8" relate="ATT"/>  
+        <word id="7" cont="精英" pos="n" ne="O" parent="10" relate="SBV"/>  
+        <word id="8" cont="皆" pos="d" ne="O" parent="10" relate="ADV"/>  
+        <word id="9" cont="出身" pos="v" ne="O" parent="2" relate="COO"/>  
+        <word id="10" cont="名牌" pos="n" ne="O" parent="12" relate="ATT"/>  
+        <word id="11" cont="大学" pos="n" ne="O" parent="10" relate="VOB"/>  
+        <word id="12" cont="，" pos="wp" ne="O" parent="2" relate="WP"/>  
+        <word id="13" cont="单" pos="d" ne="O" parent="15" relate="ADV"/>  
+        <word id="14" cont="看" pos="v" ne="O" parent="2" relate="COO"/>  
+        <word id="15" cont="今日" pos="nt" ne="O" parent="20" relate="ATT"/>  
+        <word id="16" cont="之" pos="u" ne="O" parent="16" relate="RAD"/>  
+        <word id="17" cont="“" pos="wp" ne="O" parent="20" relate="WP"/>  
+        <word id="18" cont="成本" pos="n" ne="O" parent="20" relate="SBV"/>  
+        <word id="19" cont="核算" pos="v" ne="O" parent="15" relate="VOB"/>  
+        <word id="20" cont="”" pos="wp" ne="O" parent="15" relate="WP"/>  
+        <word id="21" cont="，" pos="wp" ne="O" parent="2" relate="WP"/>  
+        <word id="22" cont="人人" pos="n" ne="O" parent="24" relate="ATT"/>  
+        <word id="23" cont="心中" pos="nl" ne="O" parent="25" relate="ATT"/>  
+        <word id="24" cont="尺" pos="n" ne="O" parent="27" relate="ATT"/>  
+        <word id="25" cont="的" pos="u" ne="O" parent="25" relate="RAD"/>  
+        <word id="26" cont="大小" pos="n" ne="O" parent="30" relate="SBV"/>  
+        <word id="27" cont="就" pos="d" ne="O" parent="30" relate="ADV"/>  
+        <word id="28" cont="已" pos="d" ne="O" parent="30" relate="ADV"/>  
+        <word id="29" cont="使" pos="v" ne="O" parent="2" relate="COO"/>  
+        <word id="30" cont="日后" pos="nt" ne="O" parent="33" relate="ATT"/>  
+        <word id="31" cont="的" pos="u" ne="O" parent="31" relate="RAD"/>  
+        <word id="32" cont="我们" pos="r" ne="O" parent="30" relate="DBL"/>  
+        <word id="33" cont="有" pos="v" ne="O" parent="30" relate="VOB"/>  
+        <word id="34" cont="了" pos="u" ne="O" parent="34" relate="RAD"/>  
+        <word id="35" cont="“" pos="wp" ne="O" parent="37" relate="WP"/>  
+        <word id="36" cont="世俗" pos="n" ne="O" parent="34" relate="VOB"/>  
+        <word id="37" cont="”" pos="wp" ne="O" parent="37" relate="WP"/>  
+        <word id="38" cont="与" pos="c" ne="O" parent="34" relate="VOB"/>  
+        <word id="39" cont="“" pos="wp" ne="O" parent="41" relate="WP"/>  
+        <word id="40" cont="神圣" pos="a" ne="O" parent="44" relate="ATT"/>  
+        <word id="41" cont="”" pos="wp" ne="O" parent="41" relate="WP"/>  
+        <word id="42" cont="之" pos="u" ne="O" parent="41" relate="RAD"/>  
+        <word id="43" cont="分" pos="n" ne="O" parent="39" relate="POB"/>  
+        <word id="44" cont="。" pos="wp" ne="O" parent="2" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="4" type="ideasupport"> 
+      <sent id="0" type="ideaSen" cont="“成本核算”绝不仅是一把尺。"> 
+        <word id="0" cont="“" pos="wp" ne="O" parent="3" relate="WP"/>  
+        <word id="1" cont="成本" pos="n" ne="O" parent="3" relate="SBV"/>  
+        <word id="2" cont="核算" pos="v" ne="O" parent="7" relate="SBV"/>  
+        <word id="3" cont="”" pos="wp" ne="O" parent="3" relate="WP"/>  
+        <word id="4" cont="绝不" pos="d" ne="O" parent="7" relate="ADV"/>  
+        <word id="5" cont="仅" pos="d" ne="O" parent="7" relate="ADV"/>  
+        <word id="6" cont="是" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="7" cont="一" pos="m" ne="O" parent="9" relate="ATT"/>  
+        <word id="8" cont="把" pos="q" ne="O" parent="10" relate="ATT"/>  
+        <word id="9" cont="尺" pos="n" ne="O" parent="7" relate="VOB"/>  
+        <word id="10" cont="。" pos="wp" ne="O" parent="7" relate="WP"/> 
+      </sent>  
+      <sent id="1" type="evidenceSen" cont="因为很多时候它实在高昂，足以让绝大多数人胆寒。"> 
+        <word id="0" cont="因为" pos="c" ne="O" parent="6" relate="ADV"/>  
+        <word id="1" cont="很多" pos="m" ne="O" parent="3" relate="ATT"/>  
+        <word id="2" cont="时候" pos="n" ne="O" parent="6" relate="ADV"/>  
+        <word id="3" cont="它" pos="r" ne="O" parent="6" relate="SBV"/>  
+        <word id="4" cont="实在" pos="d" ne="O" parent="6" relate="ADV"/>  
+        <word id="5" cont="高昂" pos="a" ne="O" parent="0" relate="HED"/>  
+        <word id="6" cont="，" pos="wp" ne="O" parent="6" relate="WP"/>  
+        <word id="7" cont="足以" pos="d" ne="O" parent="9" relate="ADV"/>  
+        <word id="8" cont="让" pos="v" ne="O" parent="6" relate="COO"/>  
+        <word id="9" cont="绝大多数" pos="i" ne="O" parent="11" relate="ATT"/>  
+        <word id="10" cont="人" pos="n" ne="O" parent="9" relate="DBL"/>  
+        <word id="11" cont="胆寒" pos="a" ne="O" parent="9" relate="VOB"/>  
+        <word id="12" cont="。" pos="wp" ne="O" parent="6" relate="WP"/> 
+      </sent>  
+      <sent id="2" type="exampleSen" cont="巴基斯坦有一女孩为该国长期以来女性得不到教育，地位之低下之事奔走呼号，国内刚有反响即被枪杀，所以整个国家都保持了缄默，尽管很多人都清楚这些长大后会成为母亲的女孩将成为整个民族的灾难。"> 
+        <word id="0" cont="巴基斯坦" pos="ns" ne="S-Ns" parent="2" relate="SBV"/>  
+        <word id="1" cont="有" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="2" cont="一" pos="m" ne="O" parent="4" relate="ATT"/>  
+        <word id="3" cont="女孩" pos="n" ne="O" parent="2" relate="DBL"/>  
+        <word id="4" cont="为" pos="v" ne="O" parent="2" relate="VOB"/>  
+        <word id="5" cont="该国" pos="r" ne="O" parent="8" relate="ATT"/>  
+        <word id="6" cont="长期以来" pos="i" ne="O" parent="8" relate="ATT"/>  
+        <word id="7" cont="女性" pos="n" ne="O" parent="9" relate="SBV"/>  
+        <word id="8" cont="得" pos="v" ne="O" parent="5" relate="VOB"/>  
+        <word id="9" cont="不" pos="d" ne="O" parent="11" relate="ADV"/>  
+        <word id="10" cont="到" pos="v" ne="O" parent="9" relate="CMP"/>  
+        <word id="11" cont="教育" pos="v" ne="O" parent="9" relate="VOB"/>  
+        <word id="12" cont="，" pos="wp" ne="O" parent="5" relate="WP"/>  
+        <word id="13" cont="地位" pos="n" ne="O" parent="18" relate="ATT"/>  
+        <word id="14" cont="之" pos="u" ne="O" parent="14" relate="RAD"/>  
+        <word id="15" cont="低下" pos="a" ne="O" parent="18" relate="ATT"/>  
+        <word id="16" cont="之" pos="u" ne="O" parent="16" relate="RAD"/>  
+        <word id="17" cont="事" pos="n" ne="O" parent="19" relate="SBV"/>  
+        <word id="18" cont="奔走" pos="v" ne="O" parent="5" relate="COO"/>  
+        <word id="19" cont="呼号" pos="v" ne="O" parent="19" relate="COO"/>  
+        <word id="20" cont="，" pos="wp" ne="O" parent="19" relate="WP"/>  
+        <word id="21" cont="国内" pos="nl" ne="O" parent="24" relate="SBV"/>  
+        <word id="22" cont="刚" pos="d" ne="O" parent="24" relate="ADV"/>  
+        <word id="23" cont="有" pos="v" ne="O" parent="19" relate="COO"/>  
+        <word id="24" cont="反响" pos="n" ne="O" parent="28" relate="FOB"/>  
+        <word id="25" cont="即" pos="d" ne="O" parent="28" relate="ADV"/>  
+        <word id="26" cont="被" pos="p" ne="O" parent="28" relate="ADV"/>  
+        <word id="27" cont="枪杀" pos="v" ne="O" parent="24" relate="VOB"/>  
+        <word id="28" cont="，" pos="wp" ne="O" parent="19" relate="WP"/>  
+        <word id="29" cont="所以" pos="c" ne="O" parent="34" relate="ADV"/>  
+        <word id="30" cont="整个" pos="b" ne="O" parent="32" relate="ATT"/>  
+        <word id="31" cont="国家" pos="n" ne="O" parent="34" relate="SBV"/>  
+        <word id="32" cont="都" pos="d" ne="O" parent="34" relate="ADV"/>  
+        <word id="33" cont="保持" pos="v" ne="O" parent="19" relate="COO"/>  
+        <word id="34" cont="了" pos="u" ne="O" parent="34" relate="RAD"/>  
+        <word id="35" cont="缄默" pos="v" ne="O" parent="34" relate="VOB"/>  
+        <word id="36" cont="，" pos="wp" ne="O" parent="19" relate="WP"/>  
+        <word id="37" cont="尽管" pos="c" ne="O" parent="52" relate="ADV"/>  
+        <word id="38" cont="很多" pos="m" ne="O" parent="40" relate="ATT"/>  
+        <word id="39" cont="人" pos="n" ne="O" parent="42" relate="SBV"/>  
+        <word id="40" cont="都" pos="d" ne="O" parent="42" relate="ADV"/>  
+        <word id="41" cont="清楚" pos="v" ne="O" parent="45" relate="ATT"/>  
+        <word id="42" cont="这些" pos="r" ne="O" parent="44" relate="ATT"/>  
+        <word id="43" cont="长大" pos="v" ne="O" parent="42" relate="VOB"/>  
+        <word id="44" cont="后" pos="nd" ne="O" parent="47" relate="ADV"/>  
+        <word id="45" cont="会" pos="v" ne="O" parent="47" relate="ADV"/>  
+        <word id="46" cont="成为" pos="v" ne="O" parent="52" relate="SBV"/>  
+        <word id="47" cont="母亲" pos="n" ne="O" parent="50" relate="ATT"/>  
+        <word id="48" cont="的" pos="u" ne="O" parent="48" relate="RAD"/>  
+        <word id="49" cont="女孩" pos="n" ne="O" parent="47" relate="VOB"/>  
+        <word id="50" cont="将" pos="d" ne="O" parent="52" relate="ADV"/>  
+        <word id="51" cont="成为" pos="v" ne="O" parent="19" relate="COO"/>  
+        <word id="52" cont="整个" pos="b" ne="O" parent="54" relate="ATT"/>  
+        <word id="53" cont="民族" pos="n" ne="O" parent="56" relate="ATT"/>  
+        <word id="54" cont="的" pos="u" ne="O" parent="54" relate="RAD"/>  
+        <word id="55" cont="灾难" pos="n" ne="O" parent="52" relate="VOB"/>  
+        <word id="56" cont="。" pos="wp" ne="O" parent="2" relate="WP"/> 
+      </sent>  
+      <sent id="3" type="evidenceSen" cont="巴国力不强，巴国力何以强！"> 
+        <word id="0" cont="巴" pos="j" ne="S-Ns" parent="2" relate="ATT"/>  
+        <word id="1" cont="国力" pos="n" ne="O" parent="4" relate="SBV"/>  
+        <word id="2" cont="不" pos="d" ne="O" parent="4" relate="ADV"/>  
+        <word id="3" cont="强" pos="a" ne="O" parent="0" relate="HED"/>  
+        <word id="4" cont="，" pos="wp" ne="O" parent="4" relate="WP"/>  
+        <word id="5" cont="巴" pos="j" ne="S-Ns" parent="7" relate="ATT"/>  
+        <word id="6" cont="国力" pos="n" ne="O" parent="9" relate="SBV"/>  
+        <word id="7" cont="何以" pos="d" ne="O" parent="9" relate="ADV"/>  
+        <word id="8" cont="强" pos="a" ne="O" parent="4" relate="COO"/>  
+        <word id="9" cont="！" pos="wp" ne="O" parent="4" relate="WP"/> 
+      </sent>  
+      <sent id="4" type="evidenceSen" cont="世俗之心亦大哉！"> 
+        <word id="0" cont="世俗" pos="n" ne="O" parent="3" relate="ATT"/>  
+        <word id="1" cont="之" pos="u" ne="O" parent="1" relate="RAD"/>  
+        <word id="2" cont="心" pos="n" ne="O" parent="5" relate="SBV"/>  
+        <word id="3" cont="亦" pos="d" ne="O" parent="5" relate="ADV"/>  
+        <word id="4" cont="大" pos="a" ne="O" parent="0" relate="HED"/>  
+        <word id="5" cont="哉" pos="u" ne="O" parent="5" relate="RAD"/>  
+        <word id="6" cont="！" pos="wp" ne="O" parent="5" relate="WP"/> 
+      </sent>  
+      <sent id="5" type="evidenceSen" cont="世俗的我们羡慕曼德拉“彩虹国圣人”的美名，但我们践行不了“我愿为理想献身”的话语；"> 
+        <word id="0" cont="世俗" pos="n" ne="O" parent="4" relate="ATT"/>  
+        <word id="1" cont="的" pos="u" ne="O" parent="1" relate="RAD"/>  
+        <word id="2" cont="我们" pos="r" ne="O" parent="4" relate="SBV"/>  
+        <word id="3" cont="羡慕" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="4" cont="曼德拉" pos="nh" ne="S-Nh" parent="11" relate="ATT"/>  
+        <word id="5" cont="“" pos="wp" ne="O" parent="8" relate="WP"/>  
+        <word id="6" cont="彩虹" pos="n" ne="O" parent="8" relate="ATT"/>  
+        <word id="7" cont="国圣人" pos="n" ne="O" parent="11" relate="ATT"/>  
+        <word id="8" cont="”" pos="wp" ne="O" parent="8" relate="WP"/>  
+        <word id="9" cont="的" pos="u" ne="O" parent="8" relate="RAD"/>  
+        <word id="10" cont="美名" pos="n" ne="O" parent="4" relate="VOB"/>  
+        <word id="11" cont="，" pos="wp" ne="O" parent="4" relate="WP"/>  
+        <word id="12" cont="但" pos="c" ne="O" parent="15" relate="ADV"/>  
+        <word id="13" cont="我们" pos="r" ne="O" parent="15" relate="SBV"/>  
+        <word id="14" cont="践行" pos="v" ne="O" parent="4" relate="COO"/>  
+        <word id="15" cont="不" pos="d" ne="O" parent="17" relate="ADV"/>  
+        <word id="16" cont="了" pos="v" ne="O" parent="15" relate="CMP"/>  
+        <word id="17" cont="“" pos="wp" ne="O" parent="20" relate="WP"/>  
+        <word id="18" cont="我" pos="r" ne="O" parent="20" relate="SBV"/>  
+        <word id="19" cont="愿" pos="v" ne="O" parent="26" relate="ATT"/>  
+        <word id="20" cont="为" pos="p" ne="O" parent="23" relate="ADV"/>  
+        <word id="21" cont="理想" pos="n" ne="O" parent="21" relate="POB"/>  
+        <word id="22" cont="献身" pos="v" ne="O" parent="20" relate="VOB"/>  
+        <word id="23" cont="”" pos="wp" ne="O" parent="20" relate="WP"/>  
+        <word id="24" cont="的" pos="u" ne="O" parent="20" relate="RAD"/>  
+        <word id="25" cont="话语" pos="n" ne="O" parent="15" relate="VOB"/>  
+        <word id="26" cont="；" pos="wp" ne="O" parent="4" relate="WP"/> 
+      </sent>  
+      <sent id="6" type="evidenceSen" cont="世俗的我们景仰笛卡尔的博学，但我们接受不了被整个社会迫害的事实。"> 
+        <word id="0" cont="世俗" pos="n" ne="O" parent="4" relate="ATT"/>  
+        <word id="1" cont="的" pos="u" ne="O" parent="1" relate="RAD"/>  
+        <word id="2" cont="我们" pos="r" ne="O" parent="4" relate="SBV"/>  
+        <word id="3" cont="景仰" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="4" cont="笛卡尔" pos="nh" ne="S-Nh" parent="7" relate="ATT"/>  
+        <word id="5" cont="的" pos="u" ne="O" parent="5" relate="RAD"/>  
+        <word id="6" cont="博学" pos="a" ne="O" parent="4" relate="VOB"/>  
+        <word id="7" cont="，" pos="wp" ne="O" parent="4" relate="WP"/>  
+        <word id="8" cont="但" pos="c" ne="O" parent="11" relate="ADV"/>  
+        <word id="9" cont="我们" pos="r" ne="O" parent="11" relate="SBV"/>  
+        <word id="10" cont="接受" pos="v" ne="O" parent="4" relate="COO"/>  
+        <word id="11" cont="不" pos="d" ne="O" parent="13" relate="ADV"/>  
+        <word id="12" cont="了" pos="v" ne="O" parent="11" relate="VOB"/>  
+        <word id="13" cont="被" pos="p" ne="O" parent="17" relate="ADV"/>  
+        <word id="14" cont="整个" pos="b" ne="O" parent="16" relate="ATT"/>  
+        <word id="15" cont="社会" pos="n" ne="O" parent="14" relate="POB"/>  
+        <word id="16" cont="迫害" pos="v" ne="O" parent="19" relate="ATT"/>  
+        <word id="17" cont="的" pos="u" ne="O" parent="17" relate="RAD"/>  
+        <word id="18" cont="事实" pos="n" ne="O" parent="11" relate="VOB"/>  
+        <word id="19" cont="。" pos="wp" ne="O" parent="4" relate="WP"/> 
+      </sent>  
+      <sent id="7" type="ideaendSen" cont="世俗难成神圣，正因为如此，每一个神圣身后都伤痕累累，他们承受生命不能承受之重方成世人仰望的神圣。"> 
+        <word id="0" cont="世俗" pos="n" ne="O" parent="2" relate="ATT"/>  
+        <word id="1" cont="难" pos="a" ne="O" parent="0" relate="HED"/>  
+        <word id="2" cont="成" pos="v" ne="O" parent="2" relate="CMP"/>  
+        <word id="3" cont="神圣" pos="a" ne="O" parent="2" relate="COO"/>  
+        <word id="4" cont="，" pos="wp" ne="O" parent="2" relate="WP"/>  
+        <word id="5" cont="正" pos="d" ne="O" parent="7" relate="ADV"/>  
+        <word id="6" cont="因为" pos="p" ne="O" parent="2" relate="COO"/>  
+        <word id="7" cont="如此" pos="r" ne="O" parent="7" relate="POB"/>  
+        <word id="8" cont="，" pos="wp" ne="O" parent="2" relate="WP"/>  
+        <word id="9" cont="每" pos="r" ne="O" parent="11" relate="ATT"/>  
+        <word id="10" cont="一个" pos="m" ne="O" parent="12" relate="ATT"/>  
+        <word id="11" cont="神圣" pos="a" ne="O" parent="2" relate="COO"/>  
+        <word id="12" cont="身后" pos="nd" ne="O" parent="15" relate="ADV"/>  
+        <word id="13" cont="都" pos="d" ne="O" parent="15" relate="ADV"/>  
+        <word id="14" cont="伤痕" pos="n" ne="O" parent="12" relate="COO"/>  
+        <word id="15" cont="累累" pos="z" ne="O" parent="12" relate="COO"/>  
+        <word id="16" cont="，" pos="wp" ne="O" parent="2" relate="WP"/>  
+        <word id="17" cont="他们" pos="r" ne="O" parent="19" relate="SBV"/>  
+        <word id="18" cont="承受" pos="v" ne="O" parent="25" relate="ATT"/>  
+        <word id="19" cont="生命" pos="n" ne="O" parent="19" relate="VOB"/>  
+        <word id="20" cont="不" pos="d" ne="O" parent="22" relate="ADV"/>  
+        <word id="21" cont="能" pos="v" ne="O" parent="23" relate="ADV"/>  
+        <word id="22" cont="承受" pos="v" ne="O" parent="19" relate="COO"/>  
+        <word id="23" cont="之" pos="u" ne="O" parent="19" relate="RAD"/>  
+        <word id="24" cont="重方" pos="n" ne="O" parent="26" relate="SBV"/>  
+        <word id="25" cont="成" pos="v" ne="O" parent="30" relate="ATT"/>  
+        <word id="26" cont="世人" pos="n" ne="O" parent="28" relate="SBV"/>  
+        <word id="27" cont="仰望" pos="v" ne="O" parent="26" relate="VOB"/>  
+        <word id="28" cont="的" pos="u" ne="O" parent="28" relate="RAD"/>  
+        <word id="29" cont="神圣" pos="a" ne="O" parent="2" relate="COO"/>  
+        <word id="30" cont="。" pos="wp" ne="O" parent="2" relate="WP"/> 
+      </sent>  
+      <sent id="8" type="ideaendSen" cont="这一种代价，非神圣之人谁与承担焉！"> 
+        <word id="0" cont="这" pos="r" ne="O" parent="2" relate="ATT"/>  
+        <word id="1" cont="一" pos="m" ne="O" parent="3" relate="ATT"/>  
+        <word id="2" cont="种" pos="q" ne="O" parent="4" relate="ATT"/>  
+        <word id="3" cont="代价" pos="n" ne="O" parent="12" relate="FOB"/>  
+        <word id="4" cont="，" pos="wp" ne="O" parent="4" relate="WP"/>  
+        <word id="5" cont="非" pos="d" ne="O" parent="7" relate="ADV"/>  
+        <word id="6" cont="神圣" pos="a" ne="O" parent="9" relate="ATT"/>  
+        <word id="7" cont="之" pos="u" ne="O" parent="7" relate="RAD"/>  
+        <word id="8" cont="人" pos="n" ne="O" parent="12" relate="FOB"/>  
+        <word id="9" cont="谁" pos="r" ne="O" parent="12" relate="SBV"/>  
+        <word id="10" cont="与" pos="p" ne="O" parent="12" relate="ADV"/>  
+        <word id="11" cont="承担" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="12" cont="焉" pos="u" ne="O" parent="12" relate="RAD"/>  
+        <word id="13" cont="！" pos="wp" ne="O" parent="12" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="5" type="conclusion"> 
+      <sent id="0" type="conclusionSen" cont="我们更愿去成为世俗，因为我们已经这么做了，但身为世俗，我们难成神圣，可我们仍然可以行神圣之事，那些美好品德，正是神圣啊！"> 
+        <word id="0" cont="我们" pos="r" ne="O" parent="3" relate="SBV"/>  
+        <word id="1" cont="更" pos="d" ne="O" parent="3" relate="ADV"/>  
+        <word id="2" cont="愿" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="3" cont="去" pos="v" ne="O" parent="5" relate="ADV"/>  
+        <word id="4" cont="成为" pos="v" ne="O" parent="3" relate="VOB"/>  
+        <word id="5" cont="世俗" pos="n" ne="O" parent="5" relate="VOB"/>  
+        <word id="6" cont="，" pos="wp" ne="O" parent="3" relate="WP"/>  
+        <word id="7" cont="因为" pos="c" ne="O" parent="12" relate="ADV"/>  
+        <word id="8" cont="我们" pos="r" ne="O" parent="12" relate="SBV"/>  
+        <word id="9" cont="已经" pos="d" ne="O" parent="12" relate="ADV"/>  
+        <word id="10" cont="这么" pos="r" ne="O" parent="12" relate="ADV"/>  
+        <word id="11" cont="做" pos="v" ne="O" parent="3" relate="COO"/>  
+        <word id="12" cont="了" pos="u" ne="O" parent="12" relate="RAD"/>  
+        <word id="13" cont="，" pos="wp" ne="O" parent="12" relate="WP"/>  
+        <word id="14" cont="但" pos="c" ne="O" parent="17" relate="ADV"/>  
+        <word id="15" cont="身" pos="n" ne="O" parent="17" relate="SBV"/>  
+        <word id="16" cont="为" pos="v" ne="O" parent="12" relate="COO"/>  
+        <word id="17" cont="世俗" pos="n" ne="O" parent="17" relate="VOB"/>  
+        <word id="18" cont="，" pos="wp" ne="O" parent="12" relate="WP"/>  
+        <word id="19" cont="我们" pos="r" ne="O" parent="22" relate="SBV"/>  
+        <word id="20" cont="难" pos="a" ne="O" parent="22" relate="ADV"/>  
+        <word id="21" cont="成" pos="v" ne="O" parent="12" relate="COO"/>  
+        <word id="22" cont="神圣" pos="a" ne="O" parent="22" relate="VOB"/>  
+        <word id="23" cont="，" pos="wp" ne="O" parent="3" relate="WP"/>  
+        <word id="24" cont="可" pos="v" ne="O" parent="29" relate="ADV"/>  
+        <word id="25" cont="我们" pos="r" ne="O" parent="29" relate="SBV"/>  
+        <word id="26" cont="仍然" pos="d" ne="O" parent="28" relate="ADV"/>  
+        <word id="27" cont="可以" pos="v" ne="O" parent="29" relate="ADV"/>  
+        <word id="28" cont="行" pos="v" ne="O" parent="3" relate="COO"/>  
+        <word id="29" cont="神圣" pos="a" ne="O" parent="32" relate="ATT"/>  
+        <word id="30" cont="之" pos="u" ne="O" parent="30" relate="RAD"/>  
+        <word id="31" cont="事" pos="n" ne="O" parent="29" relate="VOB"/>  
+        <word id="32" cont="，" pos="wp" ne="O" parent="3" relate="WP"/>  
+        <word id="33" cont="那些" pos="r" ne="O" parent="36" relate="ATT"/>  
+        <word id="34" cont="美好" pos="a" ne="O" parent="36" relate="ATT"/>  
+        <word id="35" cont="品德" pos="n" ne="O" parent="3" relate="COO"/>  
+        <word id="36" cont="，" pos="wp" ne="O" parent="3" relate="WP"/>  
+        <word id="37" cont="正是" pos="v" ne="O" parent="39" relate="ADV"/>  
+        <word id="38" cont="神圣" pos="a" ne="O" parent="3" relate="COO"/>  
+        <word id="39" cont="啊" pos="u" ne="O" parent="39" relate="RAD"/>  
+        <word id="40" cont="！" pos="wp" ne="O" parent="3" relate="WP"/> 
+      </sent>  
+      <sent id="1" type="conclusionSen" cont="我们不能济世救民，但我们可以扶贫济困，我们不能显于后世，但我们也不妨凭借仁孝之名立足乡里。"> 
+        <word id="0" cont="我们" pos="r" ne="O" parent="4" relate="SBV"/>  
+        <word id="1" cont="不" pos="d" ne="O" parent="3" relate="ADV"/>  
+        <word id="2" cont="能" pos="v" ne="O" parent="4" relate="ADV"/>  
+        <word id="3" cont="济世救民" pos="i" ne="O" parent="0" relate="HED"/>  
+        <word id="4" cont="，" pos="wp" ne="O" parent="4" relate="WP"/>  
+        <word id="5" cont="但" pos="c" ne="O" parent="9" relate="ADV"/>  
+        <word id="6" cont="我们" pos="r" ne="O" parent="9" relate="SBV"/>  
+        <word id="7" cont="可以" pos="v" ne="O" parent="9" relate="ADV"/>  
+        <word id="8" cont="扶贫济困" pos="i" ne="O" parent="4" relate="COO"/>  
+        <word id="9" cont="，" pos="wp" ne="O" parent="9" relate="WP"/>  
+        <word id="10" cont="我们" pos="r" ne="O" parent="14" relate="SBV"/>  
+        <word id="11" cont="不" pos="d" ne="O" parent="13" relate="ADV"/>  
+        <word id="12" cont="能" pos="v" ne="O" parent="14" relate="ADV"/>  
+        <word id="13" cont="显" pos="v" ne="O" parent="9" relate="COO"/>  
+        <word id="14" cont="于" pos="p" ne="O" parent="14" relate="CMP"/>  
+        <word id="15" cont="后世" pos="n" ne="O" parent="15" relate="POB"/>  
+        <word id="16" cont="，" pos="wp" ne="O" parent="14" relate="WP"/>  
+        <word id="17" cont="但" pos="c" ne="O" parent="26" relate="ADV"/>  
+        <word id="18" cont="我们" pos="r" ne="O" parent="26" relate="SBV"/>  
+        <word id="19" cont="也" pos="d" ne="O" parent="26" relate="ADV"/>  
+        <word id="20" cont="不妨" pos="d" ne="O" parent="26" relate="ADV"/>  
+        <word id="21" cont="凭借" pos="p" ne="O" parent="26" relate="ADV"/>  
+        <word id="22" cont="仁孝" pos="n" ne="O" parent="25" relate="ATT"/>  
+        <word id="23" cont="之" pos="u" ne="O" parent="23" relate="RAD"/>  
+        <word id="24" cont="名" pos="n" ne="O" parent="22" relate="POB"/>  
+        <word id="25" cont="立足" pos="v" ne="O" parent="14" relate="COO"/>  
+        <word id="26" cont="乡里" pos="n" ne="O" parent="26" relate="VOB"/>  
+        <word id="27" cont="。" pos="wp" ne="O" parent="4" relate="WP"/> 
+      </sent>  
+      <sent id="2" type="conclusionSen" cont="世俗难成神圣，但世俗之人亦可成神圣之事。"> 
+        <word id="0" cont="世俗" pos="n" ne="O" parent="3" relate="SBV"/>  
+        <word id="1" cont="难" pos="a" ne="O" parent="3" relate="ADV"/>  
+        <word id="2" cont="成" pos="v" ne="O" parent="0" relate="HED"/>  
+        <word id="3" cont="神圣" pos="a" ne="O" parent="3" relate="VOB"/>  
+        <word id="4" cont="，" pos="wp" ne="O" parent="3" relate="WP"/>  
+        <word id="5" cont="但" pos="c" ne="O" parent="12" relate="ADV"/>  
+        <word id="6" cont="世俗" pos="n" ne="O" parent="9" relate="ATT"/>  
+        <word id="7" cont="之" pos="u" ne="O" parent="7" relate="RAD"/>  
+        <word id="8" cont="人" pos="n" ne="O" parent="12" relate="SBV"/>  
+        <word id="9" cont="亦" pos="d" ne="O" parent="12" relate="ADV"/>  
+        <word id="10" cont="可" pos="v" ne="O" parent="12" relate="ADV"/>  
+        <word id="11" cont="成" pos="v" ne="O" parent="3" relate="COO"/>  
+        <word id="12" cont="神圣" pos="a" ne="O" parent="15" relate="ATT"/>  
+        <word id="13" cont="之" pos="u" ne="O" parent="13" relate="RAD"/>  
+        <word id="14" cont="事" pos="n" ne="O" parent="12" relate="VOB"/>  
+        <word id="15" cont="。" pos="wp" ne="O" parent="3" relate="WP"/> 
+      </sent> 
+    </para> 
+  </doc> 
+</xml4nlp>
