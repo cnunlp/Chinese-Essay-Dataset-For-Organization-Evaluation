@@ -1,7 +1,9 @@
 # Chinese-Argumentative-Student-Essays-Dataset
-A Chinese argumentative student essay dataset for Organization Evaluation and Discourse Element Identification
+A Chinese argumentative student essay dataset for Organization Evaluation and Sentence Function Identification.
 
 ## Introduction
+
+We proposed a **Chinese argumentative student essay dataset** for Organization Evaluation and Sentence Function Identification.
 
 ## Task Definition
 
@@ -71,3 +73,26 @@ We represent organization quality with three grades.
 |Great |245|
 |Medium |670|
 |Bad |305|
+
+## Reference
+The dataset is released with this paper:
+
+    @inproceedings{ijcai2020-536,
+         title     = {Hierarchical Multi-task Learning for Organization Evaluation of Argumentative Student Essays},
+         author    = {Song, Wei and Song, Ziyao and Liu, Lizhen and Fu, Ruiji},
+         booktitle = {Proceedings of the Twenty-Ninth International Joint Conference on
+                      Artificial Intelligence, {IJCAI-20}},
+         publisher = {International Joint Conferences on Artificial Intelligence Organization},             
+         editor    = {Christian Bessiere}	
+         pages     = {3875--3881},
+         year      = {2020},
+         month     = {7},
+         note      = {Main track}
+         doi       = {10.24963/ijcai.2020/536},
+         url       = {https://doi.org/10.24963/ijcai.2020/536},
+    }
+
+
+The references of explaining simile concepts and some other references:
+
+[1] Jill Burstein, Daniel Marcu, and Kevin Knight. 2003. Finding the write stuff: Automatic identification of discourse structure in student essays. IEEE Intelligent Systems, 18(1):32–39.
