@@ -44,11 +44,11 @@ The concept of discourse elements is borrowed from [Burstein et al., 2003] and i
 ### Organization Grades
 We represent organization quality with three grades.
 
-**Bad** The essay is poorly structured. It is incomplete or misses key discourse elements.
+　　**Bad** The essay is poorly structured. It is incomplete or misses key discourse elements.
 
-**Medium** The essay is well structured and complete, but could be further improved.
+　　**Medium** The essay is well structured and complete, but could be further improved.
 
-**Great** The essay is fairly well structured and the organization is very clear and logical.
+　　**Great** The essay is fairly well structured and the organization is very clear and logical.
 
 | Basic Statistics | Number |
 | :----------------------- | :------: |
