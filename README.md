@@ -44,11 +44,11 @@ The concept of discourse elements is borrowed from [Burstein et al., 2003] and i
 ### Organization Grades
 We represent organization quality with three grades.
 
-**Bad** The essay is poorly structured. It is incomplete or misses key discourse elements.
+　　**Bad** The essay is poorly structured. It is incomplete or misses key discourse elements.
 
-**Medium** The essay is well structured and complete, but could be further improved.
+　　**Medium** The essay is well structured and complete, but could be further improved.
 
-**Great** The essay is fairly well structured and the organization is very clear and logical.
+　　**Great** The essay is fairly well structured and the organization is very clear and logical.
 
 | Basic Statistics | Number |
 | :----------------------- | :------: |
@@ -93,6 +93,6 @@ The dataset is released with this paper:
     }
 
 
-The references of explaining simile concepts and some other references:
+The references:
 
 [1] Jill Burstein, Daniel Marcu, and Kevin Knight. 2003. Finding the write stuff: Automatic identification of discourse structure in student essays. IEEE Intelligent Systems, 18(1):32–39.
