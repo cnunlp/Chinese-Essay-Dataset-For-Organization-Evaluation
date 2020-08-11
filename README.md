@@ -93,6 +93,6 @@ The dataset is released with this paper:
     }
 
 
-The references of explaining simile concepts and some other references:
+The references:
 
 [1] Jill Burstein, Daniel Marcu, and Kevin Knight. 2003. Finding the write stuff: Automatic identification of discourse structure in student essays. IEEE Intelligent Systems, 18(1):32–39.
