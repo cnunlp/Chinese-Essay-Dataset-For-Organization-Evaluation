@@ -3,7 +3,7 @@ A Chinese argumentative student essay dataset for Organization Evaluation and Se
 
 ## Introduction
 
-We proposed a **Chinese argumentative student essay dataset** for Organization Evaluation and Sentence Function Identification.
+We built a **Chinese argumentative student essay dataset** for Organization Evaluation and Sentence Function Identification.
 
 ## Task Definition
 
