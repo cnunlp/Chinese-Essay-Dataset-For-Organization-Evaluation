@@ -79,9 +79,23 @@ Basic Statistics
 
 ### Dataset File
 
-    ./data/all_data.json It includes all Argumentative Student Essays, and essays are formated by json.
-    ./data/cv_folds.txt It includes the IDs of the essays which splited into 5 sets for cross validation.
+    ./data/all_data.json It includes all Argumentative Student Essays, and essays are formated by json. One line is one essay.
+    ./data/cv_folds.txt It includes the IDs of the essays and was split into 5 sets for cross validation.
     
+The description of keys of json data in all_data.json, as follows:
+~~~
+{
+ "title": "The title of the essay, which had been split to word", 
+ "score": "The Organization Grades of the essay", 
+ "sents": "All sentences of the essay, which had been split to word",
+ "labels": "The labels of every sentences", 
+ "gid": "The Global position of every sentences", 
+ "lid": "The Local position of every sentences", 
+ "pid": "The Paragraph position of every sentences", 
+ "paras": "The labels of every paragraph"
+}
+~~~
+
 An example code of loading dataset as follows:
 
 ~~~Python
