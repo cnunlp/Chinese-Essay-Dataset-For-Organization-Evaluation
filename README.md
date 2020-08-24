@@ -50,6 +50,9 @@ We represent organization quality with three grades.
 
 　　**Great** The essay is fairly well structured and the organization is very clear and logical.
 
+### Organization Grades
+Basic Statistics
+
 | Basic Statistics | Number |
 | :----------------------- | :------: |
 |\#Essays | 1,220 |
@@ -74,6 +77,40 @@ We represent organization quality with three grades.
 |Medium |670|
 |Bad |305|
 
+### Dataset File
+
+    ./data/all_data.txt It includes all Argumentative Student Essays, and essays are formated by json.
+    ./data/cv_folds.txt It includes the IDs of the essays which splited into 5 sets for cross validation.
+    
+The example code of loading dataset as follows:
+
+~~~Python
+import utils
+
+in_file = './data/all_data.txt'
+embed_filename = './embd/tecent_embeddings.txt' # The embeddings from https://ai.tencent.com/ailab/nlp/en/embedding.html
+title = True
+max_len = 40
+en_documents, en_labels, features, scores, vec_size, grids, en_paralabels = utils.getSamplesAndFeatures(in_file, embed_filename, title=title)
+pad_documents, pad_labels = utils.sentence_padding(en_documents, en_labels, max_len, vec_size)
+
+folds_file = './data/cv_folds.txt'
+folds = utils.loadFolds(folds_file)
+
+fold_k = 0 # The number of validation set, which do not for training
+
+train_fold = []
+for i in range(len(folds)):
+    if i != fold_k:
+        train_fold += folds[i]
+train_docs = [pad_documents[i] for i in train_fold]
+train_labels = [pad_labels[i] for i in train_fold]
+train_features = [features[i] for i in train_fold]
+train_scores = [scores[i] for i in train_fold]
+train_grids = [grids[i] for i in train_fold]
+train_paras = [en_paralabels[i] for i in train_fold]
+
+~~~
 ## Reference
 The dataset is released with this paper:
 
