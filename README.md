@@ -79,15 +79,15 @@ Basic Statistics
 
 ### Dataset File
 
-    ./data/all_data.txt It includes all Argumentative Student Essays, and essays are formated by json.
+    ./data/all_data.json It includes all Argumentative Student Essays, and essays are formated by json.
     ./data/cv_folds.txt It includes the IDs of the essays which splited into 5 sets for cross validation.
     
-The example code of loading dataset as follows:
+An example code of loading dataset as follows:
 
 ~~~Python
 import utils
 
-in_file = './data/all_data.txt'
+in_file = './data/all_data.json'
 embed_filename = './embd/tecent_embeddings.txt' # The embeddings from https://ai.tencent.com/ailab/nlp/en/embedding.html
 title = True
 max_len = 40

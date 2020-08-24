@@ -13,40 +13,24 @@ LABELPAD = 7
 
 embd_name = ['embd', 'embd_a', 'embd_b', 'embd_c'] 
 
-label_map = {'introductionSen': 0, 'promptSen': 0,
-             'thesisSen': 1, 'promptthesisSen': 1,
-             'ideaSen': 2, 'ideaendSen': 2, 'ideasupportSen': 2,
-             'exampleSen': 3,   
-             'conclusionSen': 4, 'highlightSen': 4,  
-             'otherSen': 5, 'transitionSen': 5,
-             'evidenceSen': 6,
-             'padding': 7, 'noisySen': 7}
+label_map = {'Introduction': 0, 
+             'Thesis': 1, 
+             'Main Idea': 2, 
+             'Evidence': 3,   
+             'Conclusion': 4, 
+             'Elaboration': 5,
+             'Other': 6, 
+             'padding': 7}
              
-para_label_map = {'introduction': 0, 'prompt': 0,
-                 'thesis': 1, 'promptthesis': 1,
-                 'ideasupport': 2, 'idea': 2, 'summarization': 2,
-                 'supportExample': 3,   
-                 'conclusion': 4, 'highlight': 4,
-                 'other': 5, 'transition': 5,
-                 'supportEvidence': 6,
+para_label_map = {'IntroductionPara': 0, 
+                 'ThesisPara': 1, 
+                 'IdeaPara': 2, 
+                 'SupportPara': 3,   
+                 'ConclusionPara': 4, 
+                 'OtherPara': 5, 'transition': 5,
                  'padding': 7, 'noise': 7}
-             
-         
 
-# 粗粒度分类
-c_label_map = {0: 0, 1: 0, 4: 0,
-               2: 1, 3: 1, 6: 1, 
-               5: 2, 7: 2}
-# 主题分类               
-t_label_map = {0: 0, 1: 1, 4: 2,
-               2: 3, 3: 3, 6: 3, 5: 3, 7: 3}
-# 论证分类
-a_label_map = {2: 0, 3: 1, 6: 2, 
-               0: 3, 1: 3, 4: 3, 5: 3, 7: 3}     
-
-# 其他分类
-o_label_map = {0: 2, 1: 2, 4: 2, 2: 2, 3: 2, 6: 2, 
-               5: 0, 7: 1}               
+score_map = {'Bad': 0, 'Medium': 1, 'Great': 2}                     
     
 def loadDataAndFeature(in_file, title=False, max_len=99):
     labels = []
@@ -110,10 +94,7 @@ def loadDataAndFeature(in_file, title=False, max_len=99):
             features.append(ft)
             grids.append(grid)
             
-            # 1分和2分数据合并
-            if load_dict['score'] == 1:
-                load_dict['score'] = 2
-            scores.append(load_dict['score'] - 2)
+            scores.append(score_map[load_dict['score']])
 
     return documents, labels, features, scores, grids, paralabs
 
