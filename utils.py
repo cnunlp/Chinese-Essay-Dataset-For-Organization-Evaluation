@@ -51,8 +51,7 @@ o_label_map = {0: 2, 1: 2, 4: 2, 2: 2, 3: 2, 6: 2,
 def loadDataAndFeature(in_file, title=False, max_len=99):
     labels = []
     documents = []
-    ft_list = ['gpos', 'lpos', 'ppos', 'gid', 'lid', 'pid']
-    # ft_list = ['gpos', 'lpos', 'ppos', 'gid', 'lid', 'pid']
+    ft_list = ['gid', 'lid', 'pid']
     features = []
     scores = []
     grids = []
@@ -73,8 +72,6 @@ def loadDataAndFeature(in_file, title=False, max_len=99):
                     
                 if 'slen' in load_dict:    
                     load_dict['slen'][0] = len(load_dict['title'])
-                        
-                # load_dict['nes'].insert(0, [0]*3)
                 
             documents.append(load_dict['sents'][: max_len+title])
             labels.append(load_dict['labels'][: max_len+title])
@@ -86,9 +83,6 @@ def loadDataAndFeature(in_file, title=False, max_len=99):
             for i in load_dict['gid']:
                 if i > max_len:
                     break
-
-                # print(i-1+title)
-                # ft.append([load_dict[k][i-1+title] for k in ft_list] + load_dict['nes'][i-1+title])
                 ft.append([load_dict[k][i-1+title] for k in ft_list])
                 
                 if i == 0:
@@ -215,7 +209,6 @@ def getSamplesAndFeatures(in_file, embed_filename, title=False):
     
     en_documents, en_labels = encode(documents, labels, embed_map, vec_size)
     en_paralabels = paraEncode(paralabs)
-    # pad_documents, pad_labels = sentence_padding(en_documents, en_labels, 30, vec_size)
     
     return en_documents, en_labels, features, scores, vec_size, grids, en_paralabels
     
@@ -241,7 +234,6 @@ def batchGeneratorSGT(input_data, batch_n, is_random=False):
             end = i + batch_n
         # print(start, end)
         b_data = data[start: end]
-        # b_data = data[i: i+batch_n]
 
         b_docs, b_labs, b_ft, b_s, b_g, b_p = zip(*b_data)
         b_ft = list(b_ft)
@@ -283,7 +275,6 @@ def dataSplitGT(X, Y, ft, Y2, G, Para, p=0.1):
         if score_c[s] % int(1/p) == 0:
             test_idx.append(i)
         score_c[s] += 1
-    # test_idx = [random.randint(0,len(X)-1) for _ in range(int(len(X)*p))]
     X_test = []
     Y_test = []
     Y2_test = []
