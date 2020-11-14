@@ -1,4 +1,4 @@
-# Chinese-Argumentative-Student-Essays-Dataset
+# Chinese-Organization-Evaluation-Dataset
 A Chinese argumentative student essay dataset for Organization Evaluation and Sentence Function Identification.
 
 ## Introduction
