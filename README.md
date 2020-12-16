@@ -9,6 +9,7 @@ We built a **Chinese argumentative student essay dataset** for Organization Eval
 
  - **Organization Evaluation(OE)**. Evaluating the organization of argumentative student essays.
  - **Sentence Function Identification(SFI)**. Identificating the function of sentence in argumentative student essays.
+ - **Paragragh Function Identification(PFI)**. Identificating the function of paragragh in argumentative student essays.
 
 ## Dataset
 ### Discourse Elements
