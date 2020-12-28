@@ -51,8 +51,7 @@ We represent organization quality with three grades.
 
 　　**Great** The essay is fairly well structured and the organization is very clear and logical.
 
-### Organization Grades
-Basic Statistics
+### Basic Statistics
 
 | Basic Statistics | Number |
 | :----------------------- | :------: |
