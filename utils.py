@@ -56,7 +56,9 @@ def loadDataAndFeature(in_file, title=False, max_len=99):
                     
                 if 'slen' in load_dict:    
                     load_dict['slen'][0] = len(load_dict['title'])
-                
+
+            if 'slen' not in load_dict:
+                load_dict['slen'] = [len(sent) for sent in load_dict['sents']]
             documents.append(load_dict['sents'][: max_len+title])
             labels.append(load_dict['labels'][: max_len+title])
             paralab = load_dict['paras'] + ['padding']*(20-len(load_dict['paras']))
